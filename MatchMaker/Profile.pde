@@ -1,9 +1,8 @@
 class Profile
 {
   
-  Profile()
+  Profile(String[] info)
   {
-    
   }
   
 }
