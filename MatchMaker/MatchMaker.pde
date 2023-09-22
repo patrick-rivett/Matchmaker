@@ -4,6 +4,7 @@ void setup()
 {
   pList = new ProfileList();
   readFile();
+  pList.display();
 }
 
 void draw()
