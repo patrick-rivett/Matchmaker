@@ -4,3 +4,13 @@ Stevan Selby, Walking, 55, Male
 Corrinna Afanasy, Gym, 35, Female
 Barbora Janine, Reading, 24, Female
 Hendrix Nanda, Walking, 33, Male
+Sarah Johnson, Photography, 28, Female
+Mark Davis, Hiking, 35, Male
+Emily Rodriguez, Painting, 22, Female
+Jason Smith, Playing Guitar, 30, Male
+Lisa Chen, Traveling, 26, Female
+Michael Thompson, Cooking, 32, Male
+Jessica White, Yoga, 29, Female
+David Lee, Gaming, 24, Male
+Mia Patel, Reading, 31, Female
+Kevin Wilson, Fishing, 37, Male
