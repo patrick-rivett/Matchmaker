@@ -14,7 +14,7 @@ class Profile
     println(info[0]);
   }
 
-  void setNext(Profile p)////////////////
+  void setNext(Profile p)
   {
     next = p;
   }
