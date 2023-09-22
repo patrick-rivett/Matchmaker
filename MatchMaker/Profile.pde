@@ -11,7 +11,7 @@ class Profile
   
   void display()
   {
-    println(info[0]);
+    println(info[2]);
   }
 
   void setNext(Profile p)
