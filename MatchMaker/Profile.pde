@@ -1,21 +1,21 @@
 class Profile
 {
-
-  Profile next;
-  String[] info;
-
-  Profile(String[] info_)
+  Profile next = null;  
+  String[] inform;
+  
+  Profile(String[] info)
   {
-    info = info_;
+    inform = info;
   }
   
-  void display()
+  void setNext(Profile d)
   {
-    println(info[0]);
+    next = d;
   }
-
-  void setNext(Profile p)
+  
+  void display(float k)
   {
-    next = p;
+    textSize(20);
+    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3], 400, k);    
   }
 }
