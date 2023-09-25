@@ -1,26 +1,15 @@
 class ProfileList
 {
-
   Profile first = null;
-  Profile curr;
+  Profile curr = null;
 
   ProfileList()
   {
   }
 
-  void display()
-  {
-    curr = first;
-
-    while (curr!=null)
-    {
-      curr.display();
-      curr = curr.next;
-    }
-  }
-
   void add(Profile p)
   {
+    println("we did it");
     if (first == null)
     {
       first = p;
@@ -29,6 +18,18 @@ class ProfileList
     {
       curr.setNext(p);
       curr = p;
+    }
+  }
+
+  void display()
+  {
+    curr = first;
+    float y = 150;
+    while (curr != null)
+    {
+      curr.display(y);
+      curr = curr.next;
+      y+=50;
     }
   }
 }
