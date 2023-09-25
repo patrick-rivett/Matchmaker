@@ -1,4 +1,4 @@
-rofileList pList;
+ProfileList pList;
 
 void setup()
 {
