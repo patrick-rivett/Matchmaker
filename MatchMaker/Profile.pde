@@ -21,13 +21,13 @@ class Profile
 
   float returnint()
   {
-    if (inform[1].equals("Gym"))
+    if (inform[1].equals(" Gym"))
     {
       return 1;
-    } else if (inform[1].equals("Walking"))
+    } else if (inform[1].equals(" Walking"))
     {
       return 3;
-    } else if (inform[1].equals("Reading"))
+    } else if (inform[1].equals(" Reading"))
     {
       return 5;
     } 
