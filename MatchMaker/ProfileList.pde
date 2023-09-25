@@ -9,7 +9,6 @@ class ProfileList
 
   void add(Profile p)
   {
-    println("we did it");
     if (first == null)
     {
       first = p;
