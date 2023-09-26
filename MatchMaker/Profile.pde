@@ -2,10 +2,12 @@ class Profile
 {
   Profile next = null;
   String[] inform;
+  float age;
 
   Profile(String[] info)
   {
     inform = info;
+    age = float(inform[2]);
   }
 
   void setNext(Profile d)
