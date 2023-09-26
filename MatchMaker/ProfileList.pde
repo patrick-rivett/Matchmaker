@@ -27,8 +27,16 @@ class ProfileList
     while (curr != null)
     {
       curr.display(y);
+      match(curr);
       curr = curr.next;
       y+=50;
     }
+  }
+
+  void match(Profile c)
+  {
+    Profile cu = c;
+    float i = cu.returnint();
+    println(i);
   }
 }
