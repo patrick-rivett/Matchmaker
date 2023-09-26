@@ -3,6 +3,8 @@ class Profile
   Profile next = null;
   String[] inform;
   float age;
+  
+  float ubub;
 
   Profile(String[] info)
   {
