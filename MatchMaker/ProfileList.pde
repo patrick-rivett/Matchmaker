@@ -20,6 +20,27 @@ class ProfileList
     }
   }
 
+  void delete(int key)
+  {
+    Profile curr = first;
+    Profile prev = null;
+
+    while (curr != null)
+    {
+
+      if (curr.id == key)
+        break;
+
+      prev = curr;
+      curr = curr.next;
+    }
+
+    if (curr == first && curr != null)
+      first = curr.next;
+    else
+      prev.next = curr.next;
+  }
+
   void display()
   {
     curr = first;

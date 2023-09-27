@@ -1,3 +1,8 @@
+import controlP5.*;
+import java.util.*;
+
+ControlP5 cp5;
+
 ProfileList pList;
 
 void setup()
@@ -5,6 +10,8 @@ void setup()
   size(800, 600);
   pList = new ProfileList();
   readFile();
+  
+  cp5 = new ControlP5(this);
 }
 
 void draw()
@@ -26,9 +33,10 @@ void readFile()
   try {
     while ((line = reader.readLine()) != null)
     {
+      int id = int(line);
       String[] parts = line.split(",");
 
-      Profile p = new Profile(parts);
+      Profile p = new Profile(parts, id);
       pList.add(p);
     }
     reader.close();
