@@ -1,3 +1,8 @@
+import controlP5.*;
+import java.util.*;
+
+ControlP5 cp5;
+
 ProfileList pList;
 
 void setup()
@@ -5,6 +10,8 @@ void setup()
   size(800, 600);
   pList = new ProfileList();
   readFile();
+  
+  cp5 = new ControlP5(this);
 }
 
 void draw()
