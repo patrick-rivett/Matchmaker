@@ -26,9 +26,10 @@ void readFile()
   try {
     while ((line = reader.readLine()) != null)
     {
+      int id = int(line);
       String[] parts = line.split(",");
 
-      Profile p = new Profile(parts);
+      Profile p = new Profile(parts, id);
       pList.add(p);
     }
     reader.close();

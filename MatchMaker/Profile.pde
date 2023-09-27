@@ -3,9 +3,11 @@ class Profile
   Profile next = null;
   String[] inform;
   float age;
+  int id;
 
-  Profile(String[] info)
+  Profile(String[] info, int id_)
   {
+    id = id_;
     inform = info;
     age = float(inform[2]);
   }
