@@ -73,6 +73,7 @@ class ProfileList
       {
         s.sub(a, b);
       }
+      break;
     }
 
     float i = c.returnint();
