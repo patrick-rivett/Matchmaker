@@ -35,7 +35,7 @@ class ProfileList
       curr = curr.next;
     }
 
-    if (curr == first)
+    if (curr == first && curr != null)
       first = curr.next;
     else
       prev.next = curr.next;
