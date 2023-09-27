@@ -3,13 +3,11 @@ class Profile
   Profile next = null;
   String[] inform;
   float age;
-  
-  float ubub;
+
 
   Profile(String[] info)
   {
     inform = info;
-    age = float(inform[2]);
   }
 
   void setNext(Profile d)
@@ -34,9 +32,14 @@ class Profile
     } else if (inform[1].equals(" Reading"))
     {
       return 5;
-    } 
-    
-      return 0;
-    
+    }
+
+    return 0;
+  }
+  
+  float returnAge()
+  {        
+     age = float(inform[2]);
+     return age;
   }
 }

@@ -27,16 +27,34 @@ class ProfileList
     while (curr != null)
     {
       curr.display(y);
-      match(curr);
+      matched(curr, first);
       curr = curr.next;
       y+=50;
     }
   }
 
-  void match(Profile c)
+  void matched(Profile c, Profile first)
   {
+    Profile currTemp = first;
     Profile cu = c;
-    float i = cu.returnint();
-    println(i);
+    PVector a;
+    PVector b;
+    PVector s = new PVector();
+    //PVector s2;
+    //PVector d;
+    
+    a = new PVector(currTemp.returnint(), currTemp.returnAge()); // current profile we are checking
+    b = new PVector(cu.returnint(), cu.returnAge());
+    println(a);
+    while (cu != null)
+    {
+      if (cu != currTemp)
+      {
+        s.sub(a, b);
+      }
+    }
+
+    float i = c.returnint();
+    //println(i);
   }
 }
