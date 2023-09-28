@@ -16,10 +16,10 @@ class Profile
     next = d;
   }
 
-  void display(float k)
+  void display()
   {
     textSize(20);
-    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3], 400, k);
+    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3], 400, 400);
   }
 
   float returnint()
@@ -42,5 +42,10 @@ class Profile
   {        
      age = float(inform[2]);
      return age;
+  }
+  
+  String getName()
+  {
+    return inform[0];
   }
 }

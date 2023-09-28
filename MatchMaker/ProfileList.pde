@@ -43,15 +43,22 @@ class ProfileList
 
   void display()
   {
-    curr = first;
-    float y = 150;
-    while (curr != null)
-    {
-      curr.display(y);
-      matched(curr, first);
-      curr = curr.next;
-      y+=50;
-    }
+    //curr = first;
+    //float y = 150;
+    //while (curr != null)
+    //{
+    //  curr.display(y);
+    //  matched(curr, first);
+    //  curr = curr.next;
+    //  y+=50;
+    //}
+
+    Profile selectedProfile = getProfile();
+    if (selectedProfile != null)
+      selectedProfile.display();
+
+    // Clear the list of cars
+    sc.remove();
   }
 
   void matched(Profile c, Profile first)
@@ -63,7 +70,7 @@ class ProfileList
     PVector s = new PVector();
     //PVector s2;
     //PVector d;
-    
+
     a = new PVector(currTemp.returnint(), currTemp.returnAge()); // current profile we are checking
     b = new PVector(cu.returnint(), cu.returnAge());
     println(a);
@@ -78,5 +85,40 @@ class ProfileList
 
     float i = c.returnint();
     //println(i);
+  }
+
+  Profile getCurr()
+  {
+    return curr;
+  }
+
+  void setCurr()
+  {
+    curr = first;
+  }
+
+  void addToList()
+  {
+    while (curr != null) {
+      String itemText = curr.getName();
+      sc.addItem(itemText, curr);
+
+      curr = curr.next;
+    }
+  }
+
+  Profile getProfile()
+  {
+    curr = first;
+
+    while (curr != null)
+    {
+      if (selectedIndex == curr.id)
+      {
+        break;
+      } else
+        curr = curr.next;
+    }
+    return curr;
   }
 }

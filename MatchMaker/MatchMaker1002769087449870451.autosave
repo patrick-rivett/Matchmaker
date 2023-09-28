@@ -2,11 +2,12 @@ import controlP5.*;
 import java.util.*;
 
 int selectedIndex = -1;
-ScrollableList sc;
 
 ControlP5 cp5;
 
 ProfileList pList;
+
+ScrollableList sc;
 
 void setup()
 {
@@ -15,8 +16,6 @@ void setup()
   readFile();
 
   cp5 = new ControlP5(this);
-
-  setupScrollableList();
 }
 
 void draw()
@@ -26,8 +25,7 @@ void draw()
   textSize(50);
   fill(100);
   text("MATCHMAKER", 400, 100);
-  if (selectedIndex >= 0)
-    pList.display();
+  pList.display();
   match();
 }
 
@@ -35,17 +33,15 @@ void readFile()
 {
   BufferedReader reader = createReader("Profiles.txt");
   String line = null;
-  int id = 0;
 
   try {
     while ((line = reader.readLine()) != null)
     {
-      println(id);
+      int id = int(line);
       String[] parts = line.split(",");
 
       Profile p = new Profile(parts, id);
       pList.add(p);
-      id++;
     }
     reader.close();
   }
@@ -54,6 +50,12 @@ void readFile()
     println("Error loading vehicle data: " + e.getMessage());
     println("hello");
   }
+}
+
+void match()
+{
+  //float i = pList.first.returnint();
+  //println(i);
 }
 
 void setupScrollableList()
@@ -74,23 +76,18 @@ void setupScrollableList()
   //  readFile(vList);
   //firstTime = false;
 
-
-  pList.setCurr();
-  pList.addToList();
+  while (curr != null) {
+    String itemText = v.getModel() + " (" + v.getType() + ")";
+    sc.addItem(itemText, v);
+  }
 
   sc.addCallback(new CallbackListener() {
     public void controlEvent(CallbackEvent event) {
       if (event.getAction() == ControlP5.ACTION_CLICK) {
         selectedIndex = (int) sc.getValue();
-        pList.display();
+        system.showVehicleDetails();
       }
     }
   }
   );
-}
-
-void match()
-{
-  //float i = pList.first.returnint();
-  //println(i);
 }
