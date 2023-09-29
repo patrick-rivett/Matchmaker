@@ -20,6 +20,7 @@ class Profile
   {
     textSize(20);
     text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3], 400, 400);
+    back.show();
   }
 
   float returnint()

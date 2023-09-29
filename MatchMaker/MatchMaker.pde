@@ -4,6 +4,8 @@ import java.util.*;
 int selectedIndex = -1;
 ScrollableList sc;
 
+Button back;
+
 ControlP5 cp5;
 
 ProfileList pList;
@@ -11,12 +13,16 @@ ProfileList pList;
 void setup()
 {
   size(800, 600);
+
   pList = new ProfileList();
   readFile();
 
   cp5 = new ControlP5(this);
 
   setupScrollableList();
+  back = createButton("Back", 715, 15, 70, 30); // create button with name and pos
+
+  back.hide();
 }
 
 void draw()
@@ -28,7 +34,6 @@ void draw()
   text("MATCHMAKER", 400, 100);
   if (selectedIndex >= 0)
     pList.display();
-  match();
 }
 
 void readFile()
@@ -40,7 +45,6 @@ void readFile()
   try {
     while ((line = reader.readLine()) != null)
     {
-      println(id);
       String[] parts = line.split(",");
 
       Profile p = new Profile(parts, id);
@@ -89,8 +93,17 @@ void setupScrollableList()
   );
 }
 
-void match()
-{
-  //float i = pList.first.returnint();
-  //println(i);
+Button createButton(String label, int x, int y, int width, int height) {
+  return cp5.addButton(label)
+    .setPosition(x, y)
+    .setSize(width, height);
+}
+
+void controlEvent(ControlEvent e) { //check if button has been pressed
+  String buttonName = e.getController().getName();
+  if (buttonName.equals("Back")) {//check what button it is
+    selectedIndex = -1; // reset list
+    setupScrollableList();
+    back.hide();//hide back again
+  }
 }
