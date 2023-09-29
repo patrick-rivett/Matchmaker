@@ -64,7 +64,7 @@ void setupScrollableList()
 {
   sc = cp5.addScrollableList("Vehicles")
     .setBarVisible(false)
-    .setPosition(150, 100)
+    .setPosition(150, 125)
     .setSize(500, 500)
     .setItemHeight(30)
     .setColorBackground(color(0))
