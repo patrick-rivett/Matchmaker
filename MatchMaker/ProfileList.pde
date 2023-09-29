@@ -94,6 +94,7 @@ class ProfileList
         }
         //println(currTemp.inform[0] + "  " + s);
       }
+      break;
     }
     return saved;
   }
