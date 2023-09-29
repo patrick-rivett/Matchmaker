@@ -16,23 +16,24 @@ class Profile
     next = d;
   }
 
-  void display(float k)
+  void display(float k, Profile match)
   {
     textSize(20);
-    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3], 400, k);
+    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + 
+    " matched with " + match.inform[0], 400, k);
   }
 
   float returnint()
   {
     if (inform[1].equals(" Gym"))
     {
-      return 1;
+      return 30;
     } else if (inform[1].equals(" Walking"))
     {
-      return 3;
+      return 25;
     } else if (inform[1].equals(" Reading"))
     {
-      return 5;
+      return 20;
     }
 
     return 0;

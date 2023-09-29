@@ -47,35 +47,56 @@ class ProfileList
     float y = 150;
     while (curr != null)
     {
-      curr.display(y);
-      matched(curr, first);
+      Profile s = matched(curr, first);
+      curr.display(y, s);
+
       curr = curr.next;
       y+=50;
     }
   }
 
-  void matched(Profile c, Profile first)
+  //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
+
+  Profile matched(Profile c, Profile first)
   {
     Profile currTemp = first;
-    Profile cu = c;
-    PVector a;
-    PVector b;
-    PVector s = new PVector();
-    //PVector s2;
-    //PVector d;
-    
-    a = new PVector(currTemp.returnint(), currTemp.returnAge()); // current profile we are checking
-    b = new PVector(cu.returnint(), cu.returnAge());
-    println(a);
-    while (cu != null)
+    Profile insert = c;
+
+    float s;
+    float s2;
+
+    Profile saved = null;
+    while (currTemp.next != null)
     {
-      if (cu != currTemp)
+      if (insert == currTemp)
       {
-        s.sub(a, b);
+        currTemp = currTemp.next;
+        println("here");
+      } else if (insert != currTemp)
+      {
+        boolean go = true;
+        PVector a = new PVector(currTemp.returnint(), currTemp.returnAge()); // current profile we are checking
+        PVector b = new PVector(insert.returnint(), insert.returnAge());
+        s = PVector.dist(a, b);
+        saved = currTemp;
+        if (currTemp.next == insert) currTemp = currTemp.next;
+        if (currTemp.next == null) go = false;
+        if (go == true)
+        {
+          currTemp = currTemp.next;
+          PVector d = new PVector(currTemp.returnint(), currTemp.returnAge());
+          s2 = PVector.dist(d, b);
+          if (s2 < s)
+          {
+            s = s2;
+            saved = currTemp;
+          }
+        }
+        //println(currTemp.inform[0] + "  " + s);
       }
     }
-
-    float i = c.returnint();
-    //println(i);
+    return saved;
   }
+
+  //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
 }
