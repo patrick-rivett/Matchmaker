@@ -22,7 +22,6 @@ void draw()
   fill(100);
   text("MATCHMAKER", 400, 100);
   pList.display();
-  match();
 }
 
 void readFile()
@@ -46,10 +45,4 @@ void readFile()
     println("Error loading vehicle data: " + e.getMessage());
     println("hello");
   }
-}
-
-void match()
-{
-  //float i = pList.first.returnint();
-  //println(i);
 }
