@@ -51,7 +51,7 @@ class ProfileList
       curr.display(y, s);
 
       curr = curr.next;
-      y+=50;
+      y+=20;
     }
   }
 
@@ -66,35 +66,29 @@ class ProfileList
     float s2;
 
     Profile saved = null;
-    while (currTemp.next != null)
+    while (currTemp.next != null) //if the profile after the current isnt null...
     {
-      if (insert == currTemp)
+      if (insert == currTemp) //but if the inserted profile we are checking for is the same as current
       {
         currTemp = currTemp.next;
-        println("here");
-      } else if (insert != currTemp)
+      } else if (insert != currTemp) // if the two are not the same
       {
         boolean go = true;
         PVector a = new PVector(currTemp.returnint(), currTemp.returnAge()); // current profile we are checking
         PVector b = new PVector(insert.returnint(), insert.returnAge());
-        s = PVector.dist(a, b);
+        s = a.dist(b);
         saved = currTemp;
-        if (currTemp.next == insert) currTemp = currTemp.next;
-        if (currTemp.next == null) go = false;
-        if (go == true)
+        currTemp = currTemp.next;
+        PVector d = new PVector(currTemp.returnint(), currTemp.returnAge());
+        s2 = d.dist(b);
+        if (s2 < s)
         {
-          currTemp = currTemp.next;
-          PVector d = new PVector(currTemp.returnint(), currTemp.returnAge());
-          s2 = PVector.dist(d, b);
-          if (s2 < s)
-          {
-            s = s2;
-            saved = currTemp;
-          }
+          s = s2;
+          saved = currTemp;
         }
+
         //println(currTemp.inform[0] + "  " + s);
       }
-      break;
     }
     return saved;
   }

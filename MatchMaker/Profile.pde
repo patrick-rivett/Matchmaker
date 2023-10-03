@@ -18,9 +18,9 @@ class Profile
 
   void display(float k, Profile match)
   {
-    textSize(20);
+    textSize(10);
     text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + 
-    " matched with " + match.inform[0], 400, k);
+    " matched with " + match.inform[0] , 400, k);
   }
 
   float returnint()
@@ -28,14 +28,25 @@ class Profile
     if (inform[1].equals(" Gym"))
     {
       return 30;
+    } else if (inform[1].equals(" Playing Sports"))
+    {
+      return 28;
     } else if (inform[1].equals(" Walking"))
     {
-      return 25;
-    } else if (inform[1].equals(" Reading"))
-    {
       return 20;
-    }
-
+    }else if(inform[1].equals(" Travelling"))
+    {
+      return 35;
+    } else if (inform[1].equals(" Volunteering"))
+    {
+      return 15;
+    }else if (inform[1].equals(" Cooking"))
+    {
+      return 10;
+    }else if (inform[1].equals(" Reading"))
+    {
+      return 5;
+    } 
     return 0;
   }
   
