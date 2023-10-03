@@ -59,7 +59,6 @@ class ProfileList
     {
       Profile s = matched(curr, first);
       selectedProfile.display(s);
-      
     }
 
     // Clear the list of cars

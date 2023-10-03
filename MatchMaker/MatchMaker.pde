@@ -16,12 +16,12 @@ void setup()
   size(800, 600);
   pList = new ProfileList();
   readFile();
-  
+
   cp5 = new ControlP5(this);
-  
+
   setupScrollableList();
-  back = createButton("Back", 715, 15, 70, 30); // create button with name 
-  
+  back = createButton("Back", 715, 15, 70, 30); // create button with name
+
   back.hide();
 }
 
@@ -32,7 +32,8 @@ void draw()
   textSize(50);
   fill(100);
   text("MATCHMAKER", 400, 100);
-  //pList.display();
+  if (selectedIndex >= 0)
+    pList.display();
 }
 
 void readFile()
