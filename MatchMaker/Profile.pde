@@ -16,11 +16,11 @@ class Profile
     next = d;
   }
 
-  void display(float k, Profile match)
+  void display(Profile match)
   {
     textSize(10);
-    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + 
-    " matched with " + match.inform[0] , 400, k);
+    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " matched with " + match.inform[0], 400, 400);
+    back.show();
   }
 
   float returnInt()
@@ -34,25 +34,30 @@ class Profile
     } else if (inform[1].equals(" Walking"))
     {
       return 20;
-    }else if(inform[1].equals(" Travelling"))
+    } else if (inform[1].equals(" Travelling"))
     {
       return 35;
     } else if (inform[1].equals(" Volunteering"))
     {
       return 15;
-    }else if (inform[1].equals(" Cooking"))
+    } else if (inform[1].equals(" Cooking"))
     {
       return 10;
-    }else if (inform[1].equals(" Reading"))
+    } else if (inform[1].equals(" Reading"))
     {
       return 5;
-    } 
+    }
     return 0;
   }
-  
+
   float returnAge()
-  {        
-     age = float(inform[2]);
-     return age;
+  {
+    age = float(inform[2]);
+    return age;
+  }
+
+  String getName()
+  {
+    return inform[0];
   }
 }

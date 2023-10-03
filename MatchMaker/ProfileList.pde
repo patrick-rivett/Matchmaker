@@ -43,16 +43,27 @@ class ProfileList
 
   void display()
   {
-    curr = first;
-    float y = 150;
-    while (curr != null)
+    //curr = first;
+    //float y = 150;
+    //while (curr != null)
+    //{
+     
+    //  curr.display(y, s);
+
+    //  curr = curr.next;
+    //  y+=20;
+    //}
+
+    Profile selectedProfile = getProfile();
+    if (selectedProfile != null)
     {
       Profile s = matched(curr, first);
-      curr.display(y, s);
-
-      curr = curr.next;
-      y+=20;
+      selectedProfile.display(s);
+      
     }
+
+    // Clear the list of cars
+    sc.remove();
   }
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
@@ -75,12 +86,12 @@ class ProfileList
       if (pB == pA)
       {
         pB = pB.next;
-        if(pB == null)
+        if (pB == null)
         {
           break;
         }
       }
-      
+
       b = new PVector(pB.returnInt(), pB.returnAge());
 
       float d = a.dist(b);
@@ -102,5 +113,39 @@ class ProfileList
     return saved;
   }
 
-  //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
+  Profile getCurr()
+  {
+    return curr;
+  }
+
+  void setCurr()
+  {
+    curr = first;
+  }
+
+  void addToList()
+  {
+    while (curr != null) {
+      String itemText = curr.getName();
+      sc.addItem(itemText, curr);
+
+      curr = curr.next;
+    }
+  }
+  Profile getProfile()
+  {
+    curr = first;
+
+    while (curr != null)
+    {
+      if (selectedIndex == curr.id)
+      {
+        break;
+      } else
+        curr = curr.next;
+    }
+    return curr;
+  }
 }
+
+//+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
