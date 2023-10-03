@@ -51,11 +51,11 @@ class ProfileList
       curr.display(y, s);
 
       curr = curr.next;
-      y+=20;
+      y+=50;
     }
   }
 
-  //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
+  //++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
 
   Profile matched(Profile c, Profile first_)
   {
@@ -80,7 +80,6 @@ class ProfileList
           break;
         }
       }
-      
       b = new PVector(pB.returnInt(), pB.returnAge());
 
       float d = a.dist(b);

@@ -23,7 +23,7 @@ class Profile
     " matched with " + match.inform[0] , 400, k);
   }
 
-  float returnint()
+  float returnInt()
   {
     if (inform[1].equals(" Gym"))
     {
