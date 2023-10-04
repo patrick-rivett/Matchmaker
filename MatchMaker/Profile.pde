@@ -2,7 +2,6 @@ class Profile
 {
   Profile next = null;
   String[] inform;
-  float age;
   int id;
 
   Profile(String[] info, int id_)
@@ -25,34 +24,14 @@ class Profile
 
   float returnInt()
   {
-    if (inform[1].equals(" Gym"))
-    {
-      return 30;
-    } else if (inform[1].equals(" Playing Sports"))
-    {
-      return 28;
-    } else if (inform[1].equals(" Walking"))
-    {
-      return 20;
-    } else if (inform[1].equals(" Travelling"))
-    {
-      return 35;
-    } else if (inform[1].equals(" Volunteering"))
-    {
-      return 15;
-    } else if (inform[1].equals(" Cooking"))
-    {
-      return 10;
-    } else if (inform[1].equals(" Reading"))
-    {
-      return 5;
-    }
-    return 0;
+    float score = float(inform[1]);
+    score*=15;
+    return score;
   }
 
   float returnAge()
   {
-    age = float(inform[2]);
+    float age = float(inform[2]);
     return age;
   }
 

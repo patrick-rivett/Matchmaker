@@ -1,16 +1,16 @@
-Vivian Angelika, Gym, 24, Female
-Ayaz Gabriela, Playing Sports, 20, Female
-Stevan Selby, Cooking, 55, Male
-Corrinna Afanasy, Gym, 35, Female
-Barbora Janine, Reading, 24, Female
-Hendrix Nanda, Travelling, 33, Male
-Sarah Johnson, Walking, 28, Female
-Michael Ramirez, Reading, 35, Male
-Emily Patel, Volunteering, 24, Female
-David Anderson, Gym, 31, Male
-Jessica Lee, Travelling, 29, Female
-Sophia Garcia, Cooking, 30, Female
-Benjamin Turner, Playing Sports, 38, Male
-James Wilson, Walking, 33, Male
-Olivia Clark, Volunteering, 42, Female
-Ethan Jackson, Reading, 26, Male
+Vivian Angelika, 10, 24, Female
+Ayaz Gabriela, 8, 20, Female
+Stevan Selby, 7, 55, Male
+Corrinna Afanasy, 9, 35, Female
+Barbora Janine, 1, 24, Female
+Hendrix Nanda, 8, 33, Male
+Sarah Johnson, 5, 28, Female
+Michael Ramirez, 1, 35, Male
+Emily Patel, 4, 24, Female
+David Anderson, 10, 31, Male
+Jessica Lee, 7, 29, Female
+Sophia Garcia, 8, 30, Female
+Benjamin Turner, 6, 38, Male
+James Wilson, 7, 33, Male
+Olivia Clark, 8, 42, Female
+Ethan Jackson, 4, 26, Male
