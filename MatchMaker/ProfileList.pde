@@ -43,17 +43,6 @@ class ProfileList
 
   void display()
   {
-    //curr = first;
-    //float y = 150;
-    //while (curr != null)
-    //{
-     
-    //  curr.display(y, s);
-
-    //  curr = curr.next;
-    //  y+=20;
-    //}
-
     Profile selectedProfile = getProfile();
     if (selectedProfile != null)
     {
@@ -61,7 +50,7 @@ class ProfileList
       selectedProfile.display(s);
     }
 
-    // Clear the list of cars
+    // Clear the list of profiles
     sc.remove();
   }
 
@@ -111,7 +100,7 @@ class ProfileList
 
     return saved;
   }
-
+//+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
   Profile getCurr()
   {
     return curr;
@@ -146,5 +135,3 @@ class ProfileList
     return curr;
   }
 }
-
-//+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
