@@ -14,3 +14,13 @@ Benjamin Turner, 6, 38, Male
 James Wilson, 7, 33, Male
 Olivia Clark, 8, 42, Female
 Ethan Jackson, 4, 26, Male
+Sarah Johnson, 8, 30, Female
+David Smith, 5, 45, Male
+Emily Brown, 9, 28, Female
+James Wilson, 3, 55, Male
+Olivia Davis, 7, 34, Female
+Michael Miller, 6, 40, Male
+Ava Anderson, 10, 26, Female
+Robert Jones, 4, 50, Male
+Ethan Taylor, 8, 32, Male
+Sophia Martin, 9, 29, Female
