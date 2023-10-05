@@ -123,9 +123,6 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
   }
   
   if (e.isAssignableFrom(Textfield.class)) {
-    println("controlEvent: accessing a string from controller '"
-      +e.getName()+"': "
-      +e.getStringValue()
-      );
+    println(e.getName()+"': "+e.getStringValue());
   }
 }
