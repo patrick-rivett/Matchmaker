@@ -21,6 +21,10 @@ void setup()
 
   setupScrollableList();
   back = createButton("Back", 715, 15, 70, 30); // create button with name
+<<<<<<< Updated upstream
+=======
+  search = createTextfield("Search", 25, 25, 200, 25);
+>>>>>>> Stashed changes
 
   back.hide();
 }
@@ -62,7 +66,7 @@ void readFile()
 
 void setupScrollableList()
 {
-  sc = cp5.addScrollableList("Vehicles")
+  sc = cp5.addScrollableList("Profiles")
     .setBarVisible(false)
     .setPosition(150, 125)
     .setSize(500, 500)
@@ -93,6 +97,20 @@ void setupScrollableList()
   );
 }
 
+<<<<<<< Updated upstream
+=======
+Textfield createTextfield(String label, int x, int y, int width, int height)
+{
+  return cp5.addTextfield(label)
+    .setPosition(x, y)
+    .setSize(width, height)
+    .setFont(createFont("Arial", 15))
+    .setFocus(true)
+    .setColor(color(0))
+    .setColorBackground(color(255));
+}
+
+>>>>>>> Stashed changes
 Button createButton(String label, int x, int y, int width, int height) {
   return cp5.addButton(label)
     .setPosition(x, y)
@@ -106,4 +124,24 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     setupScrollableList();
     back.hide();//hide back again
   }
+<<<<<<< Updated upstream
+=======
+
+  if (e.isAssignableFrom(Textfield.class)) {
+    //println(e.getName()+"': "+e.getStringValue());
+    String name = e.getName();
+    if (name.equals("Search"))
+    {
+      sc.remove();
+      String a = e.getStringValue();
+      println(a);
+      pList.search(a);
+      setupScrollableList();
+    }
+  }
+>>>>>>> Stashed changes
+}
+
+public void clear() {
+  cp5.get(Textfield.class, "textValue").clear();
 }

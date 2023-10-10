@@ -54,6 +54,25 @@ class ProfileList
     sc.remove();
   }
 
+  void search(String a)
+  {
+    curr = first;
+    a = a.toLowerCase();
+
+    while (curr != null)
+    {
+      curr.searched = false;
+      String b = curr.getName();
+      b = b.toLowerCase();
+
+      if (b.contains(a))
+      {
+        curr.searched = true;
+      }
+      curr = curr.next;
+    }
+  }
+
   //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
 
   Profile matched(Profile c, Profile first_)
@@ -100,7 +119,7 @@ class ProfileList
 
     return saved;
   }
-//+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
+  //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
   Profile getCurr()
   {
     return curr;
@@ -114,8 +133,11 @@ class ProfileList
   void addToList()
   {
     while (curr != null) {
-      String itemText = curr.getName();
-      sc.addItem(itemText, curr);
+      if (curr.searched)
+      {
+        String itemText = curr.getName();
+        sc.addItem(itemText, curr);
+      }
 
       curr = curr.next;
     }

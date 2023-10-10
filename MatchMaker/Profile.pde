@@ -3,6 +3,7 @@ class Profile
   Profile next = null;
   String[] inform;
   int id;
+  boolean searched = true;
 
   Profile(String[] info, int id_)
   {
