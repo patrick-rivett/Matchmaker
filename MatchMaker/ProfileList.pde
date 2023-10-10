@@ -98,10 +98,14 @@ class ProfileList
       if (first)
       {
         saved = pB;
+        pA.matchedFirst = pB;
         sD = d;
         first = false;
       } else if (!first && d < sD)
       {
+        if(pB == first_.next) pA.matchedSecond = pB;
+        else if (pB == first_.next.next) pA.matchedThird = pB;
+        
         sD = d;
         saved = pB;
       }
@@ -111,6 +115,8 @@ class ProfileList
 
     return saved;
   }
+  
+  //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
 
   Profile getCurr()
   {
@@ -146,5 +152,3 @@ class ProfileList
     return curr;
   }
 }
-
-//+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
