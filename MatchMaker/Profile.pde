@@ -3,10 +3,7 @@ class Profile
   Profile next = null;
   String[] inform;
   int id;
-  boolean matched;
-  Profile matchedFirst;
-  Profile matchedSecond;
-  Profile matchedThird;
+  boolean searched = true;
 
   Profile(String[] info, int id_)
   {

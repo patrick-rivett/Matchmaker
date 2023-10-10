@@ -43,17 +43,6 @@ class ProfileList
 
   void display()
   {
-    //curr = first;
-    //float y = 150;
-    //while (curr != null)
-    //{
-     
-    //  curr.display(y, s);
-
-    //  curr = curr.next;
-    //  y+=20;
-    //}
-
     Profile selectedProfile = getProfile();
     if (selectedProfile != null)
     {
@@ -61,8 +50,28 @@ class ProfileList
       selectedProfile.display(s);
     }
 
-    // Clear the list of cars
+    // Clear the list of profiles
     sc.remove();
+    search.hide();
+  }
+
+  void search(String a)
+  {
+    curr = first;
+    a = a.toLowerCase();
+
+    while (curr != null)
+    {
+      curr.searched = false;
+      String b = curr.getName();
+      b = b.toLowerCase();
+
+      if (b.contains(a))
+      {
+        curr.searched = true;
+      }
+      curr = curr.next;
+    }
   }
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
@@ -98,14 +107,10 @@ class ProfileList
       if (first)
       {
         saved = pB;
-        pA.matchedFirst = pB;
         sD = d;
         first = false;
       } else if (!first && d < sD)
       {
-        if(pB == first_.next) pA.matchedSecond = pB;
-        else if (pB == first_.next.next) pA.matchedThird = pB;
-        
         sD = d;
         saved = pB;
       }
@@ -115,9 +120,7 @@ class ProfileList
 
     return saved;
   }
-  
   //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
-
   Profile getCurr()
   {
     return curr;
@@ -131,8 +134,11 @@ class ProfileList
   void addToList()
   {
     while (curr != null) {
-      String itemText = curr.getName();
-      sc.addItem(itemText, curr);
+      if (curr.searched)
+      {
+        String itemText = curr.getName();
+        sc.addItem(itemText, curr);
+      }
 
       curr = curr.next;
     }
