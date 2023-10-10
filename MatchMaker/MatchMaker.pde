@@ -8,6 +8,7 @@ ScrollableList sc;
 
 Button back;
 
+Textfield search;
 
 ProfileList pList;
 
@@ -21,10 +22,8 @@ void setup()
 
   setupScrollableList();
   back = createButton("Back", 715, 15, 70, 30); // create button with name
-<<<<<<< Updated upstream
-=======
   search = createTextfield("Search", 25, 25, 200, 25);
->>>>>>> Stashed changes
+
 
   back.hide();
 }
@@ -97,8 +96,6 @@ void setupScrollableList()
   );
 }
 
-<<<<<<< Updated upstream
-=======
 Textfield createTextfield(String label, int x, int y, int width, int height)
 {
   return cp5.addTextfield(label)
@@ -110,7 +107,6 @@ Textfield createTextfield(String label, int x, int y, int width, int height)
     .setColorBackground(color(255));
 }
 
->>>>>>> Stashed changes
 Button createButton(String label, int x, int y, int width, int height) {
   return cp5.addButton(label)
     .setPosition(x, y)
@@ -123,9 +119,8 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     selectedIndex = -1; // reset list
     setupScrollableList();
     back.hide();//hide back again
+    search.show();
   }
-<<<<<<< Updated upstream
-=======
 
   if (e.isAssignableFrom(Textfield.class)) {
     //println(e.getName()+"': "+e.getStringValue());
@@ -139,7 +134,6 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
       setupScrollableList();
     }
   }
->>>>>>> Stashed changes
 }
 
 public void clear() {

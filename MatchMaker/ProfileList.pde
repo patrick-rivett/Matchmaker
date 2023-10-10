@@ -52,6 +52,7 @@ class ProfileList
 
     // Clear the list of profiles
     sc.remove();
+    search.hide();
   }
 
   void search(String a)
