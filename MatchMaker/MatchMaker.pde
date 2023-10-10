@@ -44,14 +44,16 @@ void readFile()
   BufferedReader reader = createReader("Profiles.txt");
   String line = null;
   int id = 0;
+  int tempid = 0;
 
   try {
     while ((line = reader.readLine()) != null)
     {
       String[] parts = line.split(",");
 
-      Profile p = new Profile(parts, id);
+      Profile p = new Profile(parts, id, tempid);
       pList.add(p);
+      tempid++;
       id++;
     }
     reader.close();

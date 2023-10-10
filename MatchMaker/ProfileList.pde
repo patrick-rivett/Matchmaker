@@ -59,9 +59,11 @@ class ProfileList
   {
     curr = first;
     a = a.toLowerCase();
+    int n = 0;
 
     while (curr != null)
     {
+      curr.tempid = -2;
       curr.searched = false;
       String b = curr.getName();
       b = b.toLowerCase();
@@ -69,7 +71,10 @@ class ProfileList
       if (b.contains(a))
       {
         curr.searched = true;
+        curr.tempid = n;
+        n++;
       }
+
       curr = curr.next;
     }
   }
@@ -143,13 +148,16 @@ class ProfileList
       curr = curr.next;
     }
   }
+
+
+
   Profile getProfile()
   {
     curr = first;
 
     while (curr != null)
     {
-      if (selectedIndex == curr.id)
+      if (selectedIndex == curr.tempid)
       {
         break;
       } else

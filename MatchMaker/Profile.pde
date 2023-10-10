@@ -3,11 +3,13 @@ class Profile
   Profile next = null;
   String[] inform;
   int id;
+  int tempid;
   boolean searched = true;
 
-  Profile(String[] info, int id_)
+  Profile(String[] info, int id_, int tempid_)
   {
     id = id_;
+    tempid = tempid_;
     inform = info;
   }
 
