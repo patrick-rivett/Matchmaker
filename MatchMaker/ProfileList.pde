@@ -9,12 +9,21 @@ class ProfileList
 
   void add(Profile p)
   {
+    curr = first;
+    
     if (first == null)
     {
       first = p;
       curr = first;
     } else
     {
+      while(curr != null)
+      {
+        if(curr.next == null)
+          break;
+          
+        curr = curr.next;
+      }
       curr.setNext(p);
       curr = p;
     }
@@ -28,7 +37,7 @@ class ProfileList
     while (curr != null)
     {
 
-      if (curr.id == key)
+      if (curr.tempid == key)
         break;
 
       prev = curr;
@@ -48,11 +57,25 @@ class ProfileList
     {
       Profile s = matched(curr, first);
       selectedProfile.display(s);
+      delete.show();
+      create.hide();
     }
 
     // Clear the list of profiles
     sc.remove();
     search.hide();
+  }
+
+  void resetId()
+  {
+    int id = 0;
+    curr = first;
+    while (curr != null)
+    {
+      curr.tempid = id;
+      id++;
+      curr = curr.next;
+    }
   }
 
   void search(String a)

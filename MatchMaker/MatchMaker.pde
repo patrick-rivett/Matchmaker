@@ -7,10 +7,21 @@ int selectedIndex = -1;
 ScrollableList sc;
 
 Button back;
+Button create;
+Button delete;
+Button next;
 
 Textfield search;
+Textfield name;
+Textfield interest;
+Textfield age;
+Textfield gender;
 
 ProfileList pList;
+
+String tInfo[] = new String[4];
+
+boolean createCheck = false;
 
 void setup()
 {
@@ -21,11 +32,26 @@ void setup()
   cp5 = new ControlP5(this);
 
   setupScrollableList();
+
   back = createButton("Back", 715, 15, 70, 30); // create button with name
+  create = createButton("Create", 715, 15, 70, 30);
+  delete = createButton("Delete", 15, 15, 70, 30);
+  next = createButton("Next", 360, 332, 70, 30);
+
   search = createTextfield("Search", 25, 25, 200, 25);
+  name = createTextfield("Name", 300, 200, 200, 25);
+  interest = createTextfield("Interest", 300, 230, 200, 25);
+  age = createTextfield("Age", 300, 260, 200, 25);
+  gender = createTextfield("Gender", 300, 290, 200, 25);
 
-
+  delete.hide();
   back.hide();
+  next.hide();
+
+  name.hide();
+  interest.hide();
+  age.hide();
+  gender.hide();
 }
 
 void draw()
@@ -37,13 +63,26 @@ void draw()
   text("MATCHMAKER", 400, 100);
   if (selectedIndex >= 0)
     pList.display();
+  if (createCheck)
+    displayAdd();
+}
+
+void displayAdd()
+{
+  fill(0);
+  textAlign(LEFT);
+  textSize(20);
+  for (int i = 0; i < 4; i++)
+  {
+    if (tInfo[i] != null)
+      text(tInfo[i], 515, i*30+217);
+  }
 }
 
 void readFile()
 {
   BufferedReader reader = createReader("Profiles.txt");
   String line = null;
-  int id = 0;
   int tempid = 0;
 
   try {
@@ -51,10 +90,9 @@ void readFile()
     {
       String[] parts = line.split(",");
 
-      Profile p = new Profile(parts, id, tempid);
+      Profile p = new Profile(parts, tempid);
       pList.add(p);
       tempid++;
-      id++;
     }
     reader.close();
   }
@@ -117,27 +155,97 @@ Button createButton(String label, int x, int y, int width, int height) {
 
 void controlEvent(ControlEvent e) { //check if button has been pressed
   String buttonName = e.getController().getName();
+
   if (buttonName.equals("Back")) {//check what button it is
     selectedIndex = -1; // reset list
     setupScrollableList();
     back.hide();//hide back again
     search.show();
+    delete.hide();
+
+    name.hide();
+    interest.hide();
+    age.hide();
+    gender.hide();
+    next.hide();
+    create.show();
+
+    createCheck = false;
+  }
+
+  if (buttonName.equals("Create"))
+  {
+    create.hide();
+    back.show();
+
+    name.show();
+    interest.show();
+    age.show();
+    gender.show();
+    sc.remove();
+    //next.show();
+
+    createCheck = true;
+  }
+
+  if (buttonName.equals("Delete"))
+  {
+    pList.delete(selectedIndex);
+    pList.resetId();
+    selectedIndex = -1;
+    setupScrollableList();
+    back.hide();
+    search.show();
+    delete.hide();
+  }
+  
+  if (buttonName.equals("Next"))
+  {
+    Profile p = new Profile(tInfo, -2);
+    pList.add(p);
+    pList.resetId();
+    //for(int i = 0; i < 4; i++)
+    //{
+    //  info[i] = null;
+    //}
   }
 
   if (e.isAssignableFrom(Textfield.class)) {
-    //println(e.getName()+"': "+e.getStringValue());
-    String name = e.getName();
-    if (name.equals("Search"))
+    String textName = e.getName();
+
+    if (textName.equals("Search"))
     {
       sc.remove();
       String a = e.getStringValue();
-      println(a);
       pList.search(a);
       setupScrollableList();
+      create.show();
+    }
+
+    if (textName.equals("Name"))
+    {
+      tInfo[0] = e.getStringValue();
+      println(tInfo[0]);
+    }
+    if (textName.equals("Interest"))
+    {
+      tInfo[1] = e.getStringValue();
+      println(tInfo[1]);
+    }
+    if (textName.equals("Age"))
+    {
+      tInfo[2] = e.getStringValue();
+      println(tInfo[2]);
+    }
+    if (textName.equals("Gender"))
+    {
+      tInfo[3] = e.getStringValue();
+      println(tInfo[3]);
+    }
+
+    if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null)
+    {
+      next.show();
     }
   }
-}
-
-public void clear() {
-  cp5.get(Textfield.class, "textValue").clear();
 }
