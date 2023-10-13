@@ -40,4 +40,10 @@ class Profile
   {
     return inform[0];
   }
+  
+  String getInfo()
+  {
+    String s = inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3];
+    return s;
+  }
 }

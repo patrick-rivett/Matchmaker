@@ -7,21 +7,31 @@ class ProfileList
   {
   }
 
+  void resetCurr()
+  {
+    curr = first;
+  }
+  
+  void moveCurr()
+  {
+    curr = curr.next;
+  }
+
   void add(Profile p)
   {
     curr = first;
-    
+
     if (first == null)
     {
       first = p;
       curr = first;
     } else
     {
-      while(curr != null)
+      while (curr != null)
       {
-        if(curr.next == null)
+        if (curr.next == null)
           break;
-          
+
         curr = curr.next;
       }
       curr.setNext(p);
@@ -101,6 +111,16 @@ class ProfileList
       curr = curr.next;
     }
   }
+  
+  void deleteAll()
+  {
+    curr = first;
+    while(curr != null)
+    {
+      delete(curr.tempid);
+      curr = curr.next;
+    }
+  }
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
 
@@ -172,8 +192,6 @@ class ProfileList
     }
   }
 
-
-
   Profile getProfile()
   {
     curr = first;
@@ -186,6 +204,11 @@ class ProfileList
       } else
         curr = curr.next;
     }
+    return curr;
+  }
+
+  Profile getAll()
+  {
     return curr;
   }
 }
