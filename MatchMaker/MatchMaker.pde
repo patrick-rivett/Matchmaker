@@ -10,6 +10,7 @@ Button back;
 Button create;
 Button delete;
 Button next;
+Button graph;
 
 Textfield search;
 Textfield name;
@@ -37,6 +38,7 @@ void setup()
   create = createButton("Create", 715, 15, 70, 30);
   delete = createButton("Delete", 15, 15, 70, 30);
   next = createButton("Next", 360, 332, 70, 30);
+  graph = createButton("Graph", 15, 555, 70, 30);
 
   search = createTextfield("Search", 25, 25, 200, 25);
   name = createTextfield("Name", 300, 200, 200, 25);
@@ -182,18 +184,21 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
   if (buttonName.equals("Back")) {//check what button it is
     selectedIndex = -1; // reset list
     setupScrollableList();
+    
     back.hide();//hide back again
-    search.show();
+    
     delete.hide();
     next.hide();
-
+    search.show();
+    create.show();
+    graph.show();
+    
     name.hide();
     interest.hide();
     age.hide();
     gender.hide();
     next.hide();
-    create.show();
-
+    
     createCheck = false;
   }
 
@@ -201,6 +206,8 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
   {
     create.hide();
     back.show();
+    graph.hide();
+    search.hide();
 
     name.show();
     interest.show();
@@ -233,6 +240,15 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     createFile();
     readFile();
     next.hide();
+  }
+  
+  if (buttonName.equals("Graph"))
+  {
+    sc.remove();
+    search.hide();
+    create.hide();
+    back.show();
+    graph.hide();
   }
 
   if (e.isAssignableFrom(Textfield.class)) {
