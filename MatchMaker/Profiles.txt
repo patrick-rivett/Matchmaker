@@ -1,4 +1,3 @@
-Vivian Angelika,10,24,Female
 Ayaz Gabriela,8,20,Female
 Stevan Selby,7,55,Male
 Corrinna Afanasy,9,35,Female
@@ -134,5 +133,3 @@ Samuel Anderson,1,33,Male
 Grace Lewis,10,24,Female
 Noah Martin,5,30,Male
 Emily Perez,9,26,Female
-Yousuf Khan,5,17,Male
-Jerry,10,22,Male

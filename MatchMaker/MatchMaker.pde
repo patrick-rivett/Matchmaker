@@ -90,10 +90,16 @@ void createFile()
     String info = p.getInfo();
     output.println(info);
   }
-  output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
+  if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null)
+    output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
+    
   output.flush();
   output.close();
-  pList.deleteAll();
+  pList.destroy();
+  for (int i = 0; i < 4; i++)
+  {
+    tInfo[i] = null;
+  }
 }
 
 void readFile()
@@ -215,21 +221,18 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     back.hide();
     search.show();
     delete.hide();
+    create.show();
+
+    createFile();
+    pList.destroy();
+    readFile();
   }
 
   if (buttonName.equals("Next"))
   {
-
     createFile();
     readFile();
-
-    //Profile p = new Profile(tInfo1, -2);
-    //pList.add(p);
-    //pList.resetId();
-    //for(int i = 0; i < 4; i++)
-    //{
-    //  info[i] = null;
-    //}
+    next.hide();
   }
 
   if (e.isAssignableFrom(Textfield.class)) {

@@ -19,7 +19,7 @@ class Profile
   void display(Profile match)
   {
     textSize(20);
-    text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " matched with " + match.inform[0], 400, 400);
+    text(inform[0] + ", " +inform[1] + ", " +inform[2] + ", " +inform[3] + " matched with " + match.inform[0], 400, 400);
     back.show();
   }
 
@@ -43,7 +43,7 @@ class Profile
   
   String getInfo()
   {
-    String s = inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3];
+    String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3];
     return s;
   }
 }

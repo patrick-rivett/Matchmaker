@@ -112,7 +112,7 @@ class ProfileList
     }
   }
   
-  void deleteAll()
+  void destroy()
   {
     curr = first;
     while(curr != null)
