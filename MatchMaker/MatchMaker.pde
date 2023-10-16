@@ -82,20 +82,20 @@ void displayAdd()
 void createFile()
 {
   PrintWriter output = createWriter("Profiles.txt");
-  output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
   pList.resetCurr();
-  while(pList.curr != null)
+  while (pList.curr != null)
   {
     Profile p = pList.getAll();
     pList.moveCurr();
     String info = p.getInfo();
     output.println(info);
   }
+  output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
   output.flush();
   output.close();
   pList.deleteAll();
 }
-  
+
 void readFile()
 {
   BufferedReader reader = createReader("Profiles.txt");
@@ -179,6 +179,7 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     back.hide();//hide back again
     search.show();
     delete.hide();
+    next.hide();
 
     name.hide();
     interest.hide();
@@ -215,13 +216,13 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     search.show();
     delete.hide();
   }
-  
+
   if (buttonName.equals("Next"))
   {
-    
+
     createFile();
     readFile();
-    
+
     //Profile p = new Profile(tInfo1, -2);
     //pList.add(p);
     //pList.resetId();
