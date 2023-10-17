@@ -80,9 +80,15 @@ class ProfileList
   {
     Profile pA = c;
     Profile pB = first_;
+    Profile second = first_.next;
 
     Profile saved = null;
     float sD = 1000;
+    float sD2 = 1000;
+    float sD3 = 1000;
+    
+    int pref = pA.returnPref();
+    int gen = pA.returnGender();
 
     PVector a = new PVector(pA.returnInt(), pA.returnAge());
     PVector b;
@@ -101,23 +107,65 @@ class ProfileList
       }
 
       b = new PVector(pB.returnInt(), pB.returnAge());
-
+      int tempPref = pB.returnPref();
+      int tempGen = pB.returnGender();
       float d = a.dist(b);
 
-      if (first)
+      if (first && !pB.matched && pref == tempGen && gen == tempPref)
       {
-        saved = pB;
-        sD = d;
-        first = false;
-      } else if (!first && d < sD)
+        saved = pB; //because its the first one it is saved as the closest right away
+        sD = d; //save the distance that it was from pA (inputted profile)
+        pA.first = pB; //make inputted profiles first saved match within profile pB
+        first = false; //first becomes false, so now we can use this to identify whether we are on first profile or not
+      } else if (!first && !pB.matched && pref == tempGen && gen == tempPref) // if we are NOT on the first profiile and pB is not matched to anything...
       {
-        sD = d;
-        saved = pB;
+        if (pB == second) // if pB is the second profile in the list
+        {
+          pA.second = pB; //it is assumed second best matched right away
+          sD2 = d;
+          println(1);
+        } else if (pB == second.next)
+        {
+          if (d < sD2)
+          {
+            sD3 = sD2;
+            sD3 = d;
+            Profile temp = pA.second;
+            pA.second = pB;
+            pA.third = temp;
+            println(2);
+          } else
+          {
+            pA.third = pB;
+            sD3 = d;            
+          }
+        }else
+         if (d < sD)
+        {
+          sD3 = sD2;
+          pA.third = pA.second;
+          sD2 = sD;
+          pA.second = saved;
+          sD = d;
+          saved = pB;
+        } else if (d < sD2) 
+        {
+          sD3 = sD2;
+          pA.third = pA.second;
+          sD2 = d;
+          pA.second = pB;
+        }
+        else if (d < sD3) 
+        {
+          sD3 = d;
+          pA.third = pB;
+        }
       }
       pB = pB.next;
     }
 
-
+    //pA.matched = true;
+    //if (saved != null)saved.matched = true;
     return saved;
   }
   //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
