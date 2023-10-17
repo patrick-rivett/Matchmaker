@@ -23,6 +23,7 @@ ProfileList pList;
 String tInfo[] = new String[4];
 
 boolean createCheck = false;
+boolean graphCheck = false;
 
 void setup()
 {
@@ -67,6 +68,8 @@ void draw()
     pList.display();
   if (createCheck)
     displayAdd();
+  if (graphCheck)
+    pList.graph();
 }
 
 void displayAdd()
@@ -74,6 +77,10 @@ void displayAdd()
   fill(0);
   textAlign(LEFT);
   textSize(20);
+  text("Name", 245, 217);
+  text("Activeness (1-10)", 152, 247);
+  text("Age", 250, 277);
+  text("Gender", 235, 307);
   for (int i = 0; i < 4; i++)
   {
     if (tInfo[i] != null)
@@ -94,7 +101,7 @@ void createFile()
   }
   if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null)
     output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
-    
+
   output.flush();
   output.close();
   pList.destroy();
@@ -184,22 +191,23 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
   if (buttonName.equals("Back")) {//check what button it is
     selectedIndex = -1; // reset list
     setupScrollableList();
-    
+
     back.hide();//hide back again
-    
+
     delete.hide();
     next.hide();
     search.show();
     create.show();
     graph.show();
-    
+
     name.hide();
     interest.hide();
     age.hide();
     gender.hide();
     next.hide();
-    
+
     createCheck = false;
+    graphCheck = false;
   }
 
   if (buttonName.equals("Create"))
@@ -241,7 +249,7 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     readFile();
     next.hide();
   }
-  
+
   if (buttonName.equals("Graph"))
   {
     sc.remove();
@@ -249,6 +257,8 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     create.hide();
     back.show();
     graph.hide();
+
+    graphCheck = true;
   }
 
   if (e.isAssignableFrom(Textfield.class)) {
