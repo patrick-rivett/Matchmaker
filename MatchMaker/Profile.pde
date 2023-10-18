@@ -4,6 +4,10 @@ class Profile
   String[] inform;
   int tempid;
   boolean searched = true;
+  Profile first;
+  Profile second;
+  Profile third;
+  boolean matched = false;
 
   Profile(String[] info, int tempid_)
   {
@@ -19,7 +23,8 @@ class Profile
   void display(Profile match)
   {
     textSize(20);
-    text(inform[0] + ", " +inform[1] + ", " +inform[2] + ", " +inform[3] + " matched with " + match.inform[0], 400, 400);
+    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " matched with "
+      + match.inform[0] + ", " + second.inform[0] + ", and " + third.inform[0], 400, 400);
     back.show();
   }
 
@@ -40,10 +45,34 @@ class Profile
   {
     return inform[0];
   }
-  
+
   String getInfo()
   {
     String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3];
     return s;
   }
+  
+  int returnPref()
+  {
+    int pref = int(inform[4]);
+    return pref;
+  }
+
+  int returnGender()
+  {
+    int gen;
+    if (inform[3].equals(" Male"))
+    {
+      gen = 1;
+    } else if (inform[3].equals(" Female"))
+    {
+      gen = 2;
+    } else
+    {
+      gen = 0;
+    }
+    return gen;
+  }
+  
+
 }
