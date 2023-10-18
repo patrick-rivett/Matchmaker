@@ -48,7 +48,7 @@ class Profile
 
   String getInfo()
   {
-    String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3];
+    String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3] + "," + inform[4];
     return s;
   }
   
@@ -61,6 +61,7 @@ class Profile
   int returnGender()
   {
     int gen;
+
     if (inform[3].equals(" Male"))
     {
       gen = 1;
