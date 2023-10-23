@@ -75,11 +75,6 @@ class ProfileList
     sc.remove();
     search.hide();
   }
-  
-  void graph()
-  {
-    
-  }
 
   void resetId()
   {

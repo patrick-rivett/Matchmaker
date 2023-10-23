@@ -10,7 +10,6 @@ Button back;
 Button create;
 Button delete;
 Button next;
-Button graph;
 
 Textfield search;
 Textfield name;
@@ -24,7 +23,6 @@ ProfileList pList;
 String tInfo[] = new String[5];
 
 boolean createCheck = false;
-boolean graphCheck = false;
 
 void setup()
 {
@@ -40,7 +38,7 @@ void setup()
   create = createButton("Create", 715, 15, 70, 30);
   delete = createButton("Delete", 15, 15, 70, 30);
   next = createButton("Next", 360, 362, 70, 30);
-  graph = createButton("Graph", 15, 555, 70, 30);
+
 
   search = createTextfield("Search", 25, 25, 200, 25);
   name = createTextfield("Name", 300, 200, 200, 25);
@@ -71,8 +69,6 @@ void draw()
     pList.display();
   if (createCheck)
     displayAdd();
-  if (graphCheck)
-    pList.graph();
 }
 
 void displayAdd()
@@ -203,7 +199,6 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     next.hide();
     search.show();
     create.show();
-    graph.show();
 
     name.hide();
     interest.hide();
@@ -213,14 +208,12 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     next.hide();
 
     createCheck = false;
-    graphCheck = false;
   }
 
   if (buttonName.equals("Create"))
   {
     create.hide();
     back.show();
-    graph.hide();
     search.hide();
 
     name.show();
@@ -255,17 +248,6 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     createFile();
     readFile();
     next.hide();
-  }
-
-  if (buttonName.equals("Graph"))
-  {
-    sc.remove();
-    search.hide();
-    create.hide();
-    back.show();
-    graph.hide();
-
-    graphCheck = true;
   }
 
   if (e.isAssignableFrom(Textfield.class)) {
