@@ -21,7 +21,7 @@ Textfield pastrelation;
 
 ProfileList pList;
 
-String tInfo[] = new String[5];
+String tInfo[] = new String[6];
 
 boolean createCheck = false;
 
@@ -38,7 +38,7 @@ void setup()
   back = createButton("Back", 715, 15, 70, 30); // create button with name
   create = createButton("Create", 715, 15, 70, 30);
   delete = createButton("Delete", 15, 15, 70, 30);
-  next = createButton("Next", 360, 362, 70, 30);
+  next = createButton("Next", 360, 392, 70, 30);
 
 
   search = createTextfield("Search", 25, 25, 200, 25);
@@ -58,6 +58,7 @@ void setup()
   age.hide();
   gender.hide();
   preference.hide();
+  pastrelation.hide();
 }
 
 void draw()
@@ -83,8 +84,9 @@ void displayAdd()
   text("Age", 250, 277);
   text("Gender", 235, 307);
   text("Preference", 205, 337);
+  text("Past Relationships", 145, 367);
 
-  for (int i = 0; i < 5; i++)
+  for (int i = 0; i < 6; i++)
   {
     if (tInfo[i] != null)
       text(tInfo[i], 515, i*30+217);
@@ -207,6 +209,7 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     age.hide();
     gender.hide();
     preference.hide();
+    pastrelation.hide();
     next.hide();
 
     createCheck = false;
@@ -223,6 +226,7 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     age.show();
     gender.show();
     preference.show();
+    pastrelation.show();
     sc.remove();
     //next.show();
 
@@ -267,22 +271,18 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     if (textName.equals("Name"))
     {
       tInfo[0] = e.getStringValue();
-      println(tInfo[0]);
     }
     if (textName.equals("Interest"))
     {
       tInfo[1] = e.getStringValue();
-      println(tInfo[1]);
     }
     if (textName.equals("Age"))
     {
       tInfo[2] = e.getStringValue();
-      println(tInfo[2]);
     }
     if (textName.equals("Gender"))
     {
       tInfo[3] = e.getStringValue();
-      println(tInfo[3]);
     }
     if (textName.equals("Preference"))
     {
@@ -293,7 +293,11 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
       if (tInfo[4].equals("female"))
         tInfo[4] = "2";
     }
-    if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null && tInfo[4] != null)
+    if (textName.equals("Past Relationships"))
+    {
+      tInfo[5] = e.getStringValue();
+    }
+    if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null && tInfo[4] != null && tInfo[5] != null)
     {
       next.show();
     }
