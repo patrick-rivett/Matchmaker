@@ -612,3 +612,4 @@ Linnea Andersen, 7, 22,female, 2, 3
 Hugo Sørensen, 9, 30,male, 1, 7
 Mathilde Jensen, 6, 25,female, 2, 2
 Noah Rasmussen, 8, 27,male, 1, 4
+Jerry, 1, 22, Male,2,32
