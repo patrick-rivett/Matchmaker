@@ -22,9 +22,22 @@ class Profile
 
   void display(Profile match)
   {
-    textSize(16);
-    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " ," + inform[4] + " past relationships" + " matched with "
-      + match.inform[0] + ", " + second.inform[0] + ", and " + third.inform[0], 400, 400);
+    textSize(25);
+    fill(0);
+    textAlign(CENTER);
+    if (second != null && third != null) 
+    {      
+      text("Name: " + inform[0], 400, 400);
+      text("Age: " + inform[2], 400, 430);
+      text("Gender: " + inform[3], 400, 460);
+      text("Level of activity (1 - 10): " + inform[1], 400, 490);
+      String preference = new String();
+      inform[4] = inform[4].trim();
+      if(int(inform[4]) == 1) preference = "Male";
+      else if(int(inform[4]) == 2) preference = "Female";
+      text("Preference: " + preference, 400, 520);
+      text("Past relationships: " + inform[5], 400, 550);
+    }
     back.show();
   }
 
