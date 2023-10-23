@@ -10,20 +10,19 @@ Button back;
 Button create;
 Button delete;
 Button next;
-Button graph;
 
 Textfield search;
 Textfield name;
 Textfield interest;
 Textfield age;
 Textfield gender;
+Textfield preference;
 
 ProfileList pList;
 
-String tInfo[] = new String[4];
+String tInfo[] = new String[5];
 
 boolean createCheck = false;
-boolean graphCheck = false;
 
 void setup()
 {
@@ -38,14 +37,15 @@ void setup()
   back = createButton("Back", 715, 15, 70, 30); // create button with name
   create = createButton("Create", 715, 15, 70, 30);
   delete = createButton("Delete", 15, 15, 70, 30);
-  next = createButton("Next", 360, 332, 70, 30);
-  graph = createButton("Graph", 15, 555, 70, 30);
+  next = createButton("Next", 360, 362, 70, 30);
+
 
   search = createTextfield("Search", 25, 25, 200, 25);
   name = createTextfield("Name", 300, 200, 200, 25);
   interest = createTextfield("Interest", 300, 230, 200, 25);
   age = createTextfield("Age", 300, 260, 200, 25);
   gender = createTextfield("Gender", 300, 290, 200, 25);
+  preference = createTextfield("Preference", 300, 320, 200, 25);
 
   delete.hide();
   back.hide();
@@ -55,6 +55,7 @@ void setup()
   interest.hide();
   age.hide();
   gender.hide();
+  preference.hide();
 }
 
 void draw()
@@ -68,8 +69,6 @@ void draw()
     pList.display();
   if (createCheck)
     displayAdd();
-  if (graphCheck)
-    pList.graph();
 }
 
 void displayAdd()
@@ -81,7 +80,9 @@ void displayAdd()
   text("Activeness (1-10)", 152, 247);
   text("Age", 250, 277);
   text("Gender", 235, 307);
-  for (int i = 0; i < 4; i++)
+  text("Preference", 205, 337);
+
+  for (int i = 0; i < 5; i++)
   {
     if (tInfo[i] != null)
       text(tInfo[i], 515, i*30+217);
@@ -99,13 +100,13 @@ void createFile()
     String info = p.getInfo();
     output.println(info);
   }
-  if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null)
-    output.println(tInfo[0] + "," + tInfo[1] + "," + tInfo[2] + "," + tInfo[3]);
+  if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null && tInfo[4] != null)
+    output.println(tInfo[0] + ", " + tInfo[1] + ", " + tInfo[2] + ", " + tInfo[3] + "," + tInfo[4]);
 
   output.flush();
   output.close();
   pList.destroy();
-  for (int i = 0; i < 4; i++)
+  for (int i = 0; i < 5; i++)
   {
     tInfo[i] = null;
   }
@@ -198,29 +199,28 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     next.hide();
     search.show();
     create.show();
-    graph.show();
 
     name.hide();
     interest.hide();
     age.hide();
     gender.hide();
+    preference.hide();
     next.hide();
 
     createCheck = false;
-    graphCheck = false;
   }
 
   if (buttonName.equals("Create"))
   {
     create.hide();
     back.show();
-    graph.hide();
     search.hide();
 
     name.show();
     interest.show();
     age.show();
     gender.show();
+    preference.show();
     sc.remove();
     //next.show();
 
@@ -248,17 +248,6 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     createFile();
     readFile();
     next.hide();
-  }
-
-  if (buttonName.equals("Graph"))
-  {
-    sc.remove();
-    search.hide();
-    create.hide();
-    back.show();
-    graph.hide();
-
-    graphCheck = true;
   }
 
   if (e.isAssignableFrom(Textfield.class)) {
@@ -293,8 +282,16 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
       tInfo[3] = e.getStringValue();
       println(tInfo[3]);
     }
-
-    if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null)
+    if (textName.equals("Preference"))
+    {
+      tInfo[4] = e.getStringValue();
+      tInfo[4] = tInfo[4].toLowerCase();
+      if (tInfo[4].equals("male"))
+        tInfo[4] = "1";
+      if (tInfo[4].equals("female"))
+        tInfo[4] = "2";
+    }
+    if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null && tInfo[4] != null)
     {
       next.show();
     }
