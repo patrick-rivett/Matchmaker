@@ -22,8 +22,8 @@ class Profile
 
   void display(Profile match)
   {
-    textSize(20);
-    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " matched with "
+    textSize(16);
+    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " ," + inform[4] + " matched with "
       + match.inform[0] + ", " + second.inform[0] + ", and " + third.inform[0], 400, 400);
     back.show();
   }
@@ -61,10 +61,13 @@ class Profile
   int returnGender()
   {
     int gen;
-    if (inform[3].equals(" Male"))
+    inform[3] = inform[3].toLowerCase();
+    inform[3] = inform[3].trim();
+
+    if (inform[3].equals("male"))
     {
       gen = 1;
-    } else if (inform[3].equals(" Female"))
+    } else if (inform[3].equals("female"))
     {
       gen = 2;
     } else
@@ -74,5 +77,9 @@ class Profile
     return gen;
   }
   
-
+  int returnExp()
+  {
+    int exp = int(inform[4]);
+    return exp;
+  }
 }

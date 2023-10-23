@@ -143,7 +143,7 @@ class ProfileList
     int pref = pA.returnPref();
     int gen = pA.returnGender();
 
-    PVector a = new PVector(pA.returnInt(), pA.returnAge());
+    PVector a = new PVector(pA.returnInt(), pA.returnAge(), pA.returnExp());
     PVector b;
 
     boolean first = true;
@@ -159,7 +159,7 @@ class ProfileList
         }
       }
 
-      b = new PVector(pB.returnInt(), pB.returnAge());
+      b = new PVector(pB.returnInt(), pB.returnAge(),pB.returnExp());
       int tempPref = pB.returnPref();
       int tempGen = pB.returnGender();
       float d = a.dist(b);
