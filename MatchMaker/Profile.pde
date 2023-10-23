@@ -23,7 +23,7 @@ class Profile
   void display(Profile match)
   {
     textSize(16);
-    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " ," + inform[4] + " matched with "
+    if (second != null && third != null) text(inform[0] + " ," +inform[1] + " ," +inform[2] + " ," +inform[3] + " ," + inform[4] + " past relationships" + " matched with "
       + match.inform[0] + ", " + second.inform[0] + ", and " + third.inform[0], 400, 400);
     back.show();
   }
