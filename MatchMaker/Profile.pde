@@ -46,14 +46,15 @@ class Profile
     return inform[0];
   }
 
-  String getInfo()
+   String getInfo()
   {
-    String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3];
+    String s = inform[0] + "," +inform[1] + "," +inform[2] + "," +inform[3] + "," + inform[4] + ","  + inform[5];
     return s;
   }
   
   int returnPref()
   {
+    inform[4] = inform[4].trim();
     int pref = int(inform[4]);
     return pref;
   }

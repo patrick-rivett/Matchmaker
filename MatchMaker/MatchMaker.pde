@@ -17,6 +17,7 @@ Textfield interest;
 Textfield age;
 Textfield gender;
 Textfield preference;
+Textfield pastrelation;
 
 ProfileList pList;
 
@@ -46,7 +47,8 @@ void setup()
   age = createTextfield("Age", 300, 260, 200, 25);
   gender = createTextfield("Gender", 300, 290, 200, 25);
   preference = createTextfield("Preference", 300, 320, 200, 25);
-
+  pastrelation = createTextfield("Past Relationships", 300, 350, 200, 25);
+  
   delete.hide();
   back.hide();
   next.hide();
@@ -101,7 +103,7 @@ void createFile()
     output.println(info);
   }
   if (tInfo[0] != null && tInfo[1] != null && tInfo[2] != null && tInfo[3] != null && tInfo[4] != null)
-    output.println(tInfo[0] + ", " + tInfo[1] + ", " + tInfo[2] + ", " + tInfo[3] + "," + tInfo[4]);
+    output.println(tInfo[0] + ", " + tInfo[1] + ", " + tInfo[2] + ", " + tInfo[3] + "," + tInfo[4] + "," + tInfo[5]);
 
   output.flush();
   output.close();
