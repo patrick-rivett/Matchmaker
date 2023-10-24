@@ -17,7 +17,7 @@ Textfield interest;
 Textfield age;
 Textfield gender;
 Textfield preference;
-//Textfield pastrelation;
+Textfield pastrelation;
 
 ProfileList pList;
 
@@ -47,7 +47,7 @@ void setup()
   age = createTextfield("Age", 300, 260, 200, 25);
   gender = createTextfield("Gender", 300, 290, 200, 25);
   preference = createTextfield("Preference", 300, 320, 200, 25);
-  //pastrelation = createTextfield("Past Relationships", 300, 350, 200, 25);
+  pastrelation = createTextfield("Past Relationships", 300, 350, 200, 25);
   
   delete.hide();
   back.hide();

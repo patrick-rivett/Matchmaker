@@ -27,16 +27,53 @@ class Profile
     textAlign(CENTER);
     if (second != null && third != null) 
     {      
-      text("Name: " + inform[0], 400, 400);
-      text("Age: " + inform[2], 400, 430);
-      text("Gender: " + inform[3], 400, 460);
-      text("Level of activity (1 - 10): " + inform[1], 400, 490);
+      text("Name: " + inform[0], 250, 400);
+      text("Age: " + inform[2], 250, 430);
+      text("Gender: " + inform[3], 250, 460);
+      text("Level of activity (1 - 10): " + inform[1], 250, 490);
       String preference = new String();
       inform[4] = inform[4].trim();
       if(int(inform[4]) == 1) preference = "Male";
       else if(int(inform[4]) == 2) preference = "Female";
-      text("Preference: " + preference, 400, 520);
-      text("Past relationships: " + inform[5], 400, 550);
+      text("Preference: " + preference, 250, 520);
+      text("Past relationships: " + inform[5], 250, 550);
+      text("MATCHES:", 600, 400);
+      text(match.inform[0], 600, 450);
+      text(second.inform[0], 600, 480);
+      text(third.inform[0], 600, 510);
+      //Picture of person====================================================
+      
+      noFill();
+      stroke(0);
+      rect(150, 130, 200, 200);
+      fill(150);
+      ellipse(250, 215, 80, 80);
+      line(250, 255, 250, 330);
+      line(250, 270, 230, 255);
+      line(250, 270, 260, 300);
+      fill(0);
+      ellipse(240, 190, 5, 5);
+      ellipse(260, 190, 5, 5);
+      ellipse(250, 240, 15, 3);
+      
+      //picture of match -------------------------------------------------------------
+      noFill();
+      rect(450, 130, 200, 200);
+      fill(150);
+      ellipse(550, 215, 80, 80);
+      line(550, 255, 550, 330);
+      line(550, 270, 570, 255);
+      line(550, 270, 540, 300);
+      fill(0);
+      ellipse(560, 190, 5, 5);
+      ellipse(540, 190, 5, 5);
+      ellipse(550, 240, 15, 3);
+      
+      //=================================the heart in middle=======================================
+      
+      triangle(400, 270, 370, 240, 430, 240);
+      ellipse(385, 240, 29, 19);
+      ellipse(415, 240, 29, 19);
     }
     back.show();
   }
