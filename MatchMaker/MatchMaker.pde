@@ -110,7 +110,7 @@ void createFile()
   output.flush();
   output.close();
   pList.destroy();
-  for (int i = 0; i < 5; i++)
+  for (int i = 0; i < 6; i++)
   {
     tInfo[i] = null;
   }
