@@ -236,6 +236,7 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
   if (buttonName.equals("Delete"))
   {
     pList.delete(selectedIndex);
+    pList.resetSearch();
     pList.resetId();
     selectedIndex = -1;
     setupScrollableList();

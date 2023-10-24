@@ -112,6 +112,16 @@ class ProfileList
     }
   }
   
+  void resetSearch()
+  {
+    resetCurr();
+    while(curr != null)
+    {
+      curr.resetSearch();
+      curr = curr.next;
+    }
+  }
+  
   void destroy()
   {
     curr = first;
