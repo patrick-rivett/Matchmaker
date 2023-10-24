@@ -10,7 +10,6 @@ Emily Patel, 4, 24,female,1, 5
 David Anderson, 10, 31,male,2, 3
 Jessica Lee, 7, 29,female,1, 19
 Sophia Garcia, 8, 30,female,2, 9
-Benjamin Turner, 6, 38,male,1, 13
 Sophia Martin, 9, 29,female,2, 4
 James Wilson, 7, 33,male,1, 20
 Olivia Clark, 8, 42,female,2, 15
@@ -133,483 +132,4881 @@ Samuel Anderson, 1, 33,male,2, 4
 Grace Lewis, 10, 24,female,1, 8
 Noah Martin, 5, 30,male,2, 17
 Emily Perez, 9, 26,female,1, 10
-Harper Clark, 6, 20,female, 2, 2
-Mason Baker, 8, 32,male, 1, 6
-Amelia Foster, 7, 27,female, 2, 4
-Oliver White, 9, 29,male, 1, 5
-Lily Turner, 6, 23,female, 2, 1
-Jackson Hall, 8, 25,male, 1, 3
-Isabella Young, 7, 26,female, 2, 2
-Liam Murphy, 9, 30,male, 1, 7
-Charlotte Green, 6, 24,female, 2, 5
-Noah Carter, 8, 28,male, 1, 4
-Ava Scott, 7, 22,female, 2, 3
-Lucas Perez, 9, 31,male, 1, 6
-Sophia Mitchell, 6, 21,female, 2, 1
-Aiden Nelson, 8, 27,male, 1, 4
-Mia Johnson, 7, 25,female, 2, 2
-Ethan Sanchez, 9, 29,male, 1, 5
-Grace Hall, 6, 23,female, 2, 3
-Benjamin Turner, 8, 32,male, 1, 8
-Emily Baker, 7, 26,female, 2, 2
-Samuel King, 9, 30,male, 1, 6
-Ella Wright, 6, 20,female, 2, 1
-Henry Lopez, 8, 28,male, 1, 5
-Scarlett Miller, 7, 22,female, 2, 3
-Daniel Davis, 9, 31,male, 1, 6
-Chloe Scott, 6, 24,female, 2, 4
-Jack Adams, 8, 27,male, 1, 4
-Lily Martinez, 7, 25,female, 2, 2
-Caleb Parker, 9, 29,male, 1, 5
-Abigail Roberts, 6, 21,female, 2, 1
-William Allen, 8, 32,male, 1, 7
-Grace Hall, 7, 26,female, 2, 3
-James Turner, 9, 30,male, 1, 6
-Madison White, 6, 23,female, 2, 2
-Elijah Adams, 8, 28,male, 1, 5
-Zoey Davis, 7, 22,female, 2, 3
-David Wilson, 9, 31,male, 1, 7
-Penelope Foster, 6, 24,female, 2, 5
-Michael Green, 8, 27,male, 1, 4
-Sofia Perez, 7, 25,female, 2, 3
-Joseph Turner, 9, 29,male, 1, 6
-Anastasia Petrov, 7, 28,female, 2, 3
-Mikhail Ivanov, 8, 32,male, 1, 6
-Ekaterina Sokolova, 7, 24,female, 2, 4
-Alexander Smirnov, 9, 30,male, 1, 5
-Daria Volkova, 6, 23,female, 2, 1
-Nikita Kuznetsov, 8, 29,male, 1, 4
-Natalia Fedorova, 7, 27,female, 2, 2
-Sergei Popov, 9, 31,male, 1, 7
-Irina Petrova, 6, 25,female, 2, 2
-Dmitri Sidorov, 8, 28,male, 1, 5
-Yulia Smirnova, 7, 22,female, 2, 3
-Pavel Ivanov, 9, 33,male, 1, 6
-Olga Mikhailova, 6, 26,female, 2, 3
-Andrei Sokolov, 8, 30,male, 1, 5
-Elena Kuznetsova, 7, 24,female, 2, 2
-Roman Volkov, 9, 29,male, 1, 4
-Ksenia Medvedeva, 6, 27,female, 2, 3
-Vladislav Ivanov, 8, 31,male, 1, 7
-Svetlana Petrova, 7, 25,female, 2, 2
-Anton Smirnov, 9, 30,male, 1, 6
-Tatyana Volkova, 6, 23,female, 2, 1
-Yuri Sokolov, 8, 28,male, 1, 5
-Anna Ivanova, 7, 26,female, 2, 4
-Ivan Kuznetsov, 9, 29,male, 1, 5
-Marina Sidorova, 6, 24,female, 2, 2
-Kirill Popov, 8, 32,male, 1, 6
-Oksana Petrova, 7, 22,female, 2, 3
-Maxim Smirnov, 9, 30,male, 1, 7
-Ekaterina Ivanova, 6, 25,female, 2, 2
-Sergey Medvedev, 8, 27,male, 1, 4
-Yelena Sokolova, 7, 24,female, 2, 3
-Andrei Kuznetsov, 9, 31,male, 1, 6
-Yekaterina Petrova, 6, 26,female, 2, 3
-Pavel Smirnov, 8, 29,male, 1, 5
-Polina Volkova, 7, 22,female, 2, 3
-Alexander Petrov, 9, 33,male, 1, 6
-Yulia Ivanova, 6, 27,female, 2, 2
-Nikita Sokolov, 8, 30,male, 1, 5
-Svetlana Medvedeva, 7, 25,female, 2, 2
-Viktor Smirnov, 9, 30,male, 1, 4
-Anastasia Kuznetsova, 6, 24,female, 2, 1
-Dmitry Ivanov, 8, 28,male, 1, 5
-Irina Sidorova, 7, 26,female, 2, 3
-Vladimir Sokolov, 9, 31,male, 1, 7
-Nadezhda Petrova, 6, 23,female, 2, 2
-Ivan Popov, 8, 29,male, 1, 4
-Yelizaveta Smirnova, 7, 22,female, 2, 3
-Anton Ivanov, 9, 30,male, 1, 6
-Olesya Volkova, 6, 27,female, 2, 2
-Mikhail Sidorov, 8, 32,male, 1, 5
-Franziska Müller, 7, 28,female, 2, 3
-Maximilian Schmitt, 8, 32,male, 1, 6
-Sophia Wagner, 7, 24,female, 2, 4
-Sebastian Becker, 9, 30,male, 1, 5
-Lena Richter, 6, 23,female, 2, 1
-Alexander Meier, 8, 29,male, 1, 4
-Emily Fischer, 7, 27,female, 2, 2
-Lukas Schmidt, 9, 31,male, 1, 7
-Charlotte Weber, 6, 25,female, 2, 2
-Jonas Keller, 8, 28,male, 1, 5
-Laura Schulz, 7, 22,female, 2, 3
-Paul Hoffmann, 9, 33,male, 1, 6
-Amelie Becker, 6, 26,female, 2, 3
-Felix Schäfer, 8, 30,male, 1, 5
-Julia Wagner, 7, 24,female, 2, 2
-Moritz Klein, 9, 29,male, 1, 4
-Sarah Bauer, 6, 27,female, 2, 3
-David Fischer, 8, 31,male, 1, 7
-Marie Schulz, 7, 25,female, 2, 2
-Timo Richter, 9, 30,male, 1, 6
-Elena Mayer, 6, 23,female, 2, 1
-Anton Becker, 8, 28,male, 1, 5
-Hannah Weber, 7, 26,female, 2, 4
-Johannes Huber, 9, 29,male, 1, 5
-Pia Winkler, 6, 24,female, 2, 2
-Niklas Schmidt, 8, 32,male, 1, 6
-Clara Wagner, 7, 22,female, 2, 3
-Philipp Braun, 9, 30,male, 1, 7
-Emily Becker, 6, 25,female, 2, 2
-Lukas Hartmann, 8, 27,male, 1, 4
-Sophie Lehmann, 7, 24,female, 2, 3
-Paul Schneider, 9, 31,male, 1, 6
-Emilia Fischer, 6, 26,female, 2, 3
-Leon Schumacher, 8, 29,male, 1, 5
-Marie Müller, 7, 22,female, 2, 3
-Simon Becker, 9, 33,male, 1, 6
-Lena Weber, 6, 27,female, 2, 2
-Lukas Klein, 8, 30,male, 1, 5
-Anna Fischer, 7, 25,female, 2, 2
-Finn Mayer, 9, 30,male, 1, 4
-Johanna Schulz, 6, 23,female, 2, 1
-Maximilian Schmitt, 8, 28,male, 1, 5
-Isabella Huber, 7, 26,female, 2, 4
-Lukas Beck, 9, 31,male, 1, 7
-Mia Wagner, 6, 24,female, 2, 2
-Jonas Fischer, 8, 29,male, 1, 4
-Emma Schmidt, 7, 22,female, 2, 3
-David Müller, 9, 30,male, 1, 6
-Lena Becker, 6, 25,female, 2, 2
-Daniel Richter, 8, 32,male, 1, 5
-María Rodríguez, 7, 28,female, 2, 3
-Javier García, 8, 32,male, 1, 6
-Ana López, 7, 24,female, 2, 4
-Carlos Pérez, 9, 30,male, 1, 5
-Sofia Martinez, 6, 23,female, 2, 1
-Alejandro Fernandez, 8, 29,male, 1, 4
-Lucia Sanchez, 7, 27,female, 2, 2
-Diego González, 9, 31,male, 1, 7
-Carmen Torres, 6, 25,female, 2, 2
-Manuel Ramirez, 8, 28,male, 1, 5
-Paula Ruiz, 7, 22,female, 2, 3
-Guillermo Navarro, 9, 33,male, 1, 6
-Elena Castro, 6, 26,female, 2, 3
-Sergio Jiménez, 8, 30,male, 1, 5
-Marta Diaz, 7, 24,female, 2, 2
-Juan Martinez, 9, 29,male, 1, 4
-Laura Morales, 6, 27,female, 2, 3
-Raúl Sánchez, 8, 31,male, 1, 7
-Isabel Herrera, 7, 25,female, 2, 2
-Daniel Vargas, 9, 30,male, 1, 6
-Sofia Mendoza, 6, 23,female, 2, 1
-Pedro Ortega, 8, 28,male, 1, 5
-Natalia Flores, 7, 26,female, 2, 4
-Luis Torres, 9, 29,male, 1, 5
-Andrea Rivera, 6, 24,female, 2, 2
-Jorge Alvarez, 8, 32,male, 1, 6
-Maria Rodriguez, 7, 22,female, 2, 3
-Antonio Soto, 9, 30,male, 1, 7
-Sofia Herrera, 6, 25,female, 2, 2
-Pablo Castro, 8, 27,male, 1, 4
-Carla Garcia, 7, 24,female, 2, 3
-Emilio Torres, 9, 31,male, 1, 6
-Elena Fernandez, 6, 26,female, 2, 3
-Javier Medina, 8, 29,male, 1, 5
-Martina Martinez, 7, 22,female, 2, 3
-Gabriel Jiménez, 9, 33,male, 1, 6
-Laura Garcia, 6, 27,female, 2, 2
-Miguel Serrano, 8, 30,male, 1, 5
-Andrea Castro, 7, 25,female, 2, 2
-Juan Molina, 9, 30,male, 1, 4
-Sofia Romero, 6, 23,female, 2, 1
-Carlos Fernandez, 8, 28,male, 1, 5
-Elena Torres, 7, 26,female, 2, 4
-David Navarro, 9, 31,male, 1, 7
-Laura Herrera, 6, 24,female, 2, 2
-Alejandro Martinez, 8, 29,male, 1, 4
-Lucia Sanchez, 7, 22,female, 2, 3
-Juan Fernandez, 9, 30,male, 1, 6
-Carmen Torres, 6, 25,female, 2, 2
-Daniel Ramirez, 8, 32,male, 1, 5
-Camille Dupont, 7, 28,female, 2, 3
-Antoine Martin, 8, 32,male, 1, 6
-Éléonore Dubois, 7, 24,female, 2, 4
-Louis Lambert, 9, 30,male, 1, 5
-Margaux Girard, 6, 23,female, 2, 1
-Olivier Lefebvre, 8, 29,male, 1, 4
-Chloé Perrin, 7, 27,female, 2, 2
-Baptiste Gauthier, 9, 31,male, 1, 7
-Léa Moreau, 6, 25,female, 2, 2
-Mathis Roussel, 8, 28,male, 1, 5
-Manon Blanc, 7, 22,female, 2, 3
-Julien Marchand, 9, 33,male, 1, 6
-Clara Faure, 6, 26,female, 2, 3
-Lucas Durand, 8, 30,male, 1, 5
-Inès Petit, 7, 24,female, 2, 2
-Théo Morel, 9, 29,male, 1, 4
-Emma Laurent, 6, 27,female, 2, 3
-Gabriel Rousseau, 8, 31,male, 1, 7
-Léna Roy, 7, 25,female, 2, 2
-Hugo Lemoine, 9, 30,male, 1, 6
-Juliette Barbier, 6, 23,female, 2, 1
-Thomas Legrand, 8, 28,male, 1, 5
-Elise Dubois, 7, 26,female, 2, 4
-Maxime Roux, 9, 29,male, 1, 5
-Charlotte Mercier, 6, 24,female, 2, 2
-Lucas Renaud, 8, 32,male, 1, 6
-Manon Lecomte, 7, 22,female, 2, 3
-Lucas Renault, 9, 30,male, 1, 7
-Laura Dubois, 6, 25,female, 2, 2
-Alexandre Lefevre, 8, 27,male, 1, 4
-Clara Martin, 7, 24,female, 2, 3
-Mathias Thomas, 9, 31,male, 1, 6
-Éva Martin, 6, 26,female, 2, 3
-Romain Roussel, 8, 29,male, 1, 5
-Manon Robert, 7, 22,female, 2, 3
-Nicolas Lambert, 9, 33,male, 1, 6
-Sophie Dubois, 6, 27,female, 2, 2
-Pierre Lacroix, 8, 30,male, 1, 5
-Léa Dupuis, 7, 25,female, 2, 2
-Lucas Roche, 9, 30,male, 1, 4
-Camille Renard, 6, 23,female, 2, 1
-Alexis Martin, 8, 28,male, 1, 5
-Emma Laurent, 7, 26,female, 2, 4
-Baptiste Navarro, 9, 31,male, 1, 7
-Inès Dubois, 6, 24,female, 2, 2
-Maxence Lefebvre, 8, 29,male, 1, 4
-Sophie Dubois, 7, 22,female, 2, 3
-Mathéo Renard, 9, 30,male, 1, 6
-Camille Dupuis, 6, 25,female, 2, 2
-Nicolas Richard, 8, 27,male, 1, 4
-Léa Dufour, 7, 24,female, 2, 3
-Baptiste Girard, 9, 33,male, 1, 6
-Chloé Faure, 6, 26,female, 2, 3
-Louis Durand, 8, 30,male, 1, 5
-Emma Moreau, 7, 24,female, 2, 2
-Antoine Laurent, 9, 29,male, 1, 4
-Elise Rousseau, 6, 27,female, 2, 3
-Martin Dupont, 8, 31,male, 1, 7
-Louise Roy, 7, 25,female, 2, 2
-Olivier Dubois, 9, 30,male, 1, 6
-Clara Robert, 6, 23,female, 2, 1
-Lucas Legrand, 8, 28,male, 1, 5
-Juliette Blanc, 7, 26,female, 2, 4
-Mathis Renaud, 9, 29,male, 1, 5
-Eléonore Roche, 6, 24,female, 2, 2
-Gabriel Mercier, 8, 32,male, 1, 6
-Emma Lecomte, 7, 22,female, 2, 3
-Lucas Renault, 9, 30,male, 1, 7
-Juliette Dubois, 6, 25,female, 2, 2
-Antoine Lefevre, 8, 27,male, 1, 4
-Elise Martin, 7, 24,female, 2, 3
-Mathias Thomas, 9, 31,male, 1, 6
-Éva Martin, 6, 26,female, 2, 3
-Romain Roussel, 8, 29,male, 1, 5
-Manon Robert, 7, 22,female, 2, 3
-Nicolas Lambert, 9, 33,male, 1, 6
-Sophie Dubois, 6, 27,female, 2, 2
-Pierre Lacroix, 8, 30,male, 1, 5
-Léa Dupuis, 7, 25,female, 2, 2
-Lucas Roche, 9, 30,male, 1, 4
-Camille Renard, 6, 23,female, 2, 1
-Alexis Martin, 8, 28,male, 1, 5
-Emma Laurent, 7, 26,female, 2, 4
-Baptiste Navarro, 9, 31,male, 1, 7
-Inès Dubois, 6, 24,female, 2, 2
-Maxence Lefebvre, 8, 29,male, 1, 4
-Sophie Dubois, 7, 22,female, 2, 3
-Mathéo Renard, 9, 30,male, 1, 6
-Camille Dupuis, 6, 25,female, 2, 2
-Nicolas Richard, 8, 27,male, 1, 4
-Katarzyna Nowak, 7, 28,female, 2, 3
-Michał Kowalski, 8, 32,male, 1, 6
-Agnieszka Wojcik, 7, 24,female, 2, 4
-Krzysztof Adamczyk, 9, 30,male, 1, 5
-Magdalena Sikora, 6, 23,female, 2, 1
-Paweł Jankowski, 8, 29,male, 1, 4
-Anna Wozniak, 7, 27,female, 2, 2
-Piotr Nowak, 9, 31,male, 1, 7
-Joanna Kaczmarek, 6, 25,female, 2, 2
-Łukasz Piotrowski, 8, 28,male, 1, 5
-Ewa Zielinska, 7, 22,female, 2, 3
-Andrzej Szymanski, 9, 33,male, 1, 6
-Natalia Kowalczyk, 6, 26,female, 2, 3
-Damian Wojcik, 8, 30,male, 1, 5
-Monika Pawlowska, 7, 24,female, 2, 2
-Marcin Kaczmarek, 9, 29,male, 1, 4
-Justyna Michalska, 6, 27,female, 2, 3
-Mateusz Zawisza, 8, 31,male, 1, 7
-Karolina Nowak, 7, 25,female, 2, 2
-Adrian Soltys, 9, 30,male, 1, 6
-Weronika Wrobel, 6, 23,female, 2, 1
-Grzegorz Kowal, 8, 28,male, 1, 5
-Julia Lewandowska, 7, 26,female, 2, 4
-Artur Jaskolski, 9, 29,male, 1, 5
-Agata Tomczak, 6, 24,female, 2, 2
-Rafał Gorski, 8, 32,male, 1, 6
-Joanna Wozniak, 7, 22,female, 2, 3
-Łukasz Kowalczyk, 9, 30,male, 1, 7
-Marta Nowak, 6, 25,female, 2, 2
-Tomasz Jankowski, 8, 27,male, 1, 4
-Dorota Szymanska, 7, 24,female, 2, 3
-Krzysztof Tomaszewski, 9, 31,male, 1, 6
-Aneta Szczepanska, 6, 26,female, 2, 3
-Bartosz Malinowski, 8, 29,male, 1, 5
-Ewelina Kaczmarek, 7, 22,female, 2, 3
-Łukasz Zalewski, 9, 33,male, 1, 6
-Kinga Nowak, 6, 27,female, 2, 2
-Daniel Kowal, 8, 30,male, 1, 5
-Aleksandra Wisniewska, 7, 25,female, 2, 2
-Krystian Pawlak, 9, 30,male, 1, 4
-Patrycja Sikorska, 6, 23,female, 2, 1
-Łukasz Kowal, 8, 28,male, 1, 5
-Joanna Wojciechowska, 7, 26,female, 2, 4
-Damian Wojcik, 9, 31,male, 1, 7
-Klaudia Kowalczyk, 6, 24,female, 2, 2
-Szymon Kowalik, 8, 32,male, 1, 6
-Patrycja Nowak, 7, 22,female, 2, 3
-Maciej Jaskolski, 9, 30,male, 1, 7
-Natalia Kaczmarek, 6, 25,female, 2, 2
-Przemysław Zawisza, 8, 27,male, 1, 4
-Cybertron X-1000, 9, 32,male, 1, 4
-Quantum ByteMaster, 8, 30,male, 2, 5
-TechnoTitan 9000, 7, 28,female, 2, 3
-DataDynamo, 8, 31,male, 1, 6
-ByteBlazer, 7, 24,female, 1, 2
-LogicMaster 2000, 9, 33,male, 2, 5
-Quantum Quasar, 8, 29,male, 1, 3
-NeoNexis X-1, 7, 26,female, 2, 4
-DataWave Dynamo, 8, 30,male, 1, 4
-MegaMinds Matrix, 7, 25,female, 2, 2
-ByteBurst Pro, 9, 30,male, 1, 5
-CyberPulse X-500, 8, 32,male, 1, 6
-LogicCraft 3000, 7, 22,female, 2, 1
-Quantum Nexus, 9, 31,male, 1, 5
-DataStream Dynamo, 8, 28,male, 2, 3
-TechnoByte Titan, 7, 27,female, 1, 3
-NeuralNet Nexus, 9, 30,male, 2, 4
-ByteBandit Pro, 8, 31,male, 1, 5
-Quantum Quark, 7, 24,female, 2, 2
-InfoStream Dynamo, 9, 29,male, 1, 4
-TechnoPulse X-700, 8, 30,male, 2, 3
-LogicNinja 4000, 7, 23,female, 1, 3
-CyberLink Nexus, 9, 32,male, 1, 5
-QuantumQuest Pro, 8, 28,male, 2, 4
-DataFusion Dynamo, 7, 26,female, 1, 2
-RoboMinds Matrix, 9, 31,male, 2, 5
-ByteBlitz 2000, 8, 29,male, 1, 4
-Quantum Quantum, 7, 27,female, 2, 3
-MegaMatrix Dynamo, 9, 30,male, 1, 5
-LogicLaser X-3000, 8, 30,male, 2, 4
-NeuralPulse Nexus, 7, 25,female, 1, 3
-DataBlade Pro, 9, 29,male, 2, 4
-Quantum Quanta, 8, 31,male, 1, 5
-InfoFusion Dynamo, 7, 24,female, 2, 2
-CyberCraft 9000, 9, 33,male, 1, 4
-LogicStream X-800, 8, 28,male, 2, 3
-QuantumFlow Nexus, 7, 26,female, 1, 3
-TechnoBlitz Pro, 9, 30,male, 2, 4
-ByteBrain Dynamo, 8, 32,male, 1, 5
-DataNinja Matrix, 7, 27,female, 2, 4
-CyberPulse 3000, 9, 31,male, 1, 5
-LogicCraft Pro, 8, 30,male, 2, 4
-QuantumSync Nexus, 7, 25,female, 1, 3
-DataFury Dynamo, 9, 29,male, 2, 3
-InfoByte Matrix, 8, 28,male, 1, 4
-CyberWave X-2000, 7, 26,female, 2, 2
-TechnoNexis Nexus, 9, 30,male, 1, 5
-ByteWave Pro, 8, 31,male, 2, 4
-NeuralCraft 2000, 9, 29,male, 2, 4
-Sophie de Jong, 7, 28,female, 2, 3
-Lucas van der Berg, 8, 32,male, 1, 6
-Anna Bakker, 7, 24,female, 2, 4
-Thijs Jansen, 9, 30,male, 1, 5
-Emma de Vries, 6, 23,female, 2, 1
-Daan van den Brink, 8, 29,male, 1, 4
-Lisa Smit, 7, 27,female, 2, 2
-Bram Peters, 9, 31,male, 1, 7
-Julia van der Meer, 6, 25,female, 2, 2
-Finn de Boer, 8, 28,male, 1, 5
-Eva van der Laan, 7, 22,female, 2, 3
-Lars Hendriks, 9, 33,male, 1, 6
-Nina Koopman, 6, 26,female, 2, 3
-Hugo Visser, 8, 30,male, 1, 5
-Fleur van Dijk, 7, 24,female, 2, 2
-Max Kuijpers, 9, 29,male, 1, 4
-Noa de Haan, 6, 27,female, 2, 3
-Luuk Schouten, 8, 31,male, 1, 7
-Sofia van Houten, 7, 25,female, 2, 2
-Milan Vos, 9, 30,male, 1, 6
-Olivia de Wit, 6, 23,female, 2, 1
-Timo van der Horst, 8, 28,male, 1, 5
-Lotte van der Valk, 7, 26,female, 2, 4
-Daan de Graaf, 9, 29,male, 1, 5
-Sara de Lange, 6, 24,female, 2, 2
-Lars Willems, 8, 32,male, 1, 6
-Tess van Beek, 7, 22,female, 2, 3
-Tom de Koning, 9, 30,male, 1, 7
-Sophie de Jong, 6, 25,female, 2, 2
-Daan van der Berg, 8, 29,male, 1, 4
-Julia Bakker, 7, 24,female, 2, 3
-Thijs Jansen, 9, 31,male, 1, 6
-Emma de Vries, 6, 26,female, 2, 3
-Bram van den Brink, 8, 30,male, 1, 5
-Lisa Smit, 7, 27,female, 2, 3
-Lars Peters, 9, 33,male, 1, 6
-Anna Koopman, 6, 26,female, 2, 2
-Daan Visser, 8, 30,male, 1, 5
-Eva van Dijk, 7, 24,female, 2, 4
-Max Kuijpers, 9, 29,male, 1, 5
-Noa de Haan, 6, 25,female, 2, 3
-Hugo Schouten, 8, 31,male, 1, 7
-Nina van Houten, 7, 25,female, 2, 2
-Luuk Vos, 9, 30,male, 1, 6
-Sofia de Wit, 6, 23,female, 2, 1
-Milan van der Horst, 8, 28,male, 1, 5
-Olivia van der Valk, 7, 26,female, 2, 4
-Timo de Graaf, 9, 29,male, 1, 5
-Lotte de Lange, 6, 24,female, 2, 2
-Tom Schouten, 8, 32,male, 1, 6
-Sofie Andersen, 7, 28,female, 2, 3
-Anders Larsen, 8, 32,male, 1, 6
-Emma Sørensen, 7, 24,female, 2, 4
-Erik Jørgensen, 9, 30,male, 1, 5
-Freja Nielsen, 6, 23,female, 2, 1
-Oskar Pedersen, 8, 29,male, 1, 4
-Ingrid Olsen, 7, 27,female, 2, 2
-Magnus Kristensen, 9, 31,male, 1, 7
-Maria Poulsen, 6, 25,female, 2, 2
-Nils Madsen, 8, 28,male, 1, 5
-Anna Petersen, 7, 22,female, 2, 3
-Christian Rasmussen, 9, 33,male, 1, 6
-Selma Henriksen, 6, 26,female, 2, 3
-William Thomsen, 8, 30,male, 1, 5
-Isabella Christensen, 7, 24,female, 2, 2
-Lukas Mortensen, 9, 29,male, 1, 4
-Hanna Jensen, 6, 27,female, 2, 3
-Anton Olsen, 8, 31,male, 1, 7
-Lina Andersen, 7, 25,female, 2, 2
-Aksel Eriksen, 9, 30,male, 1, 6
-Maja Rasmussen, 6, 23,female, 2, 1
-Theodor Madsen, 8, 28,male, 1, 5
-Emelie Larsen, 7, 26,female, 2, 4
-Filip Knudsen, 9, 29,male, 1, 5
-Agnes Sørensen, 6, 24,female, 2, 2
-Henrik Nielsen, 8, 32,male, 1, 6
-Ida Jensen, 7, 22,female, 2, 3
-Gustav Pedersen, 9, 30,male, 1, 7
-Elise Andersen, 6, 25,female, 2, 2
-Oliver Rasmussen, 8, 27,male, 1, 4
-Alma Madsen, 7, 24,female, 2, 3
-Viggo Thomsen, 9, 31,male, 1, 6
-Linnea Christensen, 6, 26,female, 2, 3
-Emil Henriksen, 8, 29,male, 1, 5
-Clara Knudsen, 7, 22,female, 2, 3
-Jakob Olsen, 9, 33,male, 1, 6
-Sara Sørensen, 6, 27,female, 2, 2
-Oscar Eriksen, 8, 30,male, 1, 5
-Freja Andersen, 7, 25,female, 2, 2
-Felix Madsen, 9, 30,male, 1, 4
-Lina Petersen, 6, 23,female, 2, 1
-Malte Rasmussen, 8, 28,male, 1, 5
-Emma Olsen, 7, 26,female, 2, 4
-Oskar Knudsen, 9, 29,male, 1, 5
-Sara Christensen, 6, 24,female, 2, 2
-William Mortensen, 8, 32,male, 1, 6
-Linnea Andersen, 7, 22,female, 2, 3
-Hugo Sørensen, 9, 30,male, 1, 7
-Mathilde Jensen, 6, 25,female, 2, 2
-Noah Rasmussen, 8, 27,male, 1, 4
-Jerry, 1, 22, Male,2,32
+Harper Clark, 6, 20,female,2, 2
+Mason Baker, 8, 32,male,1, 6
+Amelia Foster, 7, 27,female,2, 4
+Oliver White, 9, 29,male,1, 5
+Lily Turner, 6, 23,female,2, 1
+Jackson Hall, 8, 25,male,1, 3
+Isabella Young, 7, 26,female,2, 2
+Liam Murphy, 9, 30,male,1, 7
+Charlotte Green, 6, 24,female,2, 5
+Noah Carter, 8, 28,male,1, 4
+Ava Scott, 7, 22,female,2, 3
+Lucas Perez, 9, 31,male,1, 6
+Sophia Mitchell, 6, 21,female,2, 1
+Aiden Nelson, 8, 27,male,1, 4
+Mia Johnson, 7, 25,female,2, 2
+Ethan Sanchez, 9, 29,male,1, 5
+Grace Hall, 6, 23,female,2, 3
+Benjamin Turner, 8, 32,male,1, 8
+Emily Baker, 7, 26,female,2, 2
+Samuel King, 9, 30,male,1, 6
+Ella Wright, 6, 20,female,2, 1
+Henry Lopez, 8, 28,male,1, 5
+Scarlett Miller, 7, 22,female,2, 3
+Daniel Davis, 9, 31,male,1, 6
+Chloe Scott, 6, 24,female,2, 4
+Jack Adams, 8, 27,male,1, 4
+Lily Martinez, 7, 25,female,2, 2
+Caleb Parker, 9, 29,male,1, 5
+Abigail Roberts, 6, 21,female,2, 1
+William Allen, 8, 32,male,1, 7
+Grace Hall, 7, 26,female,2, 3
+James Turner, 9, 30,male,1, 6
+Madison White, 6, 23,female,2, 2
+Elijah Adams, 8, 28,male,1, 5
+Zoey Davis, 7, 22,female,2, 3
+David Wilson, 9, 31,male,1, 7
+Penelope Foster, 6, 24,female,2, 5
+Michael Green, 8, 27,male,1, 4
+Sofia Perez, 7, 25,female,2, 3
+Joseph Turner, 9, 29,male,1, 6
+Anastasia Petrov, 7, 28,female,2, 3
+Mikhail Ivanov, 8, 32,male,1, 6
+Ekaterina Sokolova, 7, 24,female,2, 4
+Alexander Smirnov, 9, 30,male,1, 5
+Daria Volkova, 6, 23,female,2, 1
+Nikita Kuznetsov, 8, 29,male,1, 4
+Natalia Fedorova, 7, 27,female,2, 2
+Sergei Popov, 9, 31,male,1, 7
+Irina Petrova, 6, 25,female,2, 2
+Dmitri Sidorov, 8, 28,male,1, 5
+Yulia Smirnova, 7, 22,female,2, 3
+Pavel Ivanov, 9, 33,male,1, 6
+Olga Mikhailova, 6, 26,female,2, 3
+Andrei Sokolov, 8, 30,male,1, 5
+Elena Kuznetsova, 7, 24,female,2, 2
+Roman Volkov, 9, 29,male,1, 4
+Ksenia Medvedeva, 6, 27,female,2, 3
+Vladislav Ivanov, 8, 31,male,1, 7
+Svetlana Petrova, 7, 25,female,2, 2
+Anton Smirnov, 9, 30,male,1, 6
+Tatyana Volkova, 6, 23,female,2, 1
+Yuri Sokolov, 8, 28,male,1, 5
+Anna Ivanova, 7, 26,female,2, 4
+Ivan Kuznetsov, 9, 29,male,1, 5
+Marina Sidorova, 6, 24,female,2, 2
+Kirill Popov, 8, 32,male,1, 6
+Oksana Petrova, 7, 22,female,2, 3
+Maxim Smirnov, 9, 30,male,1, 7
+Ekaterina Ivanova, 6, 25,female,2, 2
+Sergey Medvedev, 8, 27,male,1, 4
+Yelena Sokolova, 7, 24,female,2, 3
+Andrei Kuznetsov, 9, 31,male,1, 6
+Yekaterina Petrova, 6, 26,female,2, 3
+Pavel Smirnov, 8, 29,male,1, 5
+Polina Volkova, 7, 22,female,2, 3
+Alexander Petrov, 9, 33,male,1, 6
+Yulia Ivanova, 6, 27,female,2, 2
+Nikita Sokolov, 8, 30,male,1, 5
+Svetlana Medvedeva, 7, 25,female,2, 2
+Viktor Smirnov, 9, 30,male,1, 4
+Anastasia Kuznetsova, 6, 24,female,2, 1
+Dmitry Ivanov, 8, 28,male,1, 5
+Irina Sidorova, 7, 26,female,2, 3
+Vladimir Sokolov, 9, 31,male,1, 7
+Nadezhda Petrova, 6, 23,female,2, 2
+Ivan Popov, 8, 29,male,1, 4
+Yelizaveta Smirnova, 7, 22,female,2, 3
+Anton Ivanov, 9, 30,male,1, 6
+Olesya Volkova, 6, 27,female,2, 2
+Mikhail Sidorov, 8, 32,male,1, 5
+Franziska Müller, 7, 28,female,2, 3
+Maximilian Schmitt, 8, 32,male,1, 6
+Sophia Wagner, 7, 24,female,2, 4
+Sebastian Becker, 9, 30,male,1, 5
+Lena Richter, 6, 23,female,2, 1
+Alexander Meier, 8, 29,male,1, 4
+Emily Fischer, 7, 27,female,2, 2
+Lukas Schmidt, 9, 31,male,1, 7
+Charlotte Weber, 6, 25,female,2, 2
+Jonas Keller, 8, 28,male,1, 5
+Laura Schulz, 7, 22,female,2, 3
+Paul Hoffmann, 9, 33,male,1, 6
+Amelie Becker, 6, 26,female,2, 3
+Felix Schäfer, 8, 30,male,1, 5
+Julia Wagner, 7, 24,female,2, 2
+Moritz Klein, 9, 29,male,1, 4
+Sarah Bauer, 6, 27,female,2, 3
+David Fischer, 8, 31,male,1, 7
+Marie Schulz, 7, 25,female,2, 2
+Timo Richter, 9, 30,male,1, 6
+Elena Mayer, 6, 23,female,2, 1
+Anton Becker, 8, 28,male,1, 5
+Hannah Weber, 7, 26,female,2, 4
+Johannes Huber, 9, 29,male,1, 5
+Pia Winkler, 6, 24,female,2, 2
+Niklas Schmidt, 8, 32,male,1, 6
+Clara Wagner, 7, 22,female,2, 3
+Philipp Braun, 9, 30,male,1, 7
+Emily Becker, 6, 25,female,2, 2
+Lukas Hartmann, 8, 27,male,1, 4
+Sophie Lehmann, 7, 24,female,2, 3
+Paul Schneider, 9, 31,male,1, 6
+Emilia Fischer, 6, 26,female,2, 3
+Leon Schumacher, 8, 29,male,1, 5
+Marie Müller, 7, 22,female,2, 3
+Simon Becker, 9, 33,male,1, 6
+Lena Weber, 6, 27,female,2, 2
+Lukas Klein, 8, 30,male,1, 5
+Anna Fischer, 7, 25,female,2, 2
+Finn Mayer, 9, 30,male,1, 4
+Johanna Schulz, 6, 23,female,2, 1
+Maximilian Schmitt, 8, 28,male,1, 5
+Isabella Huber, 7, 26,female,2, 4
+Lukas Beck, 9, 31,male,1, 7
+Mia Wagner, 6, 24,female,2, 2
+Jonas Fischer, 8, 29,male,1, 4
+Emma Schmidt, 7, 22,female,2, 3
+David Müller, 9, 30,male,1, 6
+Lena Becker, 6, 25,female,2, 2
+Daniel Richter, 8, 32,male,1, 5
+María Rodríguez, 7, 28,female,2, 3
+Javier García, 8, 32,male,1, 6
+Ana López, 7, 24,female,2, 4
+Carlos Pérez, 9, 30,male,1, 5
+Sofia Martinez, 6, 23,female,2, 1
+Alejandro Fernandez, 8, 29,male,1, 4
+Lucia Sanchez, 7, 27,female,2, 2
+Diego González, 9, 31,male,1, 7
+Carmen Torres, 6, 25,female,2, 2
+Manuel Ramirez, 8, 28,male,1, 5
+Paula Ruiz, 7, 22,female,2, 3
+Guillermo Navarro, 9, 33,male,1, 6
+Elena Castro, 6, 26,female,2, 3
+Sergio Jiménez, 8, 30,male,1, 5
+Marta Diaz, 7, 24,female,2, 2
+Juan Martinez, 9, 29,male,1, 4
+Laura Morales, 6, 27,female,2, 3
+Raúl Sánchez, 8, 31,male,1, 7
+Isabel Herrera, 7, 25,female,2, 2
+Daniel Vargas, 9, 30,male,1, 6
+Sofia Mendoza, 6, 23,female,2, 1
+Pedro Ortega, 8, 28,male,1, 5
+Natalia Flores, 7, 26,female,2, 4
+Luis Torres, 9, 29,male,1, 5
+Andrea Rivera, 6, 24,female,2, 2
+Jorge Alvarez, 8, 32,male,1, 6
+Maria Rodriguez, 7, 22,female,2, 3
+Antonio Soto, 9, 30,male,1, 7
+Sofia Herrera, 6, 25,female,2, 2
+Pablo Castro, 8, 27,male,1, 4
+Carla Garcia, 7, 24,female,2, 3
+Emilio Torres, 9, 31,male,1, 6
+Elena Fernandez, 6, 26,female,2, 3
+Javier Medina, 8, 29,male,1, 5
+Martina Martinez, 7, 22,female,2, 3
+Gabriel Jiménez, 9, 33,male,1, 6
+Laura Garcia, 6, 27,female,2, 2
+Miguel Serrano, 8, 30,male,1, 5
+Andrea Castro, 7, 25,female,2, 2
+Juan Molina, 9, 30,male,1, 4
+Sofia Romero, 6, 23,female,2, 1
+Carlos Fernandez, 8, 28,male,1, 5
+Elena Torres, 7, 26,female,2, 4
+David Navarro, 9, 31,male,1, 7
+Laura Herrera, 6, 24,female,2, 2
+Alejandro Martinez, 8, 29,male,1, 4
+Lucia Sanchez, 7, 22,female,2, 3
+Juan Fernandez, 9, 30,male,1, 6
+Carmen Torres, 6, 25,female,2, 2
+Daniel Ramirez, 8, 32,male,1, 5
+Camille Dupont, 7, 28,female,2, 3
+Antoine Martin, 8, 32,male,1, 6
+Éléonore Dubois, 7, 24,female,2, 4
+Louis Lambert, 9, 30,male,1, 5
+Margaux Girard, 6, 23,female,2, 1
+Olivier Lefebvre, 8, 29,male,1, 4
+Chloé Perrin, 7, 27,female,2, 2
+Baptiste Gauthier, 9, 31,male,1, 7
+Léa Moreau, 6, 25,female,2, 2
+Mathis Roussel, 8, 28,male,1, 5
+Manon Blanc, 7, 22,female,2, 3
+Julien Marchand, 9, 33,male,1, 6
+Clara Faure, 6, 26,female,2, 3
+Lucas Durand, 8, 30,male,1, 5
+Inès Petit, 7, 24,female,2, 2
+Théo Morel, 9, 29,male,1, 4
+Emma Laurent, 6, 27,female,2, 3
+Gabriel Rousseau, 8, 31,male,1, 7
+Léna Roy, 7, 25,female,2, 2
+Hugo Lemoine, 9, 30,male,1, 6
+Juliette Barbier, 6, 23,female,2, 1
+Thomas Legrand, 8, 28,male,1, 5
+Elise Dubois, 7, 26,female,2, 4
+Maxime Roux, 9, 29,male,1, 5
+Charlotte Mercier, 6, 24,female,2, 2
+Lucas Renaud, 8, 32,male,1, 6
+Manon Lecomte, 7, 22,female,2, 3
+Lucas Renault, 9, 30,male,1, 7
+Laura Dubois, 6, 25,female,2, 2
+Alexandre Lefevre, 8, 27,male,1, 4
+Clara Martin, 7, 24,female,2, 3
+Mathias Thomas, 9, 31,male,1, 6
+Éva Martin, 6, 26,female,2, 3
+Romain Roussel, 8, 29,male,1, 5
+Manon Robert, 7, 22,female,2, 3
+Nicolas Lambert, 9, 33,male,1, 6
+Sophie Dubois, 6, 27,female,2, 2
+Pierre Lacroix, 8, 30,male,1, 5
+Léa Dupuis, 7, 25,female,2, 2
+Lucas Roche, 9, 30,male,1, 4
+Camille Renard, 6, 23,female,2, 1
+Alexis Martin, 8, 28,male,1, 5
+Emma Laurent, 7, 26,female,2, 4
+Baptiste Navarro, 9, 31,male,1, 7
+Inès Dubois, 6, 24,female,2, 2
+Maxence Lefebvre, 8, 29,male,1, 4
+Sophie Dubois, 7, 22,female,2, 3
+Mathéo Renard, 9, 30,male,1, 6
+Camille Dupuis, 6, 25,female,2, 2
+Nicolas Richard, 8, 27,male,1, 4
+Léa Dufour, 7, 24,female,2, 3
+Baptiste Girard, 9, 33,male,1, 6
+Chloé Faure, 6, 26,female,2, 3
+Louis Durand, 8, 30,male,1, 5
+Emma Moreau, 7, 24,female,2, 2
+Antoine Laurent, 9, 29,male,1, 4
+Elise Rousseau, 6, 27,female,2, 3
+Martin Dupont, 8, 31,male,1, 7
+Louise Roy, 7, 25,female,2, 2
+Olivier Dubois, 9, 30,male,1, 6
+Clara Robert, 6, 23,female,2, 1
+Lucas Legrand, 8, 28,male,1, 5
+Juliette Blanc, 7, 26,female,2, 4
+Mathis Renaud, 9, 29,male,1, 5
+Eléonore Roche, 6, 24,female,2, 2
+Gabriel Mercier, 8, 32,male,1, 6
+Emma Lecomte, 7, 22,female,2, 3
+Lucas Renault, 9, 30,male,1, 7
+Juliette Dubois, 6, 25,female,2, 2
+Antoine Lefevre, 8, 27,male,1, 4
+Elise Martin, 7, 24,female,2, 3
+Mathias Thomas, 9, 31,male,1, 6
+Éva Martin, 6, 26,female,2, 3
+Romain Roussel, 8, 29,male,1, 5
+Manon Robert, 7, 22,female,2, 3
+Nicolas Lambert, 9, 33,male,1, 6
+Sophie Dubois, 6, 27,female,2, 2
+Pierre Lacroix, 8, 30,male,1, 5
+Léa Dupuis, 7, 25,female,2, 2
+Lucas Roche, 9, 30,male,1, 4
+Camille Renard, 6, 23,female,2, 1
+Alexis Martin, 8, 28,male,1, 5
+Emma Laurent, 7, 26,female,2, 4
+Baptiste Navarro, 9, 31,male,1, 7
+Inès Dubois, 6, 24,female,2, 2
+Maxence Lefebvre, 8, 29,male,1, 4
+Sophie Dubois, 7, 22,female,2, 3
+Mathéo Renard, 9, 30,male,1, 6
+Camille Dupuis, 6, 25,female,2, 2
+Nicolas Richard, 8, 27,male,1, 4
+Katarzyna Nowak, 7, 28,female,2, 3
+Michał Kowalski, 8, 32,male,1, 6
+Agnieszka Wojcik, 7, 24,female,2, 4
+Krzysztof Adamczyk, 9, 30,male,1, 5
+Magdalena Sikora, 6, 23,female,2, 1
+Paweł Jankowski, 8, 29,male,1, 4
+Anna Wozniak, 7, 27,female,2, 2
+Piotr Nowak, 9, 31,male,1, 7
+Joanna Kaczmarek, 6, 25,female,2, 2
+Łukasz Piotrowski, 8, 28,male,1, 5
+Ewa Zielinska, 7, 22,female,2, 3
+Andrzej Szymanski, 9, 33,male,1, 6
+Natalia Kowalczyk, 6, 26,female,2, 3
+Damian Wojcik, 8, 30,male,1, 5
+Monika Pawlowska, 7, 24,female,2, 2
+Marcin Kaczmarek, 9, 29,male,1, 4
+Justyna Michalska, 6, 27,female,2, 3
+Mateusz Zawisza, 8, 31,male,1, 7
+Karolina Nowak, 7, 25,female,2, 2
+Adrian Soltys, 9, 30,male,1, 6
+Weronika Wrobel, 6, 23,female,2, 1
+Grzegorz Kowal, 8, 28,male,1, 5
+Julia Lewandowska, 7, 26,female,2, 4
+Artur Jaskolski, 9, 29,male,1, 5
+Agata Tomczak, 6, 24,female,2, 2
+Rafał Gorski, 8, 32,male,1, 6
+Joanna Wozniak, 7, 22,female,2, 3
+Łukasz Kowalczyk, 9, 30,male,1, 7
+Marta Nowak, 6, 25,female,2, 2
+Tomasz Jankowski, 8, 27,male,1, 4
+Dorota Szymanska, 7, 24,female,2, 3
+Krzysztof Tomaszewski, 9, 31,male,1, 6
+Aneta Szczepanska, 6, 26,female,2, 3
+Bartosz Malinowski, 8, 29,male,1, 5
+Ewelina Kaczmarek, 7, 22,female,2, 3
+Łukasz Zalewski, 9, 33,male,1, 6
+Kinga Nowak, 6, 27,female,2, 2
+Daniel Kowal, 8, 30,male,1, 5
+Aleksandra Wisniewska, 7, 25,female,2, 2
+Krystian Pawlak, 9, 30,male,1, 4
+Patrycja Sikorska, 6, 23,female,2, 1
+Łukasz Kowal, 8, 28,male,1, 5
+Joanna Wojciechowska, 7, 26,female,2, 4
+Damian Wojcik, 9, 31,male,1, 7
+Klaudia Kowalczyk, 6, 24,female,2, 2
+Szymon Kowalik, 8, 32,male,1, 6
+Patrycja Nowak, 7, 22,female,2, 3
+Maciej Jaskolski, 9, 30,male,1, 7
+Natalia Kaczmarek, 6, 25,female,2, 2
+Przemysław Zawisza, 8, 27,male,1, 4
+Cybertron X-1000, 9, 32,male,1, 4
+Quantum ByteMaster, 8, 30,male,2, 5
+TechnoTitan 9000, 7, 28,female,2, 3
+DataDynamo, 8, 31,male,1, 6
+ByteBlazer, 7, 24,female,1, 2
+LogicMaster 2000, 9, 33,male,2, 5
+Quantum Quasar, 8, 29,male,1, 3
+NeoNexis X-1, 7, 26,female,2, 4
+DataWave Dynamo, 8, 30,male,1, 4
+MegaMinds Matrix, 7, 25,female,2, 2
+ByteBurst Pro, 9, 30,male,1, 5
+CyberPulse X-500, 8, 32,male,1, 6
+LogicCraft 3000, 7, 22,female,2, 1
+Quantum Nexus, 9, 31,male,1, 5
+DataStream Dynamo, 8, 28,male,2, 3
+TechnoByte Titan, 7, 27,female,1, 3
+NeuralNet Nexus, 9, 30,male,2, 4
+ByteBandit Pro, 8, 31,male,1, 5
+Quantum Quark, 7, 24,female,2, 2
+InfoStream Dynamo, 9, 29,male,1, 4
+TechnoPulse X-700, 8, 30,male,2, 3
+LogicNinja 4000, 7, 23,female,1, 3
+CyberLink Nexus, 9, 32,male,1, 5
+QuantumQuest Pro, 8, 28,male,2, 4
+DataFusion Dynamo, 7, 26,female,1, 2
+RoboMinds Matrix, 9, 31,male,2, 5
+ByteBlitz 2000, 8, 29,male,1, 4
+Quantum Quantum, 7, 27,female,2, 3
+MegaMatrix Dynamo, 9, 30,male,1, 5
+LogicLaser X-3000, 8, 30,male,2, 4
+NeuralPulse Nexus, 7, 25,female,1, 3
+DataBlade Pro, 9, 29,male,2, 4
+Quantum Quanta, 8, 31,male,1, 5
+InfoFusion Dynamo, 7, 24,female,2, 2
+CyberCraft 9000, 9, 33,male,1, 4
+LogicStream X-800, 8, 28,male,2, 3
+QuantumFlow Nexus, 7, 26,female,1, 3
+TechnoBlitz Pro, 9, 30,male,2, 4
+ByteBrain Dynamo, 8, 32,male,1, 5
+DataNinja Matrix, 7, 27,female,2, 4
+CyberPulse 3000, 9, 31,male,1, 5
+LogicCraft Pro, 8, 30,male,2, 4
+QuantumSync Nexus, 7, 25,female,1, 3
+DataFury Dynamo, 9, 29,male,2, 3
+InfoByte Matrix, 8, 28,male,1, 4
+CyberWave X-2000, 7, 26,female,2, 2
+TechnoNexis Nexus, 9, 30,male,1, 5
+ByteWave Pro, 8, 31,male,2, 4
+NeuralCraft 2000, 9, 29,male,2, 4
+Sophie de Jong, 7, 28,female,2, 3
+Lucas van der Berg, 8, 32,male,1, 6
+Anna Bakker, 7, 24,female,2, 4
+Thijs Jansen, 9, 30,male,1, 5
+Emma de Vries, 6, 23,female,2, 1
+Daan van den Brink, 8, 29,male,1, 4
+Lisa Smit, 7, 27,female,2, 2
+Bram Peters, 9, 31,male,1, 7
+Julia van der Meer, 6, 25,female,2, 2
+Finn de Boer, 8, 28,male,1, 5
+Eva van der Laan, 7, 22,female,2, 3
+Lars Hendriks, 9, 33,male,1, 6
+Nina Koopman, 6, 26,female,2, 3
+Hugo Visser, 8, 30,male,1, 5
+Fleur van Dijk, 7, 24,female,2, 2
+Max Kuijpers, 9, 29,male,1, 4
+Noa de Haan, 6, 27,female,2, 3
+Luuk Schouten, 8, 31,male,1, 7
+Sofia van Houten, 7, 25,female,2, 2
+Milan Vos, 9, 30,male,1, 6
+Olivia de Wit, 6, 23,female,2, 1
+Timo van der Horst, 8, 28,male,1, 5
+Lotte van der Valk, 7, 26,female,2, 4
+Daan de Graaf, 9, 29,male,1, 5
+Sara de Lange, 6, 24,female,2, 2
+Lars Willems, 8, 32,male,1, 6
+Tess van Beek, 7, 22,female,2, 3
+Tom de Koning, 9, 30,male,1, 7
+Sophie de Jong, 6, 25,female,2, 2
+Daan van der Berg, 8, 29,male,1, 4
+Julia Bakker, 7, 24,female,2, 3
+Thijs Jansen, 9, 31,male,1, 6
+Emma de Vries, 6, 26,female,2, 3
+Bram van den Brink, 8, 30,male,1, 5
+Lisa Smit, 7, 27,female,2, 3
+Lars Peters, 9, 33,male,1, 6
+Anna Koopman, 6, 26,female,2, 2
+Daan Visser, 8, 30,male,1, 5
+Eva van Dijk, 7, 24,female,2, 4
+Max Kuijpers, 9, 29,male,1, 5
+Noa de Haan, 6, 25,female,2, 3
+Hugo Schouten, 8, 31,male,1, 7
+Nina van Houten, 7, 25,female,2, 2
+Luuk Vos, 9, 30,male,1, 6
+Sofia de Wit, 6, 23,female,2, 1
+Milan van der Horst, 8, 28,male,1, 5
+Olivia van der Valk, 7, 26,female,2, 4
+Timo de Graaf, 9, 29,male,1, 5
+Lotte de Lange, 6, 24,female,2, 2
+Tom Schouten, 8, 32,male,1, 6
+Sofie Andersen, 7, 28,female,2, 3
+Anders Larsen, 8, 32,male,1, 6
+Emma Sørensen, 7, 24,female,2, 4
+Erik Jørgensen, 9, 30,male,1, 5
+Freja Nielsen, 6, 23,female,2, 1
+Oskar Pedersen, 8, 29,male,1, 4
+Ingrid Olsen, 7, 27,female,2, 2
+Magnus Kristensen, 9, 31,male,1, 7
+Maria Poulsen, 6, 25,female,2, 2
+Nils Madsen, 8, 28,male,1, 5
+Anna Petersen, 7, 22,female,2, 3
+Christian Rasmussen, 9, 33,male,1, 6
+Selma Henriksen, 6, 26,female,2, 3
+William Thomsen, 8, 30,male,1, 5
+Isabella Christensen, 7, 24,female,2, 2
+Lukas Mortensen, 9, 29,male,1, 4
+Hanna Jensen, 6, 27,female,2, 3
+Anton Olsen, 8, 31,male,1, 7
+Lina Andersen, 7, 25,female,2, 2
+Aksel Eriksen, 9, 30,male,1, 6
+Maja Rasmussen, 6, 23,female,2, 1
+Theodor Madsen, 8, 28,male,1, 5
+Emelie Larsen, 7, 26,female,2, 4
+Filip Knudsen, 9, 29,male,1, 5
+Agnes Sørensen, 6, 24,female,2, 2
+Henrik Nielsen, 8, 32,male,1, 6
+Ida Jensen, 7, 22,female,2, 3
+Gustav Pedersen, 9, 30,male,1, 7
+Elise Andersen, 6, 25,female,2, 2
+Oliver Rasmussen, 8, 27,male,1, 4
+Alma Madsen, 7, 24,female,2, 3
+Viggo Thomsen, 9, 31,male,1, 6
+Linnea Christensen, 6, 26,female,2, 3
+Emil Henriksen, 8, 29,male,1, 5
+Clara Knudsen, 7, 22,female,2, 3
+Jakob Olsen, 9, 33,male,1, 6
+Sara Sørensen, 6, 27,female,2, 2
+Oscar Eriksen, 8, 30,male,1, 5
+Freja Andersen, 7, 25,female,2, 2
+Felix Madsen, 9, 30,male,1, 4
+Lina Petersen, 6, 23,female,2, 1
+Malte Rasmussen, 8, 28,male,1, 5
+Emma Olsen, 7, 26,female,2, 4
+Oskar Knudsen, 9, 29,male,1, 5
+Sara Christensen, 6, 24,female,2, 2
+William Mortensen, 8, 32,male,1, 6
+Linnea Andersen, 7, 22,female,2, 3
+Hugo Sørensen, 9, 30,male,1, 7
+Mathilde Jensen, 6, 25,female,2, 2
+Noah Rasmussen, 8, 27,male,1, 4
+Tin Hinan, 8, 30,female,1, 4
+Kella Tidjani, 7, 28,male,2, 5
+Tahar Ag Aghaly, 9, 32,male,1, 6
+Tafawa Ag Ahmad, 7, 27,male,2, 4
+Tinzouline Ag Bouleifa, 8, 29,female,2, 2
+Belkacem Ag Abou, 7, 26,male,1, 5
+Tenagouran Ag Amamas, 9, 31,male,2, 4
+Sidi Mohamed Ag Iftini, 7, 25,male,1, 5
+Timitar Ag Almouden, 8, 28,female,2, 3
+Talatini Ag Aker, 7, 24,male,1, 3
+Amanar Ag Bahanga, 9, 30,male,2, 4
+Dihya Ag Awara, 7, 23,female,2, 2
+Fadimata Ag Hassane, 8, 27,female,1, 4
+Mohamed Ag Hamma, 7, 22,male,1, 3
+Hawa Ag Ibrahim, 9, 33,female,2, 3
+Intiyat Ag Khelef, 7, 26,female,1, 2
+Imedjdene Ag Zougar, 8, 30,male,2, 4
+Azawad Ag Salat, 7, 24,female,1, 3
+Leila Ag Khali, 9, 29,female,2, 3
+Akli Ag Amoumou, 7, 27,male,1, 4
+Tamazight Ag Anzar, 8, 31,male,1, 5
+Tafadalt Ag Amara, 7, 28,female,2, 3
+Azel Ag Aznag, 9, 32,male,1, 6
+Fatimata Ag Tahar, 7, 25,female,2, 2
+Alhassane Ag Imik, 8, 29,male,1, 4
+Tarwa Ag Aghali, 7, 26,female,2, 3
+Yacouba Ag Eklaf, 9, 30,male,1, 5
+Lalla Ag Yali, 7, 24,female,2, 2
+Tinirwalen Ag Almahfoud, 8, 28,male,1, 4
+Fatma Ag Moudan, 7, 22,female,2, 3
+Taliwin Ag Ahaggar, 9, 33,male,1, 6
+Yasmine Ag Lhacen, 7, 26,female,2, 4
+Akioud Ag Amazzal, 8, 30,male,1, 5
+Mati Ag Azawad, 7, 27,male,2, 3
+Ayad Ag Souleimane, 8, 31,male,1, 6
+Touda Ag Tahir, 7, 25,female,2, 2
+Amar Ag Touareg, 9, 29,male,1, 5
+Tissouk Ag Amada, 7, 28,female,2, 3
+Tassadit Ag Icha, 8, 30,female,1, 4
+Imad Ag Fadma, 7, 24,male,2, 3
+Mouna Ag Abour, 9, 31,female,1, 5
+Hamadou Ag Abbes, 7, 26,male,2, 4
+Tiziri Ag Amzal, 8, 29,female,1, 4
+Assalas Ag Taher, 7, 23,male,2, 3
+Tawariq Ag Anli, 9, 32,male,1, 5
+Lina Ag Atmane, 7, 22,female,2, 3
+Tahalit Ag Tahar, 8, 28,female,1, 4
+Tifawin Ag Abouzaid, 7, 27,male,2, 4
+Zohra Ag Ayad, 9, 30,female,1, 5
+Gada Ag Bahanga, 7, 25,female,2, 3
+Maia Williams, 8, 32,female,1, 4
+Liam Smith, 7, 28,male,2, 5
+Aroha Jones, 9, 35,female,2, 6
+Jacob Brown, 7, 25,male,1, 3
+Ruby Wilson, 8, 30,female,2, 4
+Ethan Taylor, 7, 27,male,1, 5
+Hana Thompson, 9, 34,female,2, 6
+Noah Clark, 7, 26,male,1, 4
+Mia Anderson, 8, 31,female,2, 5
+Oliver King, 7, 29,male,1, 4
+Grace White, 9, 33,female,2, 6
+Charlie Johnson, 7, 24,male,1, 3
+Tama Ngata, 8, 28,male,1, 4
+Isla Scott, 7, 25,female,2, 2
+Daniel Davis, 9, 30,male,1, 5
+Anahera Wilson, 8, 29,female,2, 4
+Jackson Harris, 7, 27,male,1, 3
+Mia Cooper, 9, 31,female,2, 5
+William Robinson, 7, 26,male,1, 4
+Ava Green, 8, 32,female,2, 6
+Jack Patel, 7, 28,male,1, 4
+Harper Turner, 9, 34,female,2, 6
+Lucas Hughes, 7, 25,male,1, 3
+Sophie Taylor, 8, 30,female,2, 5
+Liam Baker, 7, 27,male,1, 4
+Isabella Harris, 9, 33,female,2, 6
+Max Martin, 7, 24,male,1, 3
+Tui Roberts, 8, 28,female,2, 4
+Oliver Walker, 7, 26,male,1, 4
+Ella Wilson, 9, 32,female,2, 5
+Mason Thompson, 7, 27,male,1, 4
+Mia Davis, 8, 31,female,2, 5
+Noah Clarke, 7, 25,male,1, 3
+Sophie Ngata, 9, 30,female,2, 4
+Elijah Smith, 7, 29,male,1, 4
+Lily Brown, 8, 33,female,2, 6
+Ethan Taylor, 7, 24,male,1, 3
+Emma King, 9, 34,female,2, 5
+Jack White, 7, 26,male,1, 4
+Amelia Williams, 8, 32,female,2, 6
+Jacob Scott, 7, 28,male,1, 4
+Mia Jones, 9, 35,female,2, 6
+Liam Anderson, 7, 25,male,1, 3
+Ruby Taylor, 8, 30,female,2, 5
+Oliver Martin, 7, 27,male,1, 4
+Harper Clark, 9, 34,female,2, 6
+Noah Wilson, 7, 26,male,1, 4
+Ava Davis, 8, 31,female,2, 5
+Liam Baker, 7, 29,male,1, 4
+Isla Green, 9, 33,female,2, 5
+Ahmed Said, 8, 30,male,1, 4
+Amina Hassan, 7, 28,female,2, 5
+Omar Ali, 9, 35,male,1, 6
+Fatima Ibrahim, 7, 25,female,2, 3
+Tarek Mahmoud, 8, 32,male,1, 5
+Yasmin Mohamed, 7, 27,female,2, 4
+Khaled Abdel-Meguid, 9, 34,male,1, 6
+Nourhan Mostafa, 7, 26,female,2, 3
+Amr Kamal, 8, 31,male,1, 5
+Salma Ezzat, 7, 29,female,2, 4
+Hisham Abdel-Aziz, 9, 33,male,1, 6
+Leila Tawfik, 7, 24,female,2, 3
+Wael El-Sayed, 8, 28,male,1, 4
+Yasmine Hossam, 7, 25,female,2, 3
+Kareem Mansour, 9, 30,male,1, 5
+Rania Mahmoud, 7, 27,female,2, 4
+Sherif Adel, 8, 32,male,1, 6
+Mariam Samir, 7, 26,female,2, 3
+Hani Farid, 9, 31,male,1, 5
+Dalia Ashraf, 7, 28,female,2, 4
+Mohamed Salah, 8, 30,male,1, 4
+Samar Hany, 7, 29,female,2, 4
+Tamer Magdy, 9, 33,male,1, 6
+Yasmina Hossam, 7, 25,female,2, 3
+Ahmed Abdel-Rahman, 8, 32,male,1, 6
+Reem Kamel, 7, 27,female,2, 4
+Hossam Nabil, 9, 34,male,1, 5
+Amira Gamal, 7, 26,female,2, 3
+Sherine Mohsen, 8, 31,female,2, 4
+Mahmoud Ali, 7, 28,male,1, 5
+Nour Farouk, 9, 35,female,2, 6
+Tarek Samy, 7, 25,male,1, 4
+Mariam Rizk, 8, 30,female,2, 5
+Omar Adel, 7, 29,male,1, 5
+Salma Wael, 9, 33,female,2, 6
+Mostafa Mansour, 7, 24,male,1, 3
+Yasmin Ahmed, 8, 28,female,2, 4
+Mahmoud Amr, 7, 27,male,1, 4
+Reem Nasser, 9, 34,female,2, 6
+Ahmed Mostafa, 7, 26,male,1, 4
+Mona Youssef, 8, 32,female,2, 5
+Mohamed Ashraf, 7, 25,male,1, 3
+Aya Hassan, 9, 30,female,2, 4
+Ahmed Ibrahim, 7, 28,male,1, 4
+Yasmin Magdy, 8, 31,female,2, 5
+Hani Kamel, 7, 29,male,1, 5
+Nourhan Ahmed, 9, 33,female,2, 6
+Kareem Sami, 7, 27,male,1, 4
+Rania Adel, 8, 30,female,2, 4
+Sherif Sabry, 7, 24,male,1, 3
+Ahmed Said, 8, 30,male,1, 4
+Amina Hassan, 7, 28,female,2, 5
+Omar Ali, 9, 35,male,1, 6
+Fatima Ibrahim, 7, 25,female,2, 3
+Tarek Mahmoud, 8, 32,male,1, 5
+Yasmin Mohamed, 7, 27,female,2, 4
+Khaled Abdel-Meguid, 9, 34,male,1, 6
+Nourhan Mostafa, 7, 26,female,2, 3
+Amr Kamal, 8, 31,male,1, 5
+Salma Ezzat, 7, 29,female,2, 4
+Hisham Abdel-Aziz, 9, 33,male,1, 6
+Leila Tawfik, 7, 24,female,2, 3
+Wael El-Sayed, 8, 28,male,1, 4
+Yasmine Hossam, 7, 25,female,2, 3
+Kareem Mansour, 9, 30,male,1, 5
+Rania Mahmoud, 7, 27,female,2, 4
+Sherif Adel, 8, 32,male,1, 6
+Mariam Samir, 7, 26,female,2, 3
+Hani Farid, 9, 31,male,1, 5
+Dalia Ashraf, 7, 28,female,2, 4
+Mohamed Salah, 8, 30,male,1, 4
+Samar Hany, 7, 29,female,2, 4
+Tamer Magdy, 9, 33,male,1, 6
+Yasmina Hossam, 7, 25,female,2, 3
+Ahmed Abdel-Rahman, 8, 32,male,1, 6
+Reem Kamel, 7, 27,female,2, 4
+Hossam Nabil, 9, 34,male,1, 5
+Amira Gamal, 7, 26,female,2, 3
+Sherine Mohsen, 8, 31,female,2, 4
+Mahmoud Ali, 7, 28,male,1, 5
+Nour Farouk, 9, 35,female,2, 6
+Tarek Samy, 7, 25,male,1, 4
+Mariam Rizk, 8, 30,female,2, 5
+Omar Adel, 7, 29,male,1, 5
+Salma Wael, 9, 33,female,2, 6
+Mostafa Mansour, 7, 24,male,1, 3
+Yasmin Ahmed, 8, 28,female,2, 4
+Mahmoud Amr, 7, 27,male,1, 4
+Reem Nasser, 9, 34,female,2, 6
+Ahmed Mostafa, 7, 26,male,1, 4
+Mona Youssef, 8, 32,female,2, 5
+Mohamed Ashraf, 7, 25,male,1, 3
+Aya Hassan, 9, 30,female,2, 4
+Ahmed Ibrahim, 7, 28,male,1, 4
+Yasmin Magdy, 8, 31,female,2, 5
+Hani Kamel, 7, 29,male,1, 5
+Nourhan Ahmed, 9, 33,female,2, 6
+Kareem Sami, 7, 27,male,1, 4
+Rania Adel, 8, 30,female,2, 4
+Sherif Sabry, 7, 24,male,1, 3
+Wei Chen, 8, 30,male,1, 4
+Jing Li, 7, 28,female,2, 5
+Tao Wang, 9, 35,male,1, 6
+Hui Zhang, 7, 25,female,2, 3
+Xin Liu, 8, 32,male,1, 5
+Mei Yang, 7, 27,female,2, 4
+Peng Wu, 9, 34,male,1, 6
+Yu Yan, 7, 26,female,2, 3
+Qiang Sun, 8, 31,male,1, 5
+Xiu E, 7, 29,female,2, 4
+Jian Zhou, 9, 33,male,1, 6
+Li Wang, 7, 24,female,2, 3
+Jie Xu, 8, 28,male,1, 4
+Yuling Liu, 7, 25,female,2, 3
+Jun Wei, 9, 30,male,1, 5
+Xinyi Zhang, 7, 27,female,2, 4
+Minghui Hu, 8, 32,male,1, 6
+Lihua Li, 7, 26,female,2, 3
+Chao Feng, 9, 31,male,1, 5
+Yiyun Cheng, 7, 28,female,2, 4
+Zhihao Chen, 8, 30,male,1, 4
+Hua Guo, 7, 29,female,2, 4
+Xiaotian Huang, 9, 33,male,1, 6
+Qiu Liu, 7, 25,female,2, 3
+Rong Wang, 8, 32,male,1, 6
+Yuxin Zhou, 7, 27,female,2, 4
+Mingyue Li, 9, 34,male,1, 5
+Yun Wu, 7, 26,female,2, 3
+Feng Yang, 8, 31,male,1, 5
+Chunhui Xu, 7, 28,female,2, 4
+Xin Li, 9, 35,male,1, 6
+Hui Zhang, 7, 25,female,2, 3
+Jian Liu, 8, 30,male,1, 4
+Yue Wang, 7, 27,female,2, 4
+Kai Wu, 9, 33,male,1, 6
+Yu Zhang, 7, 24,female,2, 3
+Mei Xu, 8, 28,male,1, 4
+Yanyan Liu, 7, 25,female,2, 3
+Minghao Li, 9, 30,male,1, 5
+Wen Zhang, 7, 27,female,2, 4
+Rui Wang, 8, 32,male,1, 6
+Xiaojing Li, 7, 26,female,2, 3
+Jiahao Chen, 9, 31,male,1, 5
+Yujie Wu, 7, 29,female,2, 4
+Hong Guo, 9, 33,male,1, 6
+Lina Zhang, 7, 25,female,2, 3
+Xing Wang, 8, 30,male,1, 4
+Min Chen, 7, 27,female,2, 4
+Hailing Liu, 9, 34,male,1, 5
+Jian Yang, 7, 26,female,2, 3
+Yuki Nakamura, 8, 30,male,1, 4
+Sakura Tanaka, 7, 28,female,2, 5
+Hiroshi Suzuki, 9, 35,male,1, 6
+Aiko Yamamoto, 7, 25,female,2, 3
+Takashi Sato, 8, 32,male,1, 5
+Hana Kobayashi, 7, 27,female,2, 4
+Kaito Ito, 9, 34,male,1, 6
+Emi Watanabe, 7, 26,female,2, 3
+Yuuto Tanaka, 8, 31,male,1, 5
+Mio Yamada, 7, 29,female,2, 4
+Kazuki Ono, 9, 33,male,1, 6
+Sora Kimura, 7, 24,female,2, 3
+Haruki Suzuki, 8, 28,male,1, 4
+Yui Matsumoto, 7, 25,female,2, 3
+Riku Nakajima, 9, 30,male,1, 5
+Nanami Saito, 7, 27,female,2, 4
+Kenta Fujimoto, 8, 32,male,1, 6
+Misaki Ito, 7, 26,female,2, 3
+Yuji Tanaka, 9, 31,male,1, 5
+Yuna Morita, 7, 28,female,2, 4
+Haruka Nishimura, 8, 30,male,1, 4
+Ren Suzuki, 7, 29,female,2, 4
+Yukihiro Aoki, 9, 33,male,1, 6
+Miku Kobayashi, 7, 25,female,2, 3
+Ayumi Watanabe, 8, 32,male,1, 6
+Shota Kimura, 7, 27,female,2, 4
+Akira Tanaka, 9, 34,male,1, 5
+Aya Matsumoto, 7, 26,female,2, 3
+Yumi Sato, 8, 31,male,1, 5
+Hiroto Tanaka, 7, 28,female,2, 4
+Maki Suzuki, 9, 35,male,1, 6
+Tomoya Ito, 7, 24,female,2, 3
+Natsumi Kimura, 8, 28,male,1, 4
+Kaoru Yamashita, 7, 25,female,2, 3
+Souta Nakamura, 9, 30,male,1, 5
+Eriko Saito, 7, 27,female,2, 4
+Daiki Fujimoto, 8, 32,male,1, 6
+Reina Ito, 7, 26,female,2, 3
+Tetsuya Tanaka, 9, 31,male,1, 5
+Mai Morimoto, 7, 29,female,2, 4
+Ayako Nishimura, 8, 30,male,1, 4
+Hiroshi Suzuki, 7, 28,female,2, 4
+Saki Nishida, 9, 33,male,1, 6
+Kojiro Kobayashi, 7, 25,female,2, 3
+Akemi Watanabe, 8, 32,male,1, 6
+Kenji Kimura, 7, 27,female,2, 4
+Rina Tanaka, 9, 34,male,1, 5
+Yuka Matsumoto, 7, 26,female,2, 3
+Haruna Sato, 8, 31,male,1, 5
+Riku Nakajima, 7, 24,female,2, 3
+Ælfwine Beornwulf, 8, 30,male,1, 4
+Eadgyth Wulfric, 7, 28,female,2, 5
+Æthelstan Ealdred, 9, 35,male,1, 6
+Wulfrun Leofric, 7, 25,female,2, 3
+Leofsige Æthelred, 8, 32,male,1, 5
+Ælfreda Wulfric, 7, 27,female,2, 4
+Eadric Beornstan, 9, 34,male,1, 6
+Wulfric Ceolfrith, 7, 26,female,2, 3
+Æthelwynn Osred, 8, 31,male,1, 5
+Beornweard Wulfsige, 7, 29,female,2, 4
+Æthelbert Aelfric, 9, 33,male,1, 6
+Æthelburh Wulfric, 7, 24,female,2, 3
+Osberht Wulfsige, 8, 28,male,1, 4
+Cenred Wulfstan, 7, 25,female,2, 3
+Wulfhere Beornfrith, 9, 30,male,1, 5
+Beornflæd Ceolnoth, 7, 27,female,2, 4
+Osric Ealdwine, 8, 32,male,1, 6
+Ælfflæd Wulfrun, 7, 26,female,2, 3
+Leofric Æthelred, 9, 31,male,1, 5
+Cenred Wulfsige, 7, 28,female,2, 4
+Osbeorn Wulfric, 8, 30,male,1, 4
+Eadweard Æthelstan, 7, 29,female,2, 4
+Æthelwine Osbeorn, 9, 35,male,1, 6
+Æthelswith Leofsige, 7, 25,female,2, 3
+Cenric Ælfred, 8, 32,male,1, 6
+Wulfstan Æthelric, 7, 27,female,2, 4
+Osmod Beornweard, 8, 31,male,1, 5
+Wulfrun Æthelwynn, 7, 24,female,2, 3
+Beornwulf Osberht, 9, 33,male,1, 6
+Ælfswith Wulfsige, 7, 26,female,2, 3
+Osbeorn Æthelbert, 8, 28,male,1, 4
+Æthelgyth Wulfric, 7, 25,female,2, 3
+Eadric Wulfhere, 9, 30,male,1, 5
+Leofwynn Æthelburh, 7, 27,female,2, 4
+Wulfsige Beornweard, 8, 32,male,1, 6
+Ælfreda Osric, 7, 26,female,2, 3
+Ælfsige Beornflæd, 8, 31,male,1, 5
+Ceolfrith Ælfflæd, 7, 28,female,2, 4
+Æthelstan Osberht, 9, 35,male,1, 6
+Æthelreda Ælfflæd, 7, 25,female,2, 3
+Beornstan Wulfhere, 8, 30,male,1, 4
+Wulfric Æthelbert, 7, 29,female,2, 4
+Ælfric Eadric, 9, 33,male,1, 6
+Æthelburh Leofsige, 7, 24,female,2, 3
+Osred Wulfrun, 8, 28,male,1, 4
+Æthelwynn Osbeorn, 7, 25,female,2, 3
+Beornfrith Æthelwine, 9, 31,male,1, 5
+Ælfflæd Cenred, 7, 26,female,2, 3
+Ealdwine Osric, 8, 32,male,1, 6
+Wulfsige Beornflæd, 7, 27,female,2, 4
+Merlin Spellcaster, 8, 30,male,1, 4
+Morgana Starweaver, 7, 28,female,2, 5
+Alaric Shadowmyst, 9, 35,male,1, 6
+Seraphina Moonshaper, 7, 25,female,2, 3
+Thaddeus Frostgale, 8, 32,male,1, 5
+Elowen Spellbinder, 7, 27,female,2, 4
+Oberon Stormcaller, 9, 34,male,1, 6
+Isolde Runeblade, 7, 26,female,2, 3
+Sylvanus Dreamweaver, 8, 31,male,1, 5
+Elysia Embercaster, 7, 29,female,2, 4
+Archibald Grimthorn, 9, 33,male,1, 6
+Thalia Nightshade, 7, 24,female,2, 3
+Darian Wraithshadow, 8, 28,male,1, 4
+Morrigan Mistral, 7, 25,female,2, 3
+Lysander Fireforge, 9, 30,male,1, 5
+Isabeau Stormwatcher, 7, 27,female,2, 4
+Cedric Spellbound, 8, 32,male,1, 6
+Seraphim Blackthorn, 7, 26,female,2, 3
+Thorne Winterfell, 9, 31,male,1, 5
+Elara Shadowdancer, 7, 28,female,2, 4
+Orin Frostfall, 8, 30,male,1, 4
+Seren Moonshadow, 7, 29,female,2, 4
+Zephyr Stormrider, 9, 33,male,1, 6
+Aurora Nightstar, 7, 25,female,2, 3
+Merlin Flamecaster, 8, 32,male,1, 6
+Sylas Starfrost, 7, 27,female,2, 4
+Hadrian Shadowthorn, 9, 34,male,1, 5
+Elira Dreamwhisper, 7, 26,female,2, 3
+Sorin Mistweaver, 8, 31,male,1, 5
+Eilidh Emberdancer, 7, 28,female,2, 4
+Gandalf Moonstone, 9, 35,male,1, 6
+Isolde Runeblade, 7, 25,female,2, 3
+Lirael Frostbinder, 8, 30,male,1, 4
+Morgana Starweaver, 7, 29,female,2, 4
+Norian Stormseeker, 9, 33,male,1, 6
+Seraphina Moonshaper, 7, 27,female,2, 4
+Alaric Shadowmyst, 8, 32,male,1, 6
+Isolde Runeblade, 7, 26,female,2, 3
+Sylvanus Dreamweaver, 8, 31,male,1, 5
+Elowen Spellbinder, 7, 28,female,2, 4
+Oberon Stormcaller, 9, 35,male,1, 6
+Merlin Spellcaster, 7, 25,female,2, 3
+Thaddeus Frostgale, 8, 30,male,1, 4
+Elowen Spellbinder, 7, 29,female,2, 4
+Archibald Grimthorn, 9, 33,male,1, 6
+Thalia Nightshade, 7, 27,female,2, 4
+Darian Wraithshadow, 8, 32,male,1, 6
+Morrigan Mistral, 7, 26,female,2, 3
+Lysander Fireforge, 9, 31,male,1, 5
+Isabeau Stormwatcher, 7, 28,female,2, 4
+Shirley Bailey,9,49,male,1,14
+Larry Jones,2,60,male,2,10
+Timothy Morgan,4,70,female,1,5
+Patricia Johnson,9,71,female,2,15
+Larry Richardson,9,39,female,1,17
+Dorothy Ortiz,2,67,female,1,9
+Benjamin Sanders,10,34,female,1,1
+Anthony Hudson,9,28,female,2,14
+Kenneth Turner,8,36,male,2,7
+Kenneth Scott,6,40,male,2,8
+Martha Moore,1,57,male,1,17
+Donna Martinez,9,67,female,2,16
+Edward Young,4,88,female,1,13
+Carol Young,10,79,male,1,15
+George Foster,8,70,male,1,14
+Catherine Murray,1,27,female,2,7
+Edward Martinez,9,32,male,2,4
+Martha Baker,4,81,male,2,16
+Betty Hudson,9,62,male,1,4
+William Allen,6,63,male,1,10
+Mildred Wilson,7,27,female,1,4
+Jennifer Coleman,10,84,male,1,20
+Barbara Gordon,5,42,female,2,7
+Betty Morgan,10,59,female,1,12
+Donna Morgan,5,28,female,1,11
+Charles Hill,4,69,female,1,15
+Timothy Brown,1,42,male,2,15
+Laura Lee,9,30,male,2,15
+Barbara Turner,9,29,male,1,8
+Margaret Ortiz,10,56,male,1,7
+Larry Murray,7,79,female,1,13
+Anna Clark,3,41,male,1,4
+Jane Walker,8,42,male,2,15
+Pamela Powell,9,24,female,1,14
+John Andrews,1,83,female,1,7
+Catherine Johnson,8,80,female,1,6
+Michael Robinson,1,47,male,1,9
+Carol Baker,9,44,male,1,6
+Donald White,9,89,female,1,18
+David Davis,8,56,male,2,16
+William Wilson,7,38,male,2,12
+Joseph Thomas,2,58,female,1,15
+Richard Miller,9,20,female,2,7
+Dorothy Morris,10,89,female,2,8
+Emily Ortiz,5,29,female,2,3
+Jessica Adams,6,40,female,1,7
+Deborah Brown,1,82,female,1,20
+Deborah Bailey,1,41,male,2,14
+Larry Walker,7,69,female,1,15
+Catherine Foster,4,52,male,1,4
+Richard Sanders,4,76,male,2,8
+Margaret Harris,3,45,female,2,14
+Martha Morgan,3,68,male,1,20
+Matthew Adams,7,61,male,1,3
+Frank Walker,2,70,female,2,6
+Timothy Foster,7,19,male,2,6
+Anna Green,10,42,male,2,6
+Helen Collins,2,84,male,1,17
+Edward Robinson,5,73,male,1,17
+Virginia Powell,4,82,male,1,11
+Pamela Coleman,8,33,male,1,11
+James Ward,1,86,female,1,4
+Cynthia Cook,3,47,male,1,19
+Judith Miller,10,73,male,1,4
+Daniel Morgan,1,58,male,1,11
+John Lewis,6,19,female,1,13
+Helen Cook,5,69,male,1,17
+Mildred Wilson,10,82,female,1,14
+Dorothy Sanders,8,62,female,2,10
+Thomas Hall,10,33,male,2,17
+Mary Coleman,5,79,male,1,8
+Samuel Allen,4,22,female,1,19
+Kenneth Powell,5,58,male,1,19
+Virginia Hill,2,79,female,2,1
+Edward Harris,9,88,male,2,14
+Thomas Clark,6,65,female,2,4
+Sandra Coleman,1,77,male,1,13
+Kenneth West,10,32,male,1,13
+Timothy Miller,6,86,female,1,4
+Samuel Harris,4,69,male,2,3
+Dorothy Robinson,7,45,female,1,9
+Daniel Reed,10,25,male,2,5
+Martha Mitchell,5,74,female,2,7
+Lisa Anderson,6,89,female,1,8
+Larry Collins,7,86,male,1,12
+Virginia Jones,1,60,female,2,12
+Andrew Hudson,9,18,female,1,2
+William Coleman,5,31,male,2,12
+Kenneth Sanders,1,89,male,1,16
+Cynthia Harris,4,51,female,2,7
+Paul Miller,4,83,male,1,5
+Virginia Green,9,51,female,2,13
+Joseph Walker,4,83,female,2,17
+Jessica Morris,10,80,female,1,3
+Lisa Brown,6,28,female,1,18
+Lisa Miller,4,74,male,2,4
+Lisa Gordon,3,75,male,1,6
+Paul Brown,3,87,female,1,19
+Larry Powell,1,20,female,2,13
+Jessica Jackson,6,66,male,2,14
+Dorothy Clark,1,72,male,2,18
+Catherine Walker,10,71,male,1,8
+Edward Morgan,8,38,male,1,11
+Judith Mitchell,5,71,male,2,5
+Kenneth Foster,8,41,male,1,9
+Helen Garcia,9,63,male,2,4
+Donald Garcia,1,29,male,1,1
+Charles Baker,3,58,male,1,2
+Donna Cook,2,69,female,1,8
+Carol Sanders,3,21,female,1,18
+Ruth Anderson,5,57,male,1,17
+Barbara Jackson,4,43,female,1,5
+Jeffrey Morris,1,68,male,2,4
+Laura West,10,21,female,1,20
+Mary Lee,8,29,male,1,6
+Kenneth Hall,9,80,male,2,5
+Dorothy Gray,4,18,female,2,2
+David Murray,2,21,female,2,19
+Joseph Martinez,8,86,male,2,15
+Ruth Smith,2,63,male,1,9
+Susan Nelson,7,23,female,1,8
+Richard Lewis,2,31,female,1,8
+Emily Mitchell,10,35,male,1,13
+Helen Simmons,2,36,male,1,2
+Jane Thomas,2,75,female,2,16
+Larry Hudson,4,76,female,2,17
+Patricia Smith,4,30,male,1,19
+Benjamin Cook,1,58,male,1,12
+Anthony Harris,9,29,female,1,13
+Virginia West,6,32,male,2,20
+Anna Hudson,8,42,male,1,12
+Timothy Baker,2,73,male,2,7
+Joseph Martinez,10,58,male,1,5
+Anna Jackson,4,36,female,1,5
+James Hayes,5,84,male,2,20
+Samuel Lane,10,39,male,1,17
+Larry Gray,4,24,male,1,10
+Larry Thompson,3,83,female,2,9
+Martha Martin,2,28,male,2,10
+Jeffrey Murray,1,68,male,2,1
+Anna Ward,6,27,female,2,6
+Carol Allen,9,28,male,2,13
+Timothy Jones,7,40,female,1,7
+Larry Smith,10,18,female,1,12
+Kenneth Morgan,8,70,female,2,5
+Betty Scott,3,20,female,1,3
+Mildred Cook,3,85,male,1,19
+Jerry Ortiz,5,83,male,1,15
+John Ortiz,2,30,male,1,11
+Charles Brown,7,73,male,1,14
+Cynthia Anderson,5,82,male,2,7
+William Smith,3,21,female,1,10
+Joseph Martinez,6,68,female,2,18
+Daniel Coleman,3,66,male,1,7
+Jane Martin,3,43,female,1,13
+Jerry Hill,6,85,male,2,9
+Karen Ortiz,2,56,male,2,12
+Timothy Roberts,7,33,female,2,16
+Charles Garcia,2,30,male,1,4
+Karen Martin,9,51,female,2,3
+Laura Martin,5,79,male,1,20
+Laura Roberts,7,23,female,1,19
+Nina Clark,2,82,female,2,10
+Thomas Sanders,5,34,male,2,12
+Donald Murray,3,36,female,2,9
+Jeffrey Foster,1,38,female,2,13
+Laura Brown,9,32,male,2,15
+Larry Allen,4,87,female,1,19
+Pamela Martin,4,31,female,1,7
+Richard Martinez,1,62,male,2,10
+Anna Johnson,10,73,male,1,15
+Thomas Sanders,8,37,female,1,3
+Virginia Young,1,44,male,1,17
+Laura Miller,5,36,male,1,3
+Nancy Turner,1,34,male,2,15
+Robert Powell,8,80,male,1,16
+Elizabeth Jones,1,18,female,2,17
+Joseph Martin,9,59,male,2,8
+Stephen Green,3,26,female,2,14
+Catherine Green,3,72,female,1,7
+Daniel Nelson,5,33,male,2,2
+Barbara Lane,4,50,female,2,17
+Jennifer Reed,10,28,female,2,8
+Nina Sanders,3,78,female,2,4
+Margaret Smith,9,36,male,1,3
+Andrew Morris,8,26,male,2,3
+Nancy Turner,2,41,female,1,15
+Robert Murray,5,85,female,2,1
+Nina Foster,10,69,female,2,1
+Helen Thomas,7,52,male,1,15
+James Martin,6,48,male,1,15
+Benjamin Coleman,8,48,male,2,3
+Andrew Morris,4,52,male,2,15
+Joseph Hall,9,20,male,1,12
+Lisa Hayes,4,41,male,1,4
+Dorothy Martin,9,37,male,2,4
+David Collins,9,80,female,1,18
+Richard Ortiz,1,66,male,2,9
+Barbara Mitchell,1,53,male,2,8
+Daniel Lewis,1,48,male,1,9
+Richard Lee,4,46,female,2,16
+Nicholas Ortiz,6,85,male,1,19
+Larry Foster,4,67,female,2,7
+Catherine Hill,9,49,female,1,13
+Jane Davis,5,38,female,1,6
+Ruth Davis,10,89,female,1,19
+Lisa Gray,10,64,male,2,20
+Larry Taylor,1,62,male,1,16
+Samuel Roberts,8,72,male,1,9
+Pamela Bailey,8,77,female,2,9
+Helen Gray,3,76,female,2,7
+Donald Robinson,6,62,male,1,14
+Pamela White,2,25,female,2,13
+Andrew Lane,4,62,female,1,20
+Cynthia Garcia,5,19,female,2,12
+Samuel Lewis,2,42,female,2,5
+Emily Thompson,4,74,male,2,10
+William Jackson,1,76,female,1,16
+William Lane,6,75,female,2,15
+Jerry Martinez,7,40,female,1,18
+Daniel Hall,7,63,female,1,15
+Carol Wright,6,55,female,1,11
+Ronald Hudson,2,24,male,1,6
+Sandra Walker,3,43,male,2,4
+Lisa Green,2,50,female,2,19
+Susan Gray,1,41,female,1,11
+Kenneth Garcia,4,51,female,1,14
+Jessica Hall,7,22,male,2,8
+Lisa Walker,6,77,female,1,17
+George Gray,1,90,female,2,18
+Mary Moore,2,67,female,1,18
+Charles Martin,6,60,male,2,13
+Nancy Richardson,2,84,male,1,9
+Virginia Wright,4,61,male,2,19
+Timothy Garcia,8,48,female,2,3
+Donald Davis,4,23,male,1,1
+Cynthia West,1,69,male,1,7
+Donald Ward,10,49,male,2,12
+Catherine Morgan,1,46,male,1,8
+Karen Thompson,5,81,male,1,11
+Jane Sanders,8,72,female,2,6
+Nicholas Scott,8,72,male,2,11
+Mark Thomas,5,86,male,2,14
+Helen Roberts,5,22,female,1,8
+Linda Reed,6,80,male,1,15
+Virginia Green,2,56,female,1,13
+Edward Young,1,51,female,2,6
+Thomas Morgan,5,75,male,1,8
+Virginia Allen,8,23,male,2,3
+James Taylor,8,47,male,1,3
+Donna Jones,9,32,female,1,3
+Linda Hudson,8,52,male,2,15
+Jerry Miller,3,55,female,1,6
+Helen Morgan,9,46,male,2,5
+Larry Ortiz,3,62,male,2,9
+Edward Robinson,5,67,male,1,3
+Nancy Foster,9,90,female,1,18
+Martha Hall,1,45,male,2,20
+Michael Harris,7,56,female,1,1
+Donald Johnson,2,46,female,2,14
+John Adams,2,44,female,1,1
+Donald Murray,9,24,female,1,4
+Richard Walker,2,30,female,2,9
+Shirley Lane,3,42,female,1,1
+Lisa Simmons,3,46,female,2,6
+Linda Bailey,3,40,male,2,6
+Michael Reed,3,32,male,1,4
+Catherine Andrews,9,48,male,1,4
+Jerry Richardson,5,74,male,2,7
+Margaret Taylor,2,58,male,1,3
+Matthew Turner,6,59,male,2,8
+Benjamin Hall,10,80,female,1,17
+Donna Ortiz,1,79,female,1,1
+Linda Robinson,9,77,female,2,16
+Anna Wilson,8,50,female,1,4
+Pamela Reed,3,41,male,2,7
+Cynthia Davis,2,83,male,2,12
+Nancy Thomas,8,79,male,2,5
+Patricia Garcia,7,69,female,1,17
+Lisa Clark,1,21,female,1,20
+James Hudson,5,84,male,2,17
+Paul Allen,6,19,female,1,9
+Judith Young,6,69,male,1,8
+Richard Harris,4,39,male,1,8
+Pamela Coleman,1,55,female,2,18
+Pamela Mitchell,8,38,female,1,6
+Samuel Simmons,6,28,male,2,15
+James Cook,7,74,female,1,20
+Robert Hayes,1,34,male,1,14
+Betty Jones,2,71,female,2,18
+Ruth Gordon,7,53,male,2,4
+Pamela Hill,2,56,male,2,16
+Ruth Bailey,3,31,female,2,3
+James Powell,7,57,female,1,17
+Robert Ward,9,57,male,1,17
+Anthony Wilson,1,29,female,1,14
+Jerry Gray,1,43,male,1,5
+Daniel Nelson,5,29,female,1,3
+Margaret Simmons,10,38,male,2,15
+Karen Morris,4,52,female,2,16
+Karen Adams,5,24,male,2,10
+Donald Morris,10,69,male,1,5
+Nina Smith,3,41,male,1,10
+Donald Foster,9,53,female,1,10
+Linda Davis,7,88,female,2,3
+Dorothy Hayes,5,85,male,1,12
+Jeffrey Andrews,2,28,male,2,6
+Ruth Clark,2,64,female,1,9
+Carol Murray,10,42,female,2,15
+George Adams,8,35,male,2,9
+Linda Bailey,6,48,male,1,4
+Richard Sanders,8,74,female,2,18
+Kenneth Bailey,8,25,female,2,14
+Dorothy Wilson,10,30,male,1,7
+Dorothy Ortiz,7,42,female,1,11
+Anthony Wright,6,23,male,2,13
+Larry Harris,7,33,female,1,17
+Elizabeth Walker,1,54,female,1,13
+Jessica Ortiz,4,33,female,1,11
+Cynthia Miller,1,73,female,1,1
+Carol Davis,8,70,male,2,4
+Donna Jackson,7,81,male,1,11
+Jennifer Foster,6,82,female,2,1
+Edward Miller,9,80,male,1,10
+Richard Morgan,3,79,female,2,1
+Anthony Taylor,3,45,male,1,14
+Catherine Gray,8,55,male,2,10
+Dorothy Moore,8,80,female,2,11
+Cynthia West,9,63,female,1,12
+Larry Murray,10,20,male,2,15
+Samuel Clark,1,30,female,1,14
+John Powell,7,48,male,1,14
+Sandra Lewis,5,80,female,1,19
+Kenneth Collins,10,88,female,1,11
+Karen Lane,7,47,female,1,11
+Charles Jackson,5,58,male,2,14
+Judith Baker,8,70,male,1,7
+Edward Murray,3,18,male,2,1
+Stephen Scott,7,86,male,1,14
+Donna Hayes,10,90,male,1,17
+Anthony Mitchell,3,81,male,1,10
+Cynthia Andrews,5,70,female,1,13
+Stephen Scott,3,71,male,2,6
+Samuel Collins,3,65,male,1,12
+Ronald Allen,10,59,female,1,6
+Samuel Morgan,4,41,male,1,18
+Linda Brown,10,66,male,1,12
+Betty Sanders,5,83,male,2,6
+Matthew Robinson,2,89,male,1,7
+Thomas Baker,2,89,female,1,8
+Anthony Green,5,45,male,2,2
+Nicholas Andrews,3,19,female,1,13
+Susan Garcia,9,43,male,2,17
+Martha Wright,10,48,male,2,19
+Larry Martin,5,80,male,1,18
+Mark Morgan,5,71,male,1,10
+Jane Hudson,6,50,male,2,15
+Karen Young,7,80,male,2,5
+Helen Gray,7,58,male,2,6
+Linda Coleman,1,18,female,1,19
+Carol Garcia,9,29,male,1,3
+Kenneth Simmons,4,32,female,1,11
+Nicholas Smith,7,45,male,1,10
+David Gray,7,81,male,1,2
+Martha Young,3,76,male,1,1
+Carol Richardson,10,65,male,2,17
+Jennifer Coleman,5,66,female,1,1
+Anna Richardson,9,64,male,1,16
+Dorothy Allen,7,69,female,1,9
+Lisa Thomas,4,70,female,1,2
+David Hudson,7,80,female,1,9
+Edward Hudson,10,20,female,2,8
+Nancy Morris,4,66,male,2,5
+Nancy Gordon,6,89,female,1,10
+Jerry Roberts,8,84,male,1,3
+Nina Johnson,5,87,female,1,6
+Dorothy Young,3,50,male,1,2
+Timothy Jackson,5,50,female,2,11
+Lisa Cook,4,77,male,2,3
+Jerry Powell,6,86,male,2,9
+Michael Scott,9,69,male,1,11
+Dorothy Wilson,5,67,male,2,6
+Kenneth Gray,5,23,male,1,16
+Carol Adams,4,25,male,2,7
+Donald Wright,9,54,female,1,14
+Kenneth Lane,4,35,male,1,9
+Frank Wright,6,54,female,2,12
+Linda Mitchell,5,28,male,1,7
+William Sanders,10,24,male,2,14
+Jennifer Taylor,6,38,female,1,7
+Nicholas Wilson,9,77,male,1,5
+Carol Hayes,6,60,male,1,12
+Jessica Simmons,4,81,female,2,17
+Barbara White,5,67,male,1,2
+Joseph Martinez,10,84,male,2,1
+John Martin,7,84,male,2,8
+Shirley Richardson,4,30,male,1,2
+Virginia Perez,3,59,male,1,17
+Judith Harris,1,40,female,1,1
+Jessica Martinez,4,77,male,1,3
+Nicholas Jackson,1,26,female,1,12
+Dorothy Simmons,2,79,male,1,11
+Joseph Thomas,8,41,male,1,2
+Thomas Baker,1,42,male,1,18
+Michael Miller,1,74,female,2,11
+Nina Young,2,42,female,1,3
+Mildred Martin,4,82,male,2,13
+Susan Wilson,5,23,male,1,7
+Patricia Simmons,8,85,male,1,18
+Lisa Hill,3,28,male,1,7
+Dorothy Martin,3,23,female,1,4
+Nancy Morris,10,90,male,1,10
+Barbara Lane,3,48,male,2,10
+Nicholas Roberts,9,57,male,2,5
+Patricia White,2,59,male,2,17
+Margaret Lane,5,45,female,1,18
+Carol Perez,6,54,female,2,6
+Paul Harris,6,90,female,2,15
+Nancy Hall,6,52,female,1,14
+Frank Perez,2,60,female,2,19
+Nina Wright,8,66,male,1,14
+Richard Clark,4,18,male,2,18
+Edward Andrews,8,74,male,2,11
+Nancy Hill,2,39,female,2,17
+Daniel Allen,8,84,female,1,3
+Thomas Foster,7,89,female,2,12
+Martha Turner,10,46,male,1,4
+Martha Morris,8,32,female,1,15
+Stephen Thomas,10,45,male,2,5
+Daniel Taylor,6,51,female,2,2
+Timothy Baker,5,29,male,2,5
+William Walker,8,29,female,1,9
+Nicholas Gordon,2,42,female,1,19
+Daniel Green,3,80,female,2,2
+Linda Hayes,10,43,female,2,20
+Elizabeth Reed,8,70,female,2,15
+Linda Bailey,7,56,male,1,14
+Betty Moore,10,82,female,1,10
+Ronald Powell,7,43,male,2,9
+Jessica Johnson,9,55,female,1,10
+Jane Reed,1,41,male,2,12
+Donald Perez,6,73,male,1,10
+Barbara Clark,6,69,male,1,15
+Jennifer Mitchell,4,20,female,1,2
+Jeffrey Perez,3,47,female,2,11
+Benjamin Jackson,6,43,female,2,7
+Michael Clark,10,88,male,2,16
+Jane Reed,4,25,female,2,8
+Edward Young,10,63,male,2,4
+Dorothy Baker,10,60,female,2,15
+Jeffrey Lane,10,20,female,1,14
+Joseph Bailey,1,68,male,1,14
+Virginia Hudson,7,37,female,2,2
+Martha Baker,7,48,male,1,14
+Lisa Harris,7,23,male,2,11
+Jennifer Murray,8,21,male,2,8
+Lisa Lee,3,83,female,2,1
+Donna Wright,9,59,female,2,12
+Lisa Baker,2,84,male,2,8
+Ruth Hall,6,73,male,1,9
+Edward Lane,4,76,male,2,8
+Nicholas Robinson,2,32,male,1,19
+Shirley Wilson,3,61,female,1,16
+Edward Wilson,4,32,female,1,4
+Kenneth Turner,7,68,female,2,8
+Daniel Morgan,10,27,male,2,11
+Richard Ortiz,3,79,male,1,15
+Edward Davis,6,27,female,1,12
+Helen Bailey,7,56,male,1,17
+Linda Garcia,2,22,female,2,7
+Daniel Gordon,9,76,male,1,6
+Betty Adams,8,77,male,1,16
+Emily Anderson,4,81,female,1,6
+Andrew Wright,7,24,female,1,7
+James Green,6,46,male,1,13
+Deborah Taylor,10,24,male,1,11
+David Andrews,8,22,male,2,12
+Shirley Lane,4,27,female,2,18
+Robert Andrews,1,48,female,2,1
+Nancy Garcia,1,35,female,2,2
+Emily Collins,4,26,female,2,20
+Richard Lee,1,20,female,1,8
+Daniel Bailey,1,32,female,1,19
+Ronald Wright,7,30,male,2,9
+Timothy Hudson,4,90,female,2,1
+Shirley Martin,5,31,male,1,10
+Robert Hill,8,29,male,1,14
+Deborah Scott,8,34,female,2,10
+Patricia Taylor,10,60,female,1,13
+Ruth West,2,57,male,2,9
+Matthew White,6,55,female,2,15
+Anthony Simmons,1,77,male,1,4
+Nina Collins,3,36,male,1,16
+Donald Bailey,8,34,male,1,16
+Nancy Richardson,6,63,male,1,6
+Martha Martinez,10,88,male,2,6
+Mildred Thomas,4,28,female,1,20
+Richard Johnson,4,40,female,2,17
+Edward Nelson,7,85,female,2,3
+Paul Thomas,9,49,male,2,5
+Donald Taylor,5,58,female,1,15
+Michael Gordon,3,54,female,1,13
+Jeffrey Simmons,1,24,male,2,8
+Larry Robinson,10,83,female,2,1
+Emily Gray,3,67,male,1,5
+Paul Adams,4,22,male,2,9
+Edward Harris,9,82,male,1,7
+Joseph Allen,4,88,female,2,11
+Ruth Perez,2,37,male,1,18
+Lisa Cook,1,50,female,1,4
+Linda Mitchell,5,44,male,2,10
+Timothy Thomas,2,58,male,2,16
+Ruth Taylor,2,76,female,1,17
+Laura Morris,5,31,female,2,14
+Larry Reed,6,47,female,1,13
+Nancy West,2,47,male,1,4
+Cynthia Nelson,3,53,male,2,16
+Helen Hall,8,48,male,2,8
+Catherine Hill,6,29,male,2,9
+Anthony Harris,6,18,female,2,8
+Nina Scott,5,55,female,2,9
+William Gordon,9,37,male,1,5
+Barbara Morris,10,46,male,2,6
+John Martin,8,42,male,1,10
+John Powell,5,56,male,1,13
+Shirley Harris,2,63,male,1,18
+Mildred Brown,2,50,female,2,5
+Anna Richardson,2,26,female,2,8
+Edward Cook,8,39,male,1,10
+Daniel Clark,5,42,female,1,18
+Betty Cook,5,45,female,2,15
+Virginia Davis,8,73,male,2,4
+Margaret Scott,10,25,female,1,13
+John West,10,43,female,2,7
+Deborah Davis,2,87,male,1,11
+Charles Allen,4,45,female,1,1
+Barbara Nelson,5,49,male,1,17
+Kenneth Davis,1,90,male,1,17
+Thomas Smith,1,46,female,1,2
+Richard Ortiz,10,50,female,1,10
+Jane Powell,7,60,male,2,12
+Andrew Murray,3,34,male,1,19
+Catherine Morris,8,89,female,1,20
+Helen Nelson,5,65,male,1,15
+Michael Wright,8,83,female,2,16
+Joseph Lewis,9,86,male,2,11
+Frank Simmons,6,43,male,1,7
+Daniel Coleman,6,71,female,1,14
+David Brown,10,24,male,2,3
+Judith Hill,1,48,female,1,14
+Anthony Davis,8,56,female,2,6
+Matthew Martinez,3,27,female,1,4
+Larry Richardson,7,31,male,2,14
+Laura Thomas,7,67,male,2,15
+Jessica Adams,5,63,female,2,19
+Linda Harris,4,65,female,1,12
+Carol Mitchell,1,58,male,1,18
+Dorothy Smith,8,37,female,2,4
+Mary Smith,9,63,male,2,19
+William Hayes,5,30,male,2,9
+Margaret Harris,3,65,female,2,4
+Daniel Garcia,8,90,female,2,6
+Helen Scott,2,80,female,2,7
+Jessica Morris,7,79,male,1,12
+Shirley Thomas,3,69,male,2,10
+Elizabeth Mitchell,6,21,male,2,20
+Larry Sanders,8,42,female,2,4
+Benjamin Miller,9,36,male,1,9
+Edward Simmons,3,80,male,2,19
+Jeffrey Johnson,5,89,female,2,15
+Samuel Taylor,6,35,male,1,10
+John Martinez,6,84,female,1,15
+Elizabeth Baker,8,57,female,1,18
+Donald Lewis,6,60,male,1,19
+Sandra Davis,1,30,male,2,16
+John Gordon,3,34,male,2,11
+Mary Harris,9,41,female,2,7
+Ronald Clark,4,64,male,2,12
+Martha Simmons,4,37,male,2,16
+Patricia Smith,9,64,male,1,17
+Stephen West,10,48,male,1,18
+Pamela Sanders,10,44,male,1,12
+Karen Wright,5,24,female,1,12
+Mildred Roberts,4,79,male,2,13
+Edward Young,7,42,female,2,4
+Dorothy Hayes,9,23,male,2,8
+Shirley West,6,65,female,2,19
+Catherine Jones,4,38,female,1,4
+Carol Smith,5,38,male,1,10
+Samuel Harris,3,68,female,2,16
+Laura Adams,8,53,male,1,18
+Samuel Simmons,8,47,female,2,5
+Thomas Collins,9,22,female,2,18
+Daniel Martinez,1,29,female,1,14
+Charles Coleman,5,85,female,1,10
+Jane Perez,4,65,male,1,17
+Virginia Hudson,4,71,female,2,1
+Catherine Foster,8,86,male,1,17
+George Garcia,3,87,female,2,2
+Thomas Simmons,1,43,male,2,3
+Deborah Collins,9,27,male,1,9
+Samuel Jackson,5,79,female,2,15
+Daniel Thomas,9,46,female,2,10
+Edward Foster,3,85,female,1,7
+Anthony Scott,10,82,male,2,14
+Jennifer Turner,9,45,female,1,2
+Charles Thompson,5,87,male,2,13
+Linda Johnson,6,63,male,2,19
+Elizabeth Hudson,2,89,female,2,5
+David Hill,1,50,male,1,20
+Barbara Allen,7,58,male,1,12
+Sandra Perez,4,82,female,1,4
+Jennifer Young,2,53,male,2,15
+Charles White,2,22,female,1,16
+Samuel White,7,31,male,1,13
+Virginia Hall,1,54,female,2,4
+Stephen Adams,1,45,female,1,14
+Dorothy Morgan,2,86,female,2,10
+William Harris,6,47,male,1,2
+Anna Green,2,67,female,2,5
+Emily Murray,6,52,female,1,6
+Richard Allen,3,29,male,1,11
+Pamela Hill,1,25,male,1,8
+Donald Wilson,4,34,male,1,2
+Dorothy Perez,9,69,female,1,4
+Anna Wright,1,42,female,1,16
+Mildred Thomas,3,54,male,2,1
+Deborah Moore,1,68,male,1,12
+Thomas Turner,4,73,female,1,14
+Jane Robinson,10,64,male,1,3
+Elizabeth Miller,3,67,male,2,13
+Carol Martin,6,75,male,2,4
+Deborah Sanders,10,62,female,1,8
+Linda Andrews,9,63,female,1,11
+Barbara Richardson,1,61,female,1,4
+Edward Hall,1,23,male,2,12
+Virginia Nelson,4,40,male,2,20
+Stephen Harris,9,21,female,1,13
+Sandra West,8,47,female,1,18
+Richard Hudson,10,88,male,2,18
+Donald Perez,9,58,female,1,12
+Elizabeth Morris,1,19,female,1,12
+Daniel Johnson,3,49,female,1,15
+Jennifer Miller,4,55,male,2,18
+Cynthia Young,7,72,male,1,19
+Martha Miller,3,22,male,2,19
+William Miller,10,63,male,2,16
+Shirley Adams,9,82,female,1,12
+Joseph Martinez,5,32,female,1,13
+Susan Thompson,6,37,male,2,15
+Linda Clark,10,86,female,1,3
+Elizabeth Harris,2,84,male,2,20
+Mildred Gordon,5,36,male,1,12
+Ronald Wilson,5,21,male,2,8
+Joseph Simmons,3,60,male,2,2
+Kenneth Turner,10,74,male,1,15
+Cynthia Thomas,10,75,female,1,11
+Jerry Martin,4,69,male,2,15
+Patricia Hayes,2,74,male,2,7
+Andrew Scott,2,85,female,2,6
+Catherine Adams,5,22,male,1,13
+Charles Turner,7,21,male,2,12
+Samuel Nelson,7,40,female,2,13
+Pamela White,5,89,female,2,15
+Shirley Bailey,3,77,male,2,2
+Nina Perez,1,46,male,2,10
+William Collins,8,78,male,2,8
+Edward Sanders,3,39,male,2,2
+Daniel Scott,10,35,male,2,7
+Nancy Nelson,4,70,male,1,7
+Benjamin Morris,2,73,female,2,7
+Michael Turner,5,26,male,1,1
+Thomas Cook,1,58,female,1,19
+Jennifer Taylor,1,44,male,2,4
+Martha Miller,10,83,male,2,14
+Michael Clark,1,79,male,1,19
+Ronald Richardson,1,89,male,1,19
+Judith Harris,7,78,male,2,11
+Ronald Miller,10,49,male,2,17
+Nicholas Simmons,10,68,male,1,9
+Dorothy Martin,7,80,male,1,20
+William Turner,1,29,female,1,3
+Shirley Allen,10,55,female,1,8
+George Collins,1,65,male,1,4
+Richard Moore,5,50,female,2,2
+George Sanders,10,86,male,2,20
+Frank Morris,8,74,female,1,10
+Betty Ortiz,8,36,female,2,1
+Kenneth White,9,43,female,1,16
+Charles Green,4,74,female,1,3
+Mark Adams,8,86,male,1,3
+Anna Mitchell,6,70,male,2,15
+Sandra Powell,1,71,female,1,3
+Paul Hayes,8,87,female,2,16
+Jessica Roberts,1,51,female,1,5
+Andrew Richardson,10,52,female,1,1
+Edward Harris,4,47,female,2,13
+Kenneth Wilson,7,86,female,1,7
+Charles Sanders,10,77,female,1,18
+Jennifer Morgan,2,37,female,2,14
+Emily Morris,10,25,male,2,11
+Jennifer Moore,8,78,male,1,12
+Benjamin Nelson,10,59,female,1,20
+Elizabeth Coleman,8,65,female,2,1
+Richard Morgan,10,21,male,1,15
+Dorothy Andrews,6,53,male,2,17
+Edward Clark,10,44,male,2,1
+Daniel Thompson,8,25,male,1,8
+Stephen White,5,80,male,1,13
+Stephen Morgan,2,68,male,2,11
+Daniel Harris,8,77,female,1,4
+Michael Coleman,4,41,female,1,18
+Mark Hall,7,47,female,2,12
+Stephen Lewis,7,28,female,2,12
+Nancy Morgan,4,44,female,1,1
+Martha Coleman,9,30,male,1,10
+Nancy Cook,2,54,female,1,1
+Margaret Morris,8,46,male,1,11
+Barbara Brown,4,33,male,1,7
+Lisa Ward,6,48,male,2,10
+Dorothy Roberts,5,80,male,2,16
+Catherine Jones,8,24,male,2,17
+Kenneth Bailey,10,24,female,2,3
+David Miller,2,85,male,1,1
+Thomas Coleman,2,22,female,2,6
+Betty Sanders,2,90,female,1,4
+Karen Richardson,10,19,female,2,17
+Robert Bailey,8,40,female,1,15
+Nancy Taylor,1,26,female,2,19
+Robert Jones,7,60,male,2,9
+Anthony Morgan,3,22,female,2,10
+Elizabeth Andrews,3,54,female,2,1
+Catherine Hall,10,47,female,2,2
+Shirley Clark,7,39,female,1,9
+Mark Morgan,2,28,male,2,11
+James Baker,1,54,female,1,5
+Shirley Taylor,5,77,male,1,8
+Catherine Collins,2,19,female,2,3
+William Nelson,3,60,female,2,9
+Stephen Morris,10,43,female,1,19
+Dorothy Jackson,8,28,male,2,19
+Carol Turner,1,33,male,1,13
+Mildred Wright,1,90,female,1,12
+Thomas Collins,10,39,male,2,6
+Betty Moore,7,81,female,2,12
+William Hayes,2,87,male,2,20
+Kenneth Lee,7,66,female,1,10
+Martha West,8,79,male,2,19
+Lisa Martin,6,74,male,2,19
+Joseph Murray,4,84,male,2,15
+Jennifer Wright,1,71,female,1,20
+Richard Scott,9,83,male,1,9
+Karen Baker,5,69,female,2,19
+Pamela Sanders,3,87,female,2,10
+Ronald Adams,2,24,female,1,7
+Cynthia Taylor,8,21,male,1,2
+Karen Murray,4,28,female,2,8
+David Foster,7,26,female,2,14
+Daniel Miller,5,26,male,2,1
+Daniel Hall,3,69,male,1,4
+Kenneth Hall,4,77,female,2,6
+Robert Simmons,1,37,female,2,4
+Larry Collins,5,57,female,1,8
+Nicholas Simmons,5,74,male,1,6
+Pamela Scott,4,87,male,1,6
+Robert Thompson,3,58,female,1,19
+Kenneth Roberts,1,27,female,1,9
+Nancy Smith,5,39,female,1,5
+Jennifer Davis,6,43,female,2,12
+Thomas Murray,4,36,male,2,3
+Donald Gray,10,41,female,1,7
+Jessica Harris,7,32,male,2,6
+Paul Ortiz,10,55,male,1,9
+Jennifer White,8,20,male,1,14
+Judith Robinson,1,19,male,1,7
+Jerry Robinson,4,55,male,2,10
+John Murray,9,25,male,1,9
+Robert Jackson,7,38,male,2,8
+William Murray,2,19,male,2,1
+Dorothy White,10,89,male,2,7
+Paul Jones,3,42,female,1,17
+William Martinez,9,51,female,2,8
+Jerry Robinson,7,24,female,1,4
+Matthew Clark,8,77,female,2,6
+Edward Taylor,7,70,male,1,7
+Ruth Miller,6,39,male,2,10
+Donna Martinez,5,83,female,2,4
+Pamela Martin,3,76,male,2,6
+Emily Roberts,1,18,female,1,7
+Jerry Harris,10,90,male,1,19
+Charles Gray,5,79,female,1,13
+Elizabeth Harris,10,46,female,2,7
+Judith Roberts,1,84,female,2,2
+Elizabeth West,9,39,female,1,10
+Larry Jackson,10,84,female,2,18
+Karen Collins,10,57,male,1,7
+Susan Lane,9,44,male,1,10
+Daniel Ward,3,19,female,2,18
+David Adams,10,25,male,1,4
+Deborah Morgan,6,71,female,1,15
+William Hill,10,47,female,1,11
+Betty Sanders,7,40,male,1,7
+William White,4,44,female,1,11
+Pamela Moore,8,72,male,2,1
+Jane Nelson,8,77,female,1,5
+Dorothy Hayes,4,42,male,1,1
+Dorothy Cook,8,56,female,1,3
+Donald West,3,21,female,1,13
+Samuel White,2,81,male,1,5
+Kenneth Powell,9,80,female,1,2
+Jane Murray,9,29,male,2,7
+Ronald Gray,3,31,male,1,11
+Anna Garcia,2,33,male,1,20
+Joseph Lewis,9,32,male,2,8
+Jerry Anderson,8,33,male,2,14
+Richard Martin,2,41,male,1,10
+Pamela Walker,4,50,female,2,16
+Matthew Jones,1,48,female,2,4
+Paul Baker,8,88,female,1,2
+Andrew Wilson,3,81,male,1,15
+Anthony Baker,4,78,male,2,3
+Catherine Lee,9,90,male,1,19
+Stephen Lane,4,63,female,1,14
+Frank Martinez,5,25,male,1,13
+Ruth Hayes,2,22,female,2,5
+Jessica Ward,10,32,male,2,6
+Cynthia Perez,8,58,female,1,12
+Carol Turner,8,71,female,2,2
+Edward Anderson,9,67,male,2,7
+Betty Perez,10,44,male,1,3
+Robert Ortiz,4,38,male,2,13
+Elizabeth Gordon,4,53,female,1,6
+Paul Andrews,8,36,male,2,7
+Mark Lewis,1,74,male,1,13
+Kenneth Ortiz,8,25,male,1,9
+Timothy Coleman,7,38,male,1,17
+George Walker,4,34,male,1,17
+Helen White,10,60,female,2,6
+William Morris,8,48,male,1,7
+Stephen Foster,6,78,female,1,9
+Jessica Allen,4,71,male,1,5
+Virginia Brown,4,55,female,1,4
+Ronald Walker,6,32,male,2,1
+Thomas Robinson,9,84,female,1,12
+Barbara Powell,7,28,male,2,7
+Stephen Reed,10,69,female,2,2
+Donald Mitchell,5,51,male,2,2
+Mildred Walker,7,44,male,1,9
+Barbara Cook,1,48,male,1,10
+Laura Adams,4,18,female,1,4
+David Scott,2,29,female,1,12
+Larry Thomas,8,18,male,2,20
+Helen Jackson,2,77,female,2,3
+Charles Baker,4,20,female,2,15
+Nicholas Brown,3,46,male,2,3
+Judith Young,4,83,male,1,1
+Paul Mitchell,2,27,female,1,6
+Larry Jones,1,43,male,2,3
+Linda Thomas,10,88,male,1,13
+Stephen Taylor,4,45,male,1,8
+Mark Miller,9,44,male,1,20
+Jane Wright,5,27,male,2,12
+Frank Robinson,6,36,female,1,5
+Jane Young,9,42,female,1,9
+Anna Ward,1,59,male,2,20
+Nina Young,10,53,male,1,1
+Nicholas Hudson,6,56,female,2,19
+Ruth Green,10,43,male,1,7
+Ronald Andrews,3,65,male,2,10
+Daniel Garcia,9,20,male,1,14
+Barbara Adams,8,49,female,1,5
+Sandra Hudson,7,77,female,2,17
+Sandra Smith,4,36,male,1,5
+Ronald Ward,3,69,female,1,6
+Emily Lane,3,28,female,2,15
+Robert Bailey,7,58,male,1,3
+Jeffrey Sanders,7,73,female,2,9
+Margaret Gray,1,43,male,1,16
+Ronald Baker,3,51,male,1,14
+Deborah Davis,1,40,female,1,19
+Frank Cook,5,48,male,1,7
+William Simmons,1,88,male,2,17
+Anthony Garcia,6,59,male,1,8
+Andrew Hayes,2,37,female,1,7
+Dorothy Harris,10,23,male,2,4
+Jennifer Lewis,3,21,female,1,8
+Larry Bailey,10,35,female,1,20
+Larry Powell,7,63,male,2,14
+Anna Morris,5,49,male,1,18
+Charles Thompson,3,71,male,2,19
+Joseph Hayes,9,28,male,1,13
+Benjamin Morris,5,66,female,1,20
+Jerry Wright,9,42,female,1,16
+Ruth Perez,10,40,male,2,10
+Michael Johnson,4,76,male,1,12
+Cynthia Roberts,3,70,female,1,9
+Sandra Anderson,3,18,male,1,20
+Donald Hudson,3,76,male,1,16
+Edward Baker,2,87,female,1,17
+Nicholas Morris,4,54,male,1,14
+Daniel Robinson,10,19,male,1,13
+Mildred Miller,8,45,female,2,11
+Ruth Cook,9,77,female,2,19
+Deborah Harris,1,30,female,1,2
+Daniel Taylor,8,87,female,2,12
+Frank Lewis,9,84,female,1,17
+Anthony Jones,7,81,female,2,14
+Laura Green,3,84,male,1,20
+Carol Hall,3,42,male,2,18
+Carol Murray,10,46,female,1,13
+Judith Richardson,4,20,female,2,16
+Jessica Moore,9,19,male,1,1
+Patricia Martinez,8,45,male,2,6
+Benjamin Jackson,8,57,male,1,17
+James West,4,84,female,2,17
+James Bailey,6,68,male,2,2
+Sandra Roberts,10,35,female,2,19
+Dorothy Bailey,6,45,male,1,14
+Mildred Bailey,8,21,female,1,5
+Kenneth Walker,1,20,female,1,6
+Jane Wright,2,40,male,2,5
+Jane Morgan,5,42,male,1,11
+David Morgan,2,30,female,1,12
+Shirley Foster,6,88,female,2,20
+John Jones,7,48,female,1,3
+Mark Perez,1,27,male,2,7
+Emily Hayes,4,75,male,2,7
+Daniel Martin,7,52,female,1,18
+Deborah Davis,4,46,female,2,1
+Laura Jones,3,85,male,1,11
+Helen Mitchell,2,84,male,1,12
+Thomas Cook,7,38,female,1,3
+Nancy Powell,5,88,female,1,4
+William Johnson,10,35,female,2,6
+Ruth Foster,9,71,male,2,5
+Betty Mitchell,5,74,female,1,16
+Jane Scott,4,57,male,1,3
+John West,9,47,male,1,6
+Dorothy Cook,8,43,male,1,13
+William Coleman,3,19,male,2,9
+Laura Roberts,2,78,male,2,6
+Elizabeth Young,8,90,female,2,10
+Deborah Ward,1,66,female,1,5
+Charles Anderson,6,56,female,1,4
+Donald Moore,9,58,female,1,2
+Richard Morgan,8,35,male,1,7
+Matthew Baker,3,89,female,2,14
+Susan Morris,1,26,male,1,3
+Jerry Adams,5,90,female,1,12
+Charles Martinez,7,60,male,1,11
+Donald Foster,7,57,female,2,8
+Nancy Moore,3,31,male,1,20
+Daniel Powell,10,83,female,1,2
+Judith Cook,1,77,male,2,15
+Nancy Scott,4,80,female,2,6
+Michael Moore,3,25,male,1,12
+Ronald Anderson,1,79,female,1,16
+William Morgan,1,81,male,1,1
+Emily Walker,10,25,female,2,20
+Sandra Miller,1,24,male,2,7
+Pamela Thomas,8,69,male,1,18
+Timothy Lewis,5,77,male,1,13
+Paul Anderson,6,81,male,1,18
+Nina Davis,8,27,female,2,2
+Daniel Anderson,5,38,female,2,8
+Larry Mitchell,8,80,male,2,15
+William Jones,10,76,female,2,9
+Elizabeth Anderson,4,75,male,1,9
+Ronald Morgan,5,85,male,2,8
+Samuel Clark,7,25,female,1,4
+Ruth Sanders,2,51,male,2,20
+Laura Bailey,9,43,male,1,16
+Jessica Garcia,3,63,male,1,15
+Donald Wright,2,20,female,1,9
+Betty Hill,2,22,female,1,5
+John Miller,4,41,female,1,13
+Martha Baker,7,38,female,1,20
+Catherine Baker,6,22,male,1,17
+Nina Anderson,2,51,male,1,12
+Timothy Bailey,3,44,male,1,18
+Frank Richardson,3,47,female,1,7
+Robert Johnson,2,47,female,1,20
+Mary Adams,9,31,female,2,14
+Richard Anderson,8,58,male,2,10
+Patricia Coleman,4,42,female,2,14
+Kenneth Gray,4,72,male,2,18
+Nina Wilson,1,63,female,2,3
+James Nelson,5,64,female,1,5
+Emily Reed,7,25,male,2,6
+Donald Miller,1,85,male,1,3
+Laura Ortiz,8,66,female,2,1
+Andrew Scott,7,26,female,1,8
+Dorothy Jackson,7,50,female,2,18
+Donald Wright,8,27,male,2,5
+William Collins,1,34,female,1,14
+Betty Mitchell,1,43,female,2,10
+Larry Walker,3,75,male,2,15
+Jeffrey Clark,3,56,male,2,1
+James Brown,1,47,female,1,1
+Lisa Reed,10,71,male,1,11
+Martha Roberts,5,62,female,1,1
+Helen Powell,10,70,female,1,20
+Deborah Lane,8,82,male,1,19
+Laura Jackson,10,56,male,1,10
+Karen Green,9,57,male,1,4
+Kenneth Hayes,3,84,male,1,4
+Jeffrey Andrews,8,36,female,1,9
+Judith Green,5,29,female,2,8
+Carol Martin,3,86,female,1,4
+James Thomas,9,55,male,1,9
+Deborah Cook,3,79,female,1,12
+Benjamin Jackson,6,56,female,2,14
+Barbara Moore,7,30,male,2,18
+Shirley Young,8,22,female,1,13
+Helen Morgan,5,72,female,1,15
+Laura Turner,10,39,female,1,6
+Nina Anderson,8,21,female,1,13
+Benjamin Martin,5,25,female,2,1
+Betty Andrews,3,44,male,1,4
+Jeffrey Jackson,4,56,male,2,16
+Edward Perez,6,85,male,1,18
+Nina Young,2,75,male,1,16
+Timothy Morgan,6,58,female,1,10
+Dorothy Ortiz,3,25,female,1,9
+Michael Scott,3,19,male,1,14
+John Collins,10,68,male,1,6
+Helen Smith,1,89,female,1,12
+Deborah Scott,1,23,male,1,16
+Cynthia Nelson,1,90,female,2,2
+Deborah Garcia,9,33,male,2,8
+Nancy Mitchell,6,25,female,2,7
+Laura Hill,7,39,male,1,10
+Virginia Wilson,8,69,male,2,11
+Kenneth Young,6,81,female,2,13
+Lisa Hudson,6,75,female,1,6
+Stephen Cook,7,34,male,2,5
+Laura Martinez,10,52,male,2,19
+Margaret Thompson,6,89,male,2,19
+Cynthia Baker,1,75,female,2,6
+Stephen Nelson,1,57,female,1,4
+Emily Cook,1,51,male,2,15
+George Ortiz,10,88,male,2,12
+Donna Jones,7,84,male,1,12
+Shirley Jones,10,74,male,1,19
+Frank Ortiz,6,60,male,1,12
+Cynthia Hall,7,63,male,1,2
+Virginia Martin,8,56,male,2,4
+Frank Wilson,8,33,female,1,3
+Samuel Jackson,6,55,female,1,2
+Jessica Morris,3,44,female,1,17
+Catherine Hall,7,64,female,2,9
+Edward Brown,7,61,female,1,10
+Anna Harris,4,61,male,1,9
+Larry Clark,5,43,male,1,20
+Barbara Thomas,6,23,male,2,2
+Karen Powell,8,64,male,2,15
+Anna Jones,4,52,female,2,2
+Benjamin Walker,10,21,male,2,12
+Matthew Martin,5,70,female,1,18
+Daniel Hayes,4,39,male,1,16
+Laura Hudson,7,31,male,1,14
+Betty Roberts,3,18,male,1,1
+George White,3,76,female,1,16
+Larry Morgan,7,84,male,1,2
+George Hayes,2,44,female,1,13
+Laura Coleman,6,62,male,2,4
+Emily Davis,10,46,male,2,4
+Samuel Garcia,8,71,female,1,5
+Donald Lewis,7,43,female,1,15
+Mary Simmons,2,34,male,2,10
+Jennifer Perez,2,49,male,2,12
+Laura Roberts,1,68,female,1,5
+Susan Foster,6,32,male,2,13
+Jane Anderson,7,75,male,1,6
+Emily Ward,2,90,male,2,2
+Lisa Morris,10,32,male,2,7
+Mark Garcia,2,56,female,1,17
+Betty Miller,3,78,male,1,16
+Barbara Turner,7,38,female,2,15
+Mary Ward,1,21,female,1,18
+Mary Murray,1,30,female,1,5
+Helen Bailey,9,81,female,1,13
+Larry Morris,1,70,female,1,15
+Benjamin Brown,1,59,female,2,19
+Mildred Murray,9,38,female,2,7
+Mark Baker,9,27,female,2,15
+Frank Thomas,3,24,male,2,20
+Larry Andrews,4,85,male,1,12
+Anthony Thomas,5,24,male,1,9
+Nina Davis,10,58,male,1,13
+Kenneth Clark,6,41,male,1,11
+Stephen Clark,9,74,male,2,10
+Joseph Anderson,7,33,female,2,19
+John Anderson,7,72,male,1,13
+Jane Cook,10,27,male,1,13
+Betty Coleman,1,89,male,2,11
+Thomas Collins,6,88,female,1,18
+Daniel Thomas,6,84,female,2,18
+Martha Hall,8,46,female,1,1
+Thomas Clark,1,64,male,2,3
+George Thomas,9,75,male,2,17
+Mark Gordon,10,40,female,1,9
+Daniel Thomas,9,21,female,2,10
+Kenneth Green,10,29,male,1,20
+Linda Martinez,8,37,male,1,7
+Pamela Taylor,4,70,female,2,9
+Benjamin Garcia,6,19,female,1,1
+Stephen Taylor,10,25,female,1,10
+Linda Sanders,1,28,male,1,8
+Timothy Thomas,5,85,female,2,7
+Dorothy Miller,4,80,female,2,17
+Charles Thomas,5,39,female,2,5
+Kenneth Allen,1,72,male,2,5
+Jane Thompson,4,76,male,1,11
+Richard Clark,8,24,male,2,15
+Benjamin Andrews,1,73,male,1,5
+Daniel Davis,8,84,female,1,11
+Ronald Hudson,4,76,male,1,18
+Cynthia Richardson,1,29,male,2,1
+Carol Anderson,4,56,female,1,11
+Timothy Powell,2,57,male,2,9
+Donald Clark,2,55,female,1,14
+Michael Lewis,10,87,female,2,15
+Daniel Scott,5,35,female,2,19
+David Ortiz,7,79,male,1,12
+Virginia Mitchell,9,45,female,2,18
+David Gray,3,47,male,2,14
+William Nelson,9,75,female,1,2
+Helen Sanders,1,56,male,1,10
+Catherine Morgan,6,56,male,2,10
+Nancy Hudson,5,46,male,2,5
+Stephen Gray,10,28,female,2,13
+Carol Martin,4,84,female,2,20
+Frank Green,1,89,female,2,1
+Helen Simmons,3,85,male,2,10
+Pamela Robinson,3,19,male,2,8
+Charles Andrews,7,27,female,1,19
+Pamela Bailey,2,30,male,1,9
+Kenneth Anderson,7,41,male,1,16
+Sandra Hill,7,44,male,2,13
+Jane Wilson,2,53,male,2,4
+Judith Powell,9,88,male,1,16
+Emily Perez,5,54,male,1,5
+Matthew Jones,9,46,female,2,2
+Martha Simmons,8,70,male,2,19
+Thomas Lee,8,41,female,2,16
+Susan Lane,1,72,male,1,5
+Emily Baker,10,49,male,1,5
+Mary Jones,8,86,female,1,4
+John Harris,10,63,male,2,16
+Dorothy Ward,7,19,male,1,9
+Helen Robinson,4,63,female,1,15
+Patricia Smith,8,72,female,2,15
+Michael Morris,10,85,male,2,7
+Betty Hayes,9,74,male,1,1
+Dorothy Johnson,9,34,male,2,5
+Kenneth Morris,8,70,female,2,17
+John Anderson,3,64,male,2,17
+Mary Brown,10,85,male,2,1
+Charles Foster,4,39,male,2,18
+Jennifer Martin,4,18,male,2,12
+Edward Foster,4,79,male,2,19
+Pamela Clark,3,90,male,1,8
+Betty Taylor,3,60,male,2,15
+Deborah Martin,10,88,female,1,12
+Larry West,10,86,male,1,10
+Donna Brown,8,32,female,1,20
+Karen Martin,4,57,female,1,8
+Kenneth Morris,10,80,male,2,10
+Karen Reed,8,68,female,2,14
+Dorothy Baker,4,29,male,2,17
+Edward Reed,5,40,female,1,2
+Larry Gordon,10,80,male,1,15
+Timothy Young,1,28,female,2,7
+Daniel Green,10,84,male,1,16
+Donna Cook,7,54,female,1,17
+Carol Morris,10,32,female,1,15
+Emily Roberts,9,50,male,2,14
+Larry Turner,4,86,female,1,1
+Matthew Scott,3,75,female,2,19
+Samuel Martinez,10,58,female,2,11
+Laura Hayes,6,32,female,1,19
+Joseph Hayes,5,83,male,2,1
+Susan Baker,9,47,male,1,7
+Daniel Collins,1,41,female,1,13
+Donna Harris,7,26,female,2,10
+Michael Davis,9,86,female,1,11
+Virginia Lee,1,47,female,1,9
+Sandra Bailey,8,81,male,1,3
+William Jones,1,41,female,1,5
+Carol Martin,7,78,male,1,15
+Shirley Thompson,1,40,male,2,8
+Donald Perez,8,72,female,1,1
+Donald Johnson,4,26,female,2,7
+Anthony Wilson,3,89,male,2,3
+Carol Sanders,10,54,male,2,2
+Daniel Baker,10,28,female,1,17
+Betty Cook,8,79,male,1,14
+Pamela Gordon,3,87,female,1,20
+Michael Lee,10,69,female,2,18
+Frank Taylor,4,55,male,1,14
+Karen Jones,5,45,female,2,18
+Daniel Simmons,10,18,female,2,13
+Thomas Miller,6,66,male,2,5
+Joseph Walker,10,38,female,1,18
+Charles Young,7,56,female,2,15
+Nicholas Sanders,10,78,male,1,9
+Ruth Hudson,1,59,male,1,1
+Anna Wilson,10,86,male,2,16
+George Coleman,3,20,female,1,6
+Paul Walker,10,71,female,1,18
+Dorothy Thomas,1,59,female,2,4
+Susan Walker,8,90,male,1,20
+Elizabeth Murray,4,29,male,1,9
+Larry Moore,9,24,male,2,18
+Karen Thomas,1,86,female,1,2
+Jerry Murray,3,80,male,1,12
+Linda Coleman,7,29,female,1,20
+Patricia Harris,3,40,male,1,8
+Deborah Richardson,10,45,female,2,12
+Sandra Martinez,7,88,male,1,8
+Margaret Morgan,3,86,male,1,11
+Nancy Anderson,2,34,female,1,17
+Jerry Walker,1,72,female,2,8
+Robert Robinson,4,83,female,1,9
+Betty Perez,10,62,female,1,7
+Sandra White,4,34,female,1,13
+Mary Roberts,2,87,female,2,18
+Jeffrey Bailey,10,22,male,2,20
+Ruth Harris,9,19,male,1,20
+Barbara Walker,1,32,male,2,20
+Kenneth Wright,5,84,male,2,1
+John Perez,5,32,female,2,6
+Nicholas Walker,2,49,male,1,16
+Edward Hudson,8,63,male,1,8
+Jane Garcia,9,79,female,2,12
+Jennifer Baker,8,47,male,2,13
+Larry Perez,6,80,male,2,5
+Susan Baker,2,60,female,2,5
+Emily Nelson,5,22,female,1,4
+Richard Taylor,1,84,female,2,17
+Emily Thompson,5,56,female,1,12
+Timothy Martinez,4,20,female,1,20
+Mark Hill,4,48,female,2,9
+Helen Hudson,7,32,male,1,10
+Nina Thompson,1,29,female,2,19
+Anthony Wright,4,47,male,1,20
+Frank Adams,1,39,female,2,18
+Elizabeth Andrews,3,61,female,1,17
+William Taylor,8,26,female,2,4
+Ruth Miller,5,51,female,2,9
+Deborah Coleman,5,24,female,1,16
+Donald Jackson,10,82,female,1,2
+John Lewis,9,21,female,1,19
+Larry Simmons,8,90,female,2,4
+Thomas Sanders,9,37,male,1,5
+Shirley White,5,83,female,1,11
+Barbara Lewis,2,33,female,2,12
+Karen Hayes,10,61,male,2,8
+Martha Ortiz,7,45,female,2,4
+Elizabeth West,5,61,female,1,11
+Donald Wright,7,26,female,1,4
+Catherine Simmons,2,60,male,2,3
+Margaret Martin,10,65,male,1,17
+Daniel Garcia,9,39,female,1,15
+Linda Bailey,3,64,female,1,15
+Jennifer Gray,6,80,female,1,12
+Nancy Gray,6,55,female,1,13
+George Robinson,1,67,female,1,6
+Donald Bailey,4,80,female,2,5
+Matthew Walker,10,89,female,2,11
+Ruth Morgan,3,82,female,1,17
+James Wright,10,73,female,1,20
+Judith Miller,3,71,female,1,1
+Margaret Gray,8,46,female,1,11
+Cynthia Jones,2,65,male,2,9
+Jane Morris,10,53,male,2,5
+Nicholas Perez,2,69,female,1,19
+William Taylor,10,80,female,1,11
+Kenneth Simmons,10,23,male,2,11
+Margaret Simmons,9,24,male,1,1
+Susan Wright,8,19,male,1,14
+Andrew Roberts,8,49,male,2,18
+Virginia Jones,5,67,female,2,5
+Andrew Bailey,2,38,female,1,1
+Jane Morgan,4,73,male,2,9
+Emily Young,5,76,female,1,8
+Daniel Hill,3,81,male,1,19
+Daniel Foster,4,88,male,1,17
+Margaret Ortiz,10,86,female,2,16
+Ruth Morris,4,65,male,2,1
+Ruth Gordon,1,70,male,1,9
+Jennifer Davis,6,38,female,1,11
+Nancy Collins,7,59,male,1,1
+Betty Reed,3,21,male,1,1
+Nancy Hudson,1,53,female,1,1
+George Ward,8,40,female,1,17
+Jessica Jones,10,24,female,1,20
+Paul Thomas,3,29,female,1,16
+Daniel Clark,5,53,female,1,5
+Mark Lane,1,23,female,1,17
+Benjamin Clark,6,46,female,1,13
+Nancy Hill,5,40,male,2,10
+Nicholas Thomas,5,22,male,1,15
+Susan Morgan,4,87,female,2,11
+Donald Lewis,3,52,female,1,2
+George Garcia,6,34,female,1,20
+Matthew Thompson,2,90,male,2,18
+Kenneth Wilson,7,73,male,2,20
+Nancy Moore,6,50,male,2,17
+James Gordon,1,38,male,2,15
+Nancy Gordon,1,29,female,1,10
+Dorothy Murray,1,27,male,1,17
+Elizabeth Anderson,10,74,male,1,15
+John Hayes,2,67,male,2,13
+Ruth Hayes,1,81,male,1,6
+Paul West,5,39,female,1,15
+Samuel Coleman,8,30,female,1,6
+Emily Adams,4,68,female,2,1
+Thomas Lee,1,89,male,1,6
+Martha Wright,8,69,male,2,17
+Helen Gray,4,84,male,2,19
+Emily Thomas,9,36,female,1,7
+Donald Bailey,6,21,female,1,17
+Andrew Cook,8,23,male,1,4
+Lisa Hill,6,90,male,2,14
+Anthony Hall,5,29,male,2,3
+Edward Cook,4,78,male,2,11
+Nancy Hill,7,85,male,1,12
+Kenneth Gordon,2,71,male,1,12
+Stephen Taylor,3,89,female,1,2
+Larry Cook,7,65,male,2,18
+Karen Martin,10,78,female,2,19
+Larry Davis,1,40,female,1,11
+Laura Robinson,7,57,male,1,9
+Dorothy Collins,5,63,female,2,12
+Linda Foster,5,84,male,2,16
+Jennifer Hill,6,34,male,2,15
+Virginia Anderson,9,90,male,1,5
+Carol Harris,4,66,female,2,18
+Edward Brown,7,59,female,1,19
+Samuel Martinez,2,37,male,1,7
+John Nelson,4,31,male,1,7
+Helen Miller,10,83,male,1,18
+Kenneth Jones,1,76,female,1,8
+Deborah Reed,6,66,male,1,16
+Mildred Hudson,8,83,female,1,7
+Donald Jones,5,86,female,2,17
+Mildred Hudson,6,41,female,2,11
+Timothy Young,6,73,male,1,18
+William Davis,9,24,male,2,12
+Sandra Gordon,1,54,male,2,11
+Jeffrey White,2,58,male,1,13
+Frank Roberts,10,32,female,1,17
+Larry Perez,9,20,female,2,20
+Martha Martin,7,52,female,1,13
+Catherine Harris,2,70,male,2,18
+Ronald Lewis,6,43,male,1,15
+Emily Reed,6,47,female,2,1
+Deborah Martinez,5,20,male,1,19
+Lisa Ward,3,69,male,2,19
+Richard Cook,1,29,male,2,2
+Lisa Morris,1,71,female,1,16
+Ruth Reed,8,56,female,2,20
+Frank Lane,4,81,female,1,6
+Frank Jackson,7,26,female,2,3
+Carol Simmons,5,73,female,1,13
+Elizabeth Ortiz,7,24,male,1,10
+Emily Martinez,3,63,male,2,13
+Nancy Walker,9,58,female,2,4
+Shirley Thomas,1,63,female,2,12
+Jeffrey Thompson,4,40,female,1,2
+Jessica Hudson,2,70,male,1,14
+Benjamin Lee,8,68,female,2,5
+William Gordon,4,47,female,1,1
+Larry Green,3,59,female,2,12
+Charles Jones,10,67,male,2,1
+John Bailey,8,82,female,2,18
+Lisa Thompson,6,87,male,2,20
+Kenneth Baker,1,22,female,2,2
+Richard Thomas,3,85,male,1,4
+Susan Baker,2,77,female,2,6
+Mary Walker,10,36,female,2,12
+Richard Walker,2,35,female,2,4
+Edward Simmons,1,58,male,1,10
+Karen Taylor,9,24,female,2,19
+Donald White,6,78,female,1,19
+Daniel Lewis,9,62,female,1,4
+Kenneth Hill,8,50,female,1,20
+Mark Hayes,9,22,male,2,1
+David Turner,4,26,male,2,15
+Jerry Walker,4,48,male,2,15
+Betty Ortiz,3,87,female,2,14
+Ruth Clark,6,41,male,2,15
+Karen Hall,1,70,female,1,17
+Martha Anderson,1,75,male,1,13
+Benjamin Green,9,43,female,2,8
+Margaret Gordon,9,30,female,1,7
+Betty Martinez,2,73,male,1,19
+Patricia Harris,3,43,female,1,4
+Larry Garcia,8,45,female,1,5
+Jerry Hudson,1,68,female,2,15
+Cynthia Jones,2,82,female,2,10
+Daniel Davis,5,50,male,1,15
+Donna Robinson,7,82,male,2,3
+Pamela Andrews,3,37,female,1,16
+Anna Gordon,6,29,male,2,11
+John Ortiz,10,36,male,2,3
+William Scott,7,33,female,2,12
+Donna Green,7,66,male,1,17
+William Lee,2,69,female,2,12
+Mary White,7,48,male,1,4
+Deborah Coleman,1,73,female,1,10
+Paul Hudson,10,79,male,1,11
+Carol Harris,1,24,male,1,3
+Anthony Young,7,46,male,2,3
+Margaret Foster,1,81,male,1,7
+Judith Powell,10,46,male,1,16
+Virginia Clark,4,77,male,2,6
+John Roberts,6,31,male,1,6
+Benjamin Harris,3,39,female,1,4
+Kenneth Andrews,7,87,female,2,9
+Daniel Andrews,3,53,female,2,3
+Andrew Jackson,1,52,male,2,7
+Mark Clark,3,32,female,1,13
+David Thompson,10,46,female,1,11
+Donald Lane,3,60,female,2,8
+David Walker,6,33,male,1,6
+Cynthia Anderson,4,66,male,2,14
+Donald Davis,1,88,female,2,1
+Susan Lane,9,74,male,1,19
+Linda Moore,7,21,male,1,19
+Ruth Gordon,10,90,male,1,15
+Deborah Jones,7,71,male,1,5
+Edward Davis,10,30,male,2,3
+Karen Clark,3,65,male,1,16
+Lisa Andrews,1,61,female,1,11
+Edward Lee,5,36,male,1,19
+Anthony Mitchell,2,77,male,1,16
+Karen Smith,9,79,male,1,1
+Michael Morgan,2,39,female,1,4
+Martha Cook,5,51,female,2,20
+Paul Davis,3,87,female,2,17
+Ruth Murray,1,51,female,2,3
+Thomas Andrews,3,74,female,1,8
+Kenneth Wilson,2,86,female,2,17
+Daniel Smith,4,58,female,2,15
+Martha Ward,8,48,female,2,6
+Richard Murray,3,60,female,1,3
+Matthew Collins,7,90,male,2,4
+Laura Walker,5,71,male,1,13
+Paul Powell,6,44,female,2,14
+Mark Lewis,8,73,male,1,4
+Mary Morris,8,22,male,2,19
+Nicholas Murray,4,18,male,2,1
+John Turner,10,23,female,2,2
+Dorothy Young,7,85,male,2,6
+Betty Murray,3,58,female,2,2
+Edward Hayes,2,73,male,2,2
+Linda Lee,3,76,female,2,5
+John Murray,3,72,female,2,5
+Judith Thomas,7,72,female,1,5
+Mary Moore,5,60,female,1,18
+James Hayes,5,42,female,2,1
+Daniel Morris,7,20,male,1,9
+David Thomas,5,27,male,2,6
+Helen Jones,10,25,female,1,5
+Emily Perez,9,39,female,2,8
+George Roberts,5,40,male,2,4
+Michael Bailey,4,27,female,2,9
+Ronald Foster,5,25,female,1,19
+Pamela Hall,9,68,female,2,3
+Jennifer Anderson,9,81,male,2,12
+Emily Mitchell,3,57,male,1,17
+Susan Hill,9,38,male,1,13
+Andrew Young,3,28,female,2,8
+Nancy Bailey,5,35,male,2,12
+Paul Brown,4,31,female,2,20
+Frank Ortiz,10,45,male,1,19
+David Sanders,9,86,female,2,1
+Nancy Clark,6,39,female,2,20
+John Harris,7,55,male,1,5
+Benjamin Jackson,3,78,female,1,11
+Nina Hayes,9,28,male,1,13
+Larry Smith,10,21,female,2,4
+Paul Johnson,9,37,female,1,2
+Lisa Coleman,8,32,female,2,2
+Donna Perez,7,81,male,1,3
+Donna Harris,3,79,female,1,6
+Edward Nelson,10,19,female,1,14
+Thomas Anderson,3,51,female,1,11
+Nancy Young,6,40,female,2,19
+William Hayes,6,74,male,1,17
+Dorothy Hudson,7,36,male,1,6
+Judith Taylor,10,54,male,1,20
+Nicholas Hudson,9,36,female,2,11
+Charles Baker,5,67,male,1,14
+Matthew Johnson,6,72,female,2,2
+Ronald Lewis,5,54,male,2,15
+Shirley Hall,5,23,male,2,8
+Nina Wilson,3,77,male,2,5
+Deborah Robinson,10,55,female,2,20
+Samuel Foster,10,89,male,2,16
+Jerry Sanders,3,33,male,1,18
+Cynthia Ortiz,2,83,male,2,17
+Pamela Wright,4,79,male,1,14
+Carol Foster,7,18,female,2,19
+Michael Murray,3,36,female,2,18
+Charles Moore,4,29,male,2,1
+Jerry Miller,3,87,male,1,5
+Joseph Young,7,37,female,1,17
+Larry Garcia,8,87,female,2,14
+Sandra Hill,1,19,male,1,4
+Samuel Sanders,4,34,male,2,10
+Barbara Allen,2,74,female,1,13
+David Powell,6,49,male,1,3
+Richard Baker,3,64,female,1,15
+Mark Simmons,8,82,male,1,12
+Stephen Martinez,8,68,male,2,6
+Barbara Turner,2,59,female,2,18
+Matthew Wright,10,52,female,2,13
+Charles Walker,10,81,male,1,14
+Nancy Simmons,7,60,male,1,16
+Jessica Martinez,6,81,female,2,15
+Helen Andrews,6,24,male,2,11
+Mildred Scott,7,79,male,2,6
+Anthony Robinson,3,87,female,2,16
+Matthew Martinez,4,40,male,2,20
+Mary Hall,10,54,female,1,3
+Timothy Lewis,5,28,female,1,4
+Kenneth Simmons,8,42,male,2,12
+Dorothy Coleman,10,87,female,2,2
+Nicholas Wilson,3,75,female,1,18
+Anthony Foster,7,90,female,1,9
+Anna Powell,4,88,female,1,15
+Deborah Powell,5,37,male,2,2
+William Ortiz,3,38,female,2,12
+Jessica Baker,7,37,female,2,11
+Martha Jackson,6,90,male,1,11
+William Jackson,3,59,female,1,12
+Jane Walker,1,55,female,2,6
+Mark Hill,9,44,male,2,5
+William Mitchell,1,58,male,2,8
+Larry Thomas,1,35,male,1,14
+Frank Anderson,5,78,male,2,5
+Thomas Anderson,1,22,female,1,7
+Larry Adams,1,45,male,2,7
+Mary Smith,8,37,female,2,19
+Kenneth Davis,7,58,male,1,4
+Emily Gray,1,90,female,2,20
+Cynthia Davis,8,57,female,1,13
+Timothy Nelson,2,62,male,2,15
+Ronald Davis,6,33,male,1,10
+Emily Thompson,3,34,male,2,5
+Samuel Coleman,2,33,female,2,5
+Mildred Jackson,2,23,male,2,4
+Cynthia Gordon,5,68,male,2,5
+Timothy Harris,3,68,male,2,13
+James Lee,9,78,female,2,15
+Mark Cook,7,79,female,2,9
+Richard Hall,2,80,female,2,18
+Robert Moore,7,55,male,2,17
+Mildred Allen,4,86,male,2,4
+Nina Jones,9,18,female,2,19
+Dorothy Robinson,2,65,male,2,12
+Virginia Thomas,9,34,female,2,1
+Nicholas Perez,3,30,female,1,8
+Benjamin Murray,1,44,female,1,4
+Frank Wilson,8,24,female,2,14
+Nicholas Harris,1,87,male,1,7
+Michael Adams,3,66,female,2,15
+William Morgan,9,39,male,2,16
+Jennifer Hall,3,85,male,1,2
+William Taylor,4,56,male,2,17
+Jennifer Harris,1,40,female,2,13
+Thomas Lane,10,88,male,2,4
+Lisa Hall,5,75,male,1,12
+Robert West,8,83,male,2,17
+Edward Andrews,6,38,female,1,6
+Betty Harris,9,64,male,2,4
+Andrew Clark,7,76,male,1,16
+Catherine Taylor,6,75,female,2,4
+Lisa Mitchell,2,87,female,2,2
+Anthony Coleman,6,57,male,1,4
+Virginia Hall,5,71,female,1,1
+Nina Brown,5,26,male,2,11
+Betty Baker,7,23,male,2,7
+Emily Robinson,9,24,male,2,20
+Helen Andrews,7,77,female,2,8
+William White,9,46,male,2,16
+Jane Lane,1,46,male,2,15
+Larry Johnson,8,52,female,1,16
+Jennifer Lewis,1,41,male,2,3
+Jane Harris,4,80,female,2,1
+John Miller,1,27,male,1,11
+Linda West,10,70,male,1,18
+William Bailey,3,57,male,1,1
+Benjamin Ward,9,85,male,1,11
+Catherine Nelson,9,76,female,1,7
+Edward Adams,7,70,male,1,4
+Shirley Cook,1,80,female,2,14
+Laura Anderson,9,37,female,2,12
+Joseph Lane,4,77,male,2,5
+Laura Morgan,8,38,female,1,14
+Frank Miller,7,90,male,1,17
+James Green,6,87,male,1,16
+James Reed,9,76,female,1,2
+Ronald Jones,4,48,male,1,6
+Jennifer Hudson,4,72,male,2,3
+John Lane,10,81,male,1,14
+Ruth West,5,47,male,2,1
+Daniel Foster,9,57,male,2,17
+Virginia Morgan,5,65,male,2,5
+Frank Lee,5,62,male,2,10
+Sandra Miller,3,34,male,1,11
+Jeffrey Hayes,8,81,male,2,2
+Donald Hall,4,81,female,1,15
+Emily Turner,7,78,female,1,5
+Susan Baker,1,55,male,2,11
+David Bailey,5,43,female,2,3
+Andrew Richardson,1,24,female,2,13
+Charles Harris,10,65,female,1,20
+Michael Wright,9,23,male,1,1
+Pamela Moore,2,43,male,1,6
+Paul Smith,7,58,female,2,9
+Ronald Nelson,5,70,female,1,14
+William Thomas,3,77,male,2,12
+Kenneth Davis,3,20,male,1,5
+Karen Thomas,8,62,female,1,3
+Jennifer Ward,1,36,male,2,9
+Jane Harris,8,35,male,2,17
+Jennifer Anderson,1,32,male,2,8
+Kenneth Martin,4,29,female,2,5
+Edward Clark,2,72,female,2,17
+Nancy Lewis,7,60,male,2,3
+Mary Martinez,9,54,female,1,11
+Edward Hall,10,29,male,1,18
+George Collins,3,73,male,1,6
+Matthew Jackson,5,61,female,2,12
+Lisa Morris,10,31,male,2,5
+Ruth Smith,7,38,female,2,1
+Dorothy Scott,10,22,female,1,19
+Mildred Hill,4,51,male,1,16
+Jeffrey Morgan,10,60,female,2,5
+Larry Roberts,5,88,female,2,17
+Elizabeth Jackson,1,18,male,1,7
+Susan Anderson,6,29,female,2,12
+Jane Brown,7,62,female,1,17
+Karen Lane,6,81,female,1,12
+Richard Reed,7,79,male,2,4
+Kenneth Gray,5,52,female,2,9
+George Andrews,9,31,female,2,6
+Matthew Perez,4,81,female,1,18
+Catherine Ortiz,7,44,male,2,5
+Nicholas Martinez,8,71,male,2,4
+Susan Nelson,10,64,female,1,8
+Ruth Sanders,3,45,female,1,9
+Larry Morgan,5,34,male,1,15
+Jessica Hayes,10,39,male,2,18
+Benjamin Robinson,9,89,female,2,4
+Dorothy Morris,8,51,male,2,5
+Anna White,4,24,female,1,4
+Andrew Sanders,1,69,female,2,16
+Pamela Bailey,3,82,male,1,7
+Kenneth Martin,2,27,male,2,11
+Martha Jones,3,57,male,2,2
+Edward Jones,3,40,female,1,13
+Anthony Taylor,3,34,male,2,11
+Nina Baker,3,42,male,2,7
+Edward Jackson,1,26,male,2,10
+Edward Hill,5,74,male,2,10
+Donna Jones,6,28,female,2,20
+Lisa Hayes,8,61,female,2,15
+Patricia Miller,10,27,male,2,7
+Benjamin Garcia,5,22,male,2,4
+Betty Walker,7,76,female,2,9
+Nicholas Gray,8,51,female,2,1
+William Sanders,5,52,male,2,6
+Karen Martin,7,60,male,2,4
+Robert Baker,2,40,male,1,20
+Nina West,5,25,female,2,16
+Michael Nelson,10,37,male,2,20
+Shirley Lee,2,87,female,2,4
+Ronald Martinez,5,20,male,1,9
+Betty Gordon,8,24,female,1,2
+Jane Thompson,8,71,male,1,6
+Patricia Gordon,2,80,male,2,5
+Mark Garcia,2,57,male,2,8
+Anthony Thomas,10,30,male,1,15
+Judith Jones,10,68,male,1,16
+Dorothy Turner,4,24,male,1,16
+Judith Jones,6,89,female,1,5
+Jennifer Simmons,6,84,male,1,19
+Jennifer Thompson,10,55,female,2,9
+Dorothy Jackson,1,56,female,2,7
+Catherine Roberts,6,78,female,1,12
+Dorothy Lewis,10,50,female,1,18
+Daniel Lane,9,21,male,2,19
+Thomas Anderson,7,58,female,2,1
+Laura Young,3,63,female,2,20
+Daniel Ortiz,7,82,male,2,11
+Margaret Hudson,6,49,male,1,10
+Donald Adams,9,19,female,2,5
+Catherine Davis,4,27,male,2,3
+Patricia Simmons,7,55,male,1,8
+Shirley Roberts,4,44,male,2,13
+Kenneth Davis,9,22,female,1,4
+Judith Walker,1,22,female,1,8
+Kenneth Hall,9,87,male,1,16
+Kenneth Johnson,6,44,male,1,1
+Jane Garcia,9,45,male,2,11
+Susan Garcia,1,70,male,1,5
+Judith Hill,1,22,female,1,15
+Mark Martinez,10,83,female,1,5
+Jane Lane,8,54,male,2,3
+Jane Lee,6,62,female,2,2
+Susan Green,3,30,male,2,3
+Lisa Moore,9,84,male,1,19
+Timothy Roberts,6,32,female,2,14
+Deborah Nelson,4,75,female,1,20
+Patricia Richardson,9,54,female,1,10
+Jessica Green,8,53,female,1,4
+Deborah Martin,8,62,male,2,11
+Paul Collins,6,75,female,2,20
+Anthony Morgan,4,76,male,1,17
+Judith Hill,3,47,female,1,3
+Anthony Richardson,2,78,male,2,18
+James Thompson,8,36,female,1,3
+Patricia Roberts,7,27,male,2,18
+Betty Hall,6,89,male,1,2
+Barbara Coleman,2,83,male,2,3
+Patricia Wright,8,89,female,1,5
+Margaret Foster,2,50,male,1,5
+Paul Andrews,7,68,female,2,2
+Anthony Brown,1,68,female,2,7
+Lisa Johnson,1,45,male,1,8
+Paul White,3,48,male,1,20
+Edward Gray,10,67,female,1,19
+William Green,10,47,female,1,1
+Betty Coleman,5,69,male,2,7
+Dorothy Ward,6,58,female,2,8
+Patricia Coleman,2,32,female,1,18
+Timothy Richardson,10,68,female,2,9
+Frank Perez,2,19,female,1,17
+Nancy Collins,2,86,female,1,20
+Jennifer Clark,8,73,male,2,9
+Barbara Hayes,3,35,female,1,7
+George Adams,10,66,male,2,4
+William Foster,7,72,female,1,8
+Richard Wilson,8,57,male,1,6
+Jennifer Jones,2,42,male,2,5
+Michael Martinez,2,57,male,1,8
+Charles Moore,1,31,male,1,10
+Karen Robinson,8,55,female,2,16
+Mary Morris,1,26,male,2,8
+Kenneth Roberts,10,28,female,1,17
+Timothy Jackson,8,37,male,1,19
+John Gordon,10,29,female,2,15
+Cynthia Collins,1,21,male,2,18
+Nancy White,1,82,male,1,8
+Matthew Roberts,3,80,male,1,3
+Larry Gray,6,57,female,1,7
+Karen Walker,6,87,female,2,11
+Stephen Miller,1,34,female,1,17
+Helen Ortiz,6,30,male,2,9
+Frank Hudson,7,67,female,2,7
+Michael Gordon,3,69,female,1,2
+Barbara Hayes,10,56,female,1,11
+Nicholas Clark,8,47,female,2,5
+Elizabeth Green,8,18,female,2,4
+Sandra Robinson,1,33,female,1,10
+Richard West,7,68,male,2,13
+Anthony Hall,3,89,male,2,12
+James Garcia,6,45,male,2,7
+Karen Robinson,9,59,male,2,16
+Richard Simmons,5,65,male,1,1
+Helen Mitchell,6,53,female,2,12
+Andrew Jackson,1,37,female,2,12
+Mary Turner,7,74,female,2,4
+Anthony Andrews,9,72,male,1,3
+Michael Walker,6,29,male,2,13
+Richard Davis,10,79,male,1,3
+Virginia Smith,6,70,female,1,1
+Deborah West,4,75,female,2,20
+Nancy Powell,10,46,male,2,6
+Helen Bailey,3,83,female,2,3
+Daniel Thompson,8,71,female,2,2
+Jessica Ortiz,3,82,female,2,20
+Daniel Wilson,4,18,male,2,4
+Lisa Roberts,2,44,female,1,12
+Linda Jones,7,68,male,2,10
+Betty Harris,8,84,male,1,10
+Betty Smith,10,23,female,1,7
+William Baker,9,27,female,2,19
+Anna Roberts,1,35,female,2,7
+Joseph Davis,7,41,female,2,13
+Margaret Bailey,4,67,female,1,20
+Anthony Scott,10,41,female,1,17
+Jessica Murray,9,66,male,1,16
+Matthew Jones,9,54,male,1,17
+Robert Garcia,3,32,male,2,5
+Deborah Wilson,1,62,male,2,9
+Donald Hill,8,47,male,1,12
+Dorothy Lane,2,18,male,1,20
+Pamela Hall,8,55,male,2,14
+Jennifer Johnson,4,36,female,1,3
+Dorothy Clark,6,74,male,2,12
+Stephen Hudson,2,69,male,1,8
+Linda Garcia,2,45,female,1,17
+Nicholas Hill,1,76,male,2,11
+Jane Taylor,9,75,male,2,11
+Joseph Lewis,9,46,female,2,2
+Martha Ortiz,8,79,female,1,4
+Dorothy Taylor,1,68,male,2,15
+Lisa Adams,5,61,female,1,11
+Donna Clark,7,31,female,2,7
+Dorothy Robinson,5,39,male,2,9
+Nicholas West,5,43,female,1,7
+Andrew Brown,7,67,female,2,18
+Elizabeth Allen,9,88,male,1,14
+John Allen,3,88,female,2,4
+Charles Lane,4,88,female,2,1
+Laura Martinez,10,18,male,1,18
+Nicholas Wilson,10,88,male,2,13
+Carol Lee,4,66,female,1,20
+Carol Reed,10,23,female,2,10
+Helen Coleman,10,33,male,2,2
+Nina Roberts,8,75,male,2,3
+Edward Garcia,6,53,female,2,19
+Donna Harris,7,76,male,2,5
+Ronald Hill,5,51,female,2,10
+Ronald Moore,7,87,female,2,1
+Michael Morris,4,48,female,1,13
+Dorothy Anderson,2,81,male,1,18
+Dorothy Scott,8,58,female,1,4
+William Andrews,1,69,male,2,5
+Richard Green,3,43,male,1,15
+Edward Simmons,2,52,female,1,4
+Donald Brown,3,25,female,2,15
+Jeffrey Young,1,84,male,1,19
+Jennifer Collins,3,77,female,2,19
+Daniel Foster,10,26,male,2,1
+Jerry Morgan,3,51,female,1,12
+Richard Brown,5,53,male,1,12
+John Robinson,9,66,male,1,18
+Charles Lewis,9,31,female,2,7
+Emily Wright,1,50,female,2,5
+David Davis,3,42,female,2,3
+Anthony Wright,9,73,female,2,11
+Andrew Bailey,1,69,male,1,12
+Timothy Davis,1,50,female,2,11
+Nina Harris,4,78,female,1,9
+Frank Adams,7,19,female,2,8
+Donald Ortiz,4,20,female,1,11
+Donald Smith,6,79,male,1,15
+Virginia Thomas,3,68,male,1,16
+Dorothy Nelson,4,42,female,2,10
+Jerry Turner,8,90,female,2,2
+Robert Allen,4,20,female,2,16
+Martha Hall,9,26,female,2,8
+Margaret Foster,3,34,male,2,20
+Daniel Collins,6,89,female,2,7
+Karen Lane,6,44,female,2,4
+Richard Baker,8,58,male,1,11
+Mildred Young,7,59,female,2,12
+Dorothy Turner,6,89,male,1,15
+David Sanders,6,34,male,1,6
+Matthew Ward,8,19,male,1,6
+John Adams,2,58,male,2,17
+Frank Nelson,7,82,male,2,3
+Joseph Hall,3,78,female,1,11
+Andrew Morgan,5,29,female,2,1
+Nancy Andrews,3,79,female,1,2
+Nicholas Reed,5,81,male,1,7
+Jeffrey Martinez,1,53,male,2,17
+Timothy Hudson,6,20,male,1,13
+William Andrews,3,80,male,2,2
+Larry Green,5,28,female,1,1
+Jane Hudson,6,39,female,1,14
+Ruth Green,3,62,male,2,9
+Jessica Anderson,1,61,male,1,19
+Donna Coleman,8,26,male,1,19
+Anthony Simmons,10,44,female,1,19
+Susan Morris,9,71,male,2,10
+Margaret Sanders,2,28,female,1,12
+Kenneth Garcia,9,26,male,1,3
+Elizabeth Miller,6,51,male,1,9
+Mary Hill,7,50,male,2,19
+Edward Turner,2,61,male,1,15
+Timothy Thompson,6,25,female,1,6
+Larry Allen,6,70,male,2,4
+Deborah Richardson,6,41,male,1,9
+Nicholas Jackson,8,34,male,2,11
+Cynthia Cook,7,46,female,1,8
+Patricia Clark,2,56,male,2,1
+Margaret Coleman,10,76,male,1,8
+Jessica Lee,3,42,male,2,13
+Kenneth Johnson,7,18,female,2,20
+Stephen Ortiz,4,63,female,1,1
+Nina Miller,2,31,male,1,15
+Joseph Jones,6,35,female,2,7
+Dorothy Mitchell,6,54,female,1,4
+Charles Adams,6,61,male,1,9
+Charles Allen,2,71,female,2,6
+Lisa Baker,10,70,female,1,19
+George Bailey,9,31,male,2,10
+Larry Foster,2,29,female,1,14
+Susan Scott,1,89,female,2,14
+Ruth Hayes,4,27,male,1,7
+Sandra Harris,9,31,male,1,17
+Dorothy Simmons,6,57,female,2,12
+Daniel Baker,6,36,male,1,7
+Andrew Baker,7,72,male,2,4
+Larry Cook,8,50,male,1,20
+Charles Coleman,5,18,male,1,4
+Patricia Hall,1,49,male,1,10
+Jeffrey Richardson,7,57,female,2,13
+Martha Brown,1,47,female,1,10
+Benjamin Walker,6,59,male,1,18
+Benjamin Allen,6,54,male,1,1
+Jessica Perez,8,57,female,2,7
+Jeffrey Lewis,5,32,female,1,2
+Kenneth Walker,8,85,male,1,6
+Kenneth Mitchell,9,46,female,2,13
+Mary Lane,3,83,male,2,14
+Thomas Gordon,9,67,male,2,12
+Jennifer Reed,3,80,male,1,13
+Betty Morris,8,74,female,1,10
+Andrew Harris,10,71,female,1,12
+Jennifer Mitchell,1,88,male,1,15
+Laura Mitchell,10,68,male,1,14
+Timothy Clark,7,45,female,1,12
+Barbara Hayes,3,58,female,2,4
+Judith Ortiz,7,34,male,1,11
+Daniel Andrews,8,57,female,2,14
+Daniel Sanders,6,86,male,2,2
+Nancy Hayes,7,18,female,1,17
+Carol Ortiz,2,43,female,2,14
+Carol Wilson,8,71,female,1,10
+Richard Cook,1,59,female,2,3
+Michael Green,3,36,male,1,6
+Daniel Morris,2,68,male,2,13
+Linda Anderson,3,64,male,1,2
+Paul Ward,10,28,male,2,8
+William Hall,9,27,male,2,11
+Deborah Jones,2,40,female,2,19
+Andrew Harris,5,23,female,2,5
+Shirley West,10,71,male,2,5
+Deborah Perez,2,38,female,2,11
+Anthony Ortiz,4,25,female,2,2
+Emily Ward,3,36,male,1,10
+Nina Green,2,50,male,2,14
+Susan Jackson,4,24,male,2,19
+Donald Roberts,8,57,female,2,10
+Jeffrey Richardson,10,88,male,2,1
+Dorothy Robinson,9,86,female,1,19
+Elizabeth Hayes,10,57,male,2,5
+Jane Morgan,5,63,female,2,13
+Sandra Miller,3,57,female,2,16
+Linda White,4,45,male,1,10
+Helen Young,4,47,male,2,4
+Laura Hayes,3,36,female,2,16
+Thomas Collins,3,53,male,1,15
+Ruth Andrews,8,41,male,1,15
+Edward Green,8,76,female,2,6
+Stephen Anderson,10,53,male,2,4
+Helen Roberts,5,78,male,2,13
+Martha Foster,5,53,male,1,5
+Susan Thomas,2,77,male,2,18
+Deborah Coleman,10,42,male,2,16
+Patricia Collins,6,25,male,1,20
+Ruth Murray,9,67,male,1,7
+Susan Martin,9,84,male,2,7
+Thomas Hall,10,45,male,2,10
+Elizabeth Mitchell,4,37,female,2,2
+Dorothy Allen,3,81,male,2,2
+Barbara Morgan,4,53,male,2,17
+Susan Moore,7,44,female,1,6
+Larry Mitchell,7,86,female,2,1
+Thomas Smith,10,52,female,1,16
+David Adams,3,77,male,2,14
+Frank Cook,7,88,male,2,17
+Barbara Hayes,9,24,male,1,6
+Kenneth Green,10,18,female,1,17
+Benjamin White,1,24,female,2,14
+Larry Walker,9,49,female,1,14
+Laura Lee,8,72,female,2,5
+Anna Coleman,4,65,male,2,18
+Joseph Powell,7,88,female,2,2
+Elizabeth Hall,6,51,female,2,14
+Frank Wright,9,68,female,2,13
+John Martinez,3,49,female,1,19
+Anthony Thomas,3,75,female,2,8
+Catherine Perez,4,22,female,2,11
+Elizabeth Lee,9,21,female,2,17
+Stephen Richardson,4,19,female,2,12
+Mildred Hill,1,40,male,2,2
+Mary Roberts,7,67,female,2,16
+Kenneth Foster,9,46,male,1,2
+Matthew Lewis,6,41,female,1,6
+Mary Lewis,2,68,female,2,16
+Daniel Walker,10,72,female,2,18
+Anna Foster,4,68,male,1,8
+Ronald Collins,6,71,male,2,7
+Anthony Simmons,9,88,male,2,5
+Kenneth Collins,7,72,male,2,1
+Stephen Miller,2,53,female,2,17
+Margaret Walker,6,44,male,2,9
+Daniel Lewis,5,68,female,2,10
+Dorothy Davis,1,27,female,1,20
+Ronald Walker,2,81,male,1,1
+Dorothy Powell,9,50,female,1,5
+Laura Morgan,5,22,male,1,13
+Edward Lewis,2,82,male,2,16
+Jeffrey Walker,5,36,female,1,14
+Edward Green,3,27,female,2,3
+Paul Adams,7,83,male,1,11
+Samuel Thomas,10,71,male,1,12
+Nina Wright,8,73,male,2,15
+William Martin,8,87,female,1,16
+William Davis,2,49,male,2,17
+Frank Walker,8,84,male,2,11
+Betty Wilson,3,76,male,1,8
+Betty Martin,7,44,male,2,2
+Jeffrey Sanders,2,61,female,1,2
+Pamela Harris,1,31,female,1,2
+Jane Turner,5,58,female,2,8
+Jessica Clark,9,27,female,1,4
+Karen Jackson,8,57,female,1,16
+Samuel Wright,5,62,female,2,15
+Anthony Murray,1,23,male,1,5
+Lisa Brown,4,30,female,2,16
+Nancy Powell,9,70,female,1,5
+Deborah Moore,10,44,female,2,8
+Nina Garcia,3,57,male,2,14
+Robert Smith,8,61,male,1,8
+Edward Morris,5,87,male,1,13
+Ronald Scott,7,24,male,2,18
+Jennifer Smith,9,35,female,2,14
+Thomas Ortiz,5,79,male,1,17
+Frank Jackson,8,28,male,2,4
+David Morgan,8,30,male,2,7
+Donna Brown,10,81,male,1,9
+Kenneth Perez,3,61,female,2,6
+Samuel Smith,7,50,female,2,17
+Andrew Thomas,3,57,male,2,15
+Dorothy Morgan,5,74,female,1,14
+David Green,3,54,female,1,13
+William Bailey,10,76,female,2,7
+Donna Harris,4,19,male,2,12
+Daniel Ortiz,1,90,male,1,9
+Jessica Green,6,55,female,2,3
+James Powell,9,51,male,1,9
+Ronald Andrews,2,57,male,1,16
+Dorothy Sanders,5,38,male,2,19
+Donna Powell,4,75,male,1,20
+Jerry Roberts,5,20,male,2,19
+Catherine Bailey,1,70,male,2,20
+Lisa White,10,87,female,1,6
+Virginia Thomas,9,51,female,1,17
+Helen Martinez,6,86,female,1,3
+Mildred Anderson,5,58,female,2,17
+Ronald Andrews,2,22,male,2,5
+Betty Young,8,55,female,1,2
+Pamela Taylor,9,32,male,1,3
+Jeffrey Murray,9,31,female,1,18
+Jerry Robinson,7,78,male,1,8
+Pamela Lewis,3,88,female,2,12
+Deborah Coleman,2,28,male,2,12
+Virginia Richardson,5,48,female,2,5
+Jeffrey Morris,6,80,female,1,18
+Catherine Lewis,1,52,male,1,9
+Cynthia Powell,5,74,female,1,3
+Mark Gray,2,77,male,2,9
+David Johnson,5,20,female,2,13
+Karen Jackson,5,33,female,1,12
+Deborah Allen,10,43,female,2,5
+Benjamin Clark,6,44,female,2,9
+Frank Thompson,6,74,male,2,17
+Linda Perez,5,33,male,1,3
+Margaret Johnson,4,81,female,1,10
+Karen Thomas,7,70,male,1,19
+Virginia Wilson,2,87,male,2,7
+Daniel Morris,8,89,female,1,1
+Catherine Lane,2,19,male,1,1
+George Reed,3,70,female,1,10
+Jessica Hudson,8,72,female,2,13
+William Davis,3,54,male,1,6
+Patricia Anderson,9,37,female,1,16
+Jane Gray,7,39,male,2,17
+Donald Harris,1,76,male,2,17
+Edward Morris,2,33,female,2,20
+John Scott,8,83,male,1,19
+Donna Miller,5,53,male,1,14
+Jeffrey Lane,9,62,female,1,17
+Andrew Gordon,4,39,male,1,12
+Stephen White,1,54,male,1,16
+Daniel Simmons,10,26,female,1,16
+Jennifer Lee,4,45,female,1,3
+Charles Young,1,80,female,1,14
+David Davis,6,65,female,2,19
+Michael Murray,4,19,male,2,12
+Anthony Green,9,90,male,1,9
+Paul Wright,7,25,female,2,3
+Joseph Allen,8,86,female,2,10
+William Anderson,5,23,male,1,17
+Margaret Nelson,9,73,male,2,8
+Nancy Martinez,4,54,female,1,6
+Thomas Hall,1,63,female,1,11
+Jerry Morris,6,39,female,1,14
+Larry Gray,9,78,female,1,9
+William Walker,10,20,male,2,8
+William Foster,10,75,female,2,17
+Robert Foster,6,80,female,2,17
+Daniel Davis,4,57,male,2,16
+Matthew Martinez,9,53,female,2,19
+Nina Bailey,2,56,female,2,1
+Emily West,1,83,female,2,18
+Ruth Moore,9,53,male,2,12
+Catherine Smith,5,55,female,2,7
+Thomas Hill,3,76,female,1,8
+Samuel Garcia,3,24,female,2,13
+Laura Smith,2,71,female,2,17
+Charles Wright,4,35,male,1,9
+William Hudson,2,65,female,1,11
+Robert Young,6,82,male,2,1
+Ronald Gray,7,24,male,1,12
+Larry Allen,1,23,male,1,6
+Edward Clark,8,68,male,2,7
+Richard Scott,10,22,male,1,7
+Larry Ward,7,70,female,2,4
+Carol Harris,4,55,female,2,7
+Jerry Lee,9,33,female,2,12
+Carol Cook,7,74,female,2,15
+Sandra West,1,54,male,1,9
+Matthew Jackson,6,84,male,1,11
+Karen Foster,6,86,female,2,4
+Michael Davis,1,39,female,1,8
+Edward Collins,6,41,male,1,11
+Edward Moore,5,90,male,1,15
+Stephen Morris,3,55,female,2,2
+Elizabeth Wilson,3,21,male,2,15
+Deborah Clark,9,42,male,1,8
+Virginia Wilson,4,68,female,2,9
+Daniel Foster,5,89,male,2,7
+Cynthia Thomas,7,75,female,1,5
+Benjamin Taylor,9,30,female,1,14
+Larry Johnson,10,50,male,2,11
+Jennifer Moore,8,30,female,2,6
+Barbara Anderson,1,66,male,2,4
+Jessica Sanders,10,65,female,2,4
+Catherine Hayes,8,51,female,1,14
+Laura Hayes,8,88,male,1,8
+Paul Reed,10,47,female,1,20
+Patricia Gordon,6,21,female,2,7
+Elizabeth Morris,3,19,male,2,10
+Elizabeth Hudson,3,26,male,2,15
+Kenneth Morris,2,65,female,1,9
+Deborah Lewis,5,49,female,2,17
+Frank Baker,9,84,male,2,8
+David Lane,5,30,female,2,8
+Daniel Hill,6,74,female,2,15
+William Turner,7,26,female,1,19
+Dorothy Coleman,1,49,male,1,14
+Frank Collins,8,89,female,2,16
+Ronald Andrews,1,33,male,1,13
+Paul Martin,3,73,female,1,6
+Shirley Walker,1,22,male,2,5
+Richard Allen,9,61,male,2,18
+Benjamin Adams,1,86,male,2,20
+Emily Foster,10,43,male,1,1
+Stephen Sanders,1,47,male,2,12
+Dorothy Murray,4,57,female,2,3
+William Martin,10,24,male,2,13
+Nicholas Green,8,20,female,1,10
+Lisa Andrews,3,77,female,1,5
+Deborah Simmons,7,71,male,1,20
+Andrew Thomas,8,58,male,1,1
+Mary Wilson,2,61,male,2,12
+Edward Wilson,5,24,female,1,7
+James Brown,5,30,male,1,12
+Jerry Jackson,5,84,female,2,20
+Karen Wilson,8,56,male,1,7
+Catherine Lane,9,24,male,1,9
+Larry Wright,7,45,female,2,20
+George Lee,5,22,female,1,7
+Pamela Mitchell,3,83,female,1,3
+Kenneth Murray,2,71,male,1,14
+Andrew Hudson,5,71,female,2,10
+Betty Anderson,9,64,female,2,7
+Ronald Wilson,6,70,male,2,14
+Thomas Adams,10,65,female,2,17
+Matthew Roberts,4,21,male,1,6
+Cynthia Coleman,1,19,male,2,12
+Judith Lane,10,23,male,2,3
+Ruth Lee,4,78,female,1,17
+Daniel Foster,8,21,female,2,8
+Nina Brown,5,43,female,1,13
+Michael Clark,6,84,female,2,18
+Donna Richardson,3,33,male,2,9
+Dorothy Coleman,10,36,male,1,3
+Karen Foster,9,21,female,2,12
+Betty Morris,9,63,female,2,6
+Shirley Perez,1,47,male,1,14
+David Sanders,10,86,female,2,5
+Barbara Gordon,1,21,female,2,3
+William Brown,9,55,male,1,10
+Lisa Gordon,9,81,female,1,19
+Anna Miller,5,66,female,2,7
+Larry Mitchell,2,33,female,2,16
+Jerry Anderson,5,18,female,1,20
+Ruth Jones,8,41,female,1,1
+Paul Bailey,7,37,female,1,2
+Margaret Allen,1,81,male,1,12
+Linda Bailey,6,66,female,1,12
+Mildred Hill,3,20,female,1,10
+Catherine Morris,4,54,male,1,6
+Judith Lee,6,42,female,2,13
+Deborah Robinson,9,64,male,1,13
+Anna Ortiz,4,23,male,2,15
+Daniel Harris,8,41,female,2,10
+Virginia Coleman,5,42,male,1,2
+Catherine Bailey,2,41,female,2,7
+Mary Garcia,7,89,female,1,8
+Larry Morris,4,66,female,2,14
+Anthony Mitchell,7,55,male,1,5
+Jennifer Richardson,8,87,female,1,15
+Daniel Hudson,5,32,male,2,4
+Donald Collins,9,83,female,2,14
+Helen Roberts,9,29,female,2,12
+Matthew Taylor,8,58,male,1,11
+Catherine Hayes,8,28,female,1,13
+Jennifer Morgan,3,89,male,2,5
+Paul Mitchell,8,79,male,1,19
+Dorothy Thompson,8,79,male,2,14
+George Thomas,8,68,male,1,8
+Lisa Adams,5,18,male,2,19
+Richard Harris,3,19,male,2,9
+Judith Moore,1,81,female,2,4
+Mary Martin,6,77,male,1,16
+Richard Clark,7,33,female,1,9
+Jerry Sanders,3,76,female,2,11
+Larry Morris,4,85,male,2,20
+Virginia Thompson,2,35,female,2,8
+Betty Anderson,9,31,male,2,6
+Frank Roberts,2,42,female,1,7
+Charles Ward,7,20,female,1,6
+Martha Hall,5,70,female,2,18
+Anthony Powell,4,30,female,2,20
+John Young,6,64,male,1,20
+Deborah Davis,4,79,male,1,6
+Thomas Gray,6,23,male,2,7
+Daniel Robinson,5,73,male,2,4
+Linda Scott,8,23,female,2,13
+Nicholas Harris,6,24,male,2,12
+Edward Taylor,1,82,male,1,2
+Matthew Morris,6,75,female,1,14
+Anthony Robinson,10,31,female,1,16
+Edward Martin,4,88,female,1,15
+Dorothy Thompson,8,40,female,1,15
+Jane Young,10,59,female,2,17
+Charles Green,1,86,female,1,7
+Benjamin Foster,9,48,female,1,7
+Ronald Mitchell,9,25,male,2,13
+Larry Coleman,3,26,female,2,1
+Jennifer Simmons,7,29,male,2,17
+Susan Richardson,2,68,male,1,1
+Deborah Foster,6,22,female,1,16
+Lisa Hayes,7,81,male,1,19
+Jeffrey Simmons,10,31,female,1,1
+Michael Thomas,4,36,male,1,13
+Kenneth Perez,3,65,female,1,14
+Cynthia Smith,8,45,female,1,10
+Karen Green,6,38,female,1,16
+Shirley Murray,5,38,female,1,19
+Benjamin Adams,8,22,female,1,15
+Helen Morris,7,41,female,2,14
+Kenneth Richardson,1,60,female,1,15
+Robert Taylor,10,90,female,2,10
+Nancy Taylor,2,59,male,1,2
+Andrew Bailey,5,37,male,1,9
+Jerry Cook,9,79,male,1,7
+Nancy Roberts,4,41,male,2,19
+William Collins,2,68,male,1,13
+Michael Lane,3,81,female,2,16
+Dorothy Roberts,7,51,male,1,1
+Linda Johnson,1,26,male,1,17
+Paul Brown,9,82,male,1,19
+Larry Clark,8,84,male,1,19
+Jerry Perez,9,36,male,1,18
+Thomas Hudson,3,36,male,1,17
+Anthony Mitchell,3,35,male,1,11
+Donna Roberts,5,86,male,2,9
+Ronald Smith,6,35,female,1,5
+Donald Hill,3,48,male,2,7
+Dorothy Smith,7,49,female,2,12
+Jeffrey Hudson,7,19,male,2,15
+William Lane,1,74,male,2,2
+Cynthia Powell,5,77,female,1,8
+Jane Thomas,5,79,male,2,14
+Martha Nelson,10,45,male,1,9
+Matthew Perez,5,39,male,1,7
+Daniel Murray,3,77,male,1,10
+William Cook,4,69,female,1,5
+Emily Allen,7,54,female,2,11
+Carol Green,3,22,female,1,19
+Margaret Johnson,3,41,female,2,11
+Pamela Mitchell,9,71,male,2,13
+Jessica Harris,4,44,male,1,3
+Joseph Green,5,60,male,2,8
+David Johnson,9,48,male,1,16
+Helen Ward,4,39,female,1,1
+Martha Hayes,9,36,male,1,20
+Dorothy Scott,10,46,female,1,12
+Nina Reed,8,84,female,1,8
+Deborah Wilson,2,51,male,2,20
+Edward Adams,6,21,female,2,18
+Mary Powell,1,41,male,1,11
+Shirley Ward,5,60,female,1,3
+Ronald Roberts,2,64,female,2,1
+Pamela Sanders,8,41,male,2,19
+Virginia Anderson,7,59,female,1,17
+Susan Powell,9,49,female,1,12
+Jane Miller,5,21,male,2,13
+Matthew Baker,9,50,female,1,12
+Jane Bailey,9,67,male,2,15
+Frank Davis,2,67,female,1,5
+Donna Young,9,77,female,1,10
+Nicholas Clark,5,36,female,1,18
+Richard Harris,5,72,male,2,12
+David West,8,34,male,1,2
+James West,5,28,female,2,14
+David Davis,9,43,male,2,13
+Catherine Gray,4,56,male,1,16
+Sandra Roberts,3,36,male,1,15
+Virginia Clark,10,88,female,1,10
+Donald Taylor,4,45,male,2,4
+Frank Jones,6,59,male,2,3
+Judith Lewis,9,68,female,1,19
+Stephen Brown,2,77,male,2,19
+Cynthia Morgan,2,36,male,2,16
+Patricia Hill,7,88,male,2,20
+Ruth Wright,1,49,male,1,3
+Dorothy Coleman,9,59,female,1,14
+Donald Thomas,3,84,female,2,13
+Nicholas Simmons,3,77,male,2,18
+Anthony Andrews,10,40,male,2,13
+Andrew Reed,1,77,male,2,6
+John Harris,1,90,male,2,16
+Ronald Moore,4,80,male,1,15
+Martha Thomas,10,29,female,1,11
+James Collins,1,41,female,1,17
+Charles Bailey,1,31,male,1,14
+Nina Adams,4,75,male,2,16
+Jessica Collins,1,30,female,1,14
+Shirley Murray,8,39,female,1,10
+Paul Robinson,3,28,female,1,14
+Daniel Ortiz,4,45,female,1,4
+Richard White,2,18,male,1,12
+Sandra Jackson,10,72,male,2,17
+Daniel Foster,3,78,male,1,12
+Larry Baker,1,63,female,1,17
+David Powell,8,50,male,1,13
+Anna Collins,1,65,female,2,13
+Jennifer Robinson,8,74,male,2,18
+Jerry Gordon,6,33,female,2,1
+Judith Davis,7,87,female,1,10
+Virginia Nelson,8,87,male,1,3
+Jessica Taylor,3,43,female,1,8
+Kenneth Gordon,8,47,female,2,15
+Mark Jones,9,41,male,1,4
+John West,9,31,male,2,20
+Edward Davis,1,84,male,1,20
+William Gordon,9,27,female,1,3
+Andrew Martinez,4,54,male,2,9
+Jessica Simmons,8,69,male,2,15
+Michael Simmons,4,90,female,1,7
+Mark Lane,6,41,male,1,9
+Margaret Young,7,60,female,2,17
+Edward Reed,10,61,male,2,11
+Barbara Coleman,3,47,female,2,4
+Robert Thompson,5,40,male,2,3
+Martha Thompson,2,52,female,2,17
+Samuel Simmons,1,49,male,2,4
+Emily Scott,1,50,female,2,14
+Pamela Jackson,8,77,male,1,13
+Mildred Perez,3,34,female,1,19
+Laura Taylor,3,29,female,2,3
+Kenneth Hayes,6,26,male,1,2
+John Martin,2,37,female,1,15
+Dorothy Garcia,8,39,male,2,7
+Ruth Brown,8,73,female,2,10
+Nancy Miller,1,18,female,1,13
+Jerry Bailey,2,58,male,2,15
+Charles Hill,4,33,female,1,20
+Mark Wilson,8,29,male,1,6
+Patricia Harris,5,62,male,2,17
+Pamela Sanders,3,88,male,1,9
+Sandra Hayes,10,66,female,2,17
+Kenneth Baker,9,66,male,2,10
+Susan Martinez,6,73,female,2,18
+Patricia Brown,8,51,male,1,1
+Anthony Coleman,3,61,female,2,16
+Daniel Collins,8,85,male,2,1
+Anthony Turner,4,52,male,1,11
+Frank Roberts,6,34,female,2,14
+Ronald Wilson,10,21,male,2,3
+Mary Lee,3,70,female,2,7
+Dorothy Martin,1,20,male,2,6
+Edward Powell,9,65,female,1,5
+Pamela Baker,5,72,female,1,16
+David Davis,3,27,male,1,20
+Laura Andrews,1,61,female,1,14
+Helen Roberts,3,78,male,1,15
+Donald Garcia,3,27,male,2,11
+James Gray,4,41,male,2,6
+Edward Sanders,2,72,female,2,18
+Thomas Lane,3,23,female,2,5
+Nicholas Turner,2,56,male,2,14
+Judith Jones,3,62,male,2,4
+Betty Thomas,5,30,female,1,18
+John Lane,10,87,female,2,7
+Timothy Anderson,10,45,female,2,18
+Anthony Hall,1,77,female,1,13
+Daniel Hayes,4,25,male,1,19
+Timothy Harris,2,50,female,2,10
+Margaret Ortiz,10,83,male,2,7
+Edward Taylor,9,63,female,1,14
+Donna Anderson,9,48,female,2,20
+James Ortiz,1,58,female,2,7
+Jessica Ortiz,8,74,male,1,4
+Helen Davis,4,32,female,2,19
+Nancy Johnson,6,39,male,2,4
+Virginia Davis,9,68,female,1,8
+Emily Young,5,30,male,1,10
+William Cook,8,22,female,1,13
+Pamela Murray,7,30,female,2,13
+Daniel Cook,6,37,male,2,16
+Shirley Morris,5,44,female,1,12
+Mary Hall,7,48,female,2,12
+Robert Wilson,6,22,male,1,19
+Carol Gray,8,85,female,2,15
+Patricia Wright,7,20,male,2,14
+Daniel Gordon,3,54,female,1,7
+Pamela Sanders,2,25,male,2,11
+William Turner,5,82,male,2,3
+Sandra Harris,8,78,male,1,19
+Barbara Scott,4,28,male,1,3
+Jeffrey Richardson,10,26,male,1,6
+Samuel Hudson,8,25,male,1,13
+Edward Roberts,9,76,male,2,15
+Lisa Coleman,7,20,male,2,15
+Anna Jones,8,19,male,2,7
+Michael West,8,57,male,2,19
+Richard Gordon,1,74,female,2,17
+Frank Mitchell,9,45,female,2,4
+Laura Perez,2,79,male,1,17
+Jane Morris,3,78,female,2,12
+Carol Adams,7,50,male,2,4
+Kenneth Hayes,7,20,male,1,10
+Catherine Harris,1,58,female,2,13
+Jessica Harris,4,37,female,2,4
+Charles Jackson,2,25,female,1,13
+Anna Collins,9,46,female,2,2
+Andrew Smith,2,78,male,2,19
+Jeffrey Nelson,6,82,female,2,3
+Thomas Reed,3,30,female,1,8
+Benjamin Mitchell,2,58,male,1,17
+David White,2,71,female,1,18
+Mary Anderson,4,90,female,1,15
+Virginia Thomas,8,32,female,1,9
+Kenneth Scott,4,86,female,2,3
+Virginia Hill,2,48,male,2,1
+Richard Brown,9,87,female,2,7
+Virginia Jones,2,36,male,1,4
+Jane Harris,8,50,female,2,19
+Jennifer Reed,4,44,male,1,5
+Susan Gordon,7,80,female,1,17
+Carol Ortiz,6,20,male,2,15
+Richard Lane,1,61,male,2,11
+Larry Anderson,6,69,female,1,2
+Donald Allen,2,81,male,2,20
+Edward Simmons,5,21,female,2,9
+Elizabeth Martinez,1,86,male,1,14
+Benjamin Reed,4,65,female,1,10
+Jane Perez,2,88,female,2,15
+Linda Gray,10,89,female,2,16
+Mark Hayes,10,73,male,2,6
+Paul Walker,9,73,female,2,19
+Charles Wilson,2,84,female,1,13
+Michael Thompson,6,22,male,1,7
+Deborah Lewis,1,68,female,2,6
+Linda Foster,10,41,female,1,19
+Lisa Adams,5,23,female,2,1
+Frank Lee,9,38,female,2,6
+Donald Jones,1,87,male,1,8
+Kenneth Collins,3,19,female,1,18
+Benjamin Ward,5,87,female,1,10
+Mildred Turner,10,22,male,2,19
+Deborah Hudson,10,20,female,1,15
+Jeffrey Hudson,9,56,female,1,9
+Joseph Cook,7,23,male,1,14
+Daniel Davis,9,51,female,2,17
+Sandra Hayes,7,32,female,1,1
+Larry Scott,5,63,female,1,6
+Betty Harris,3,47,female,2,6
+Karen Hall,5,77,female,2,1
+Emily Murray,9,49,female,1,19
+Laura Bailey,5,26,male,1,6
+Lisa Turner,9,30,male,2,10
+Martha Richardson,8,67,female,2,14
+Ronald Gordon,3,88,female,2,20
+Edward Hill,5,44,female,2,20
+George Reed,4,51,male,2,18
+Frank Young,9,67,female,2,15
+Judith Roberts,10,23,female,1,11
+Nina Davis,5,29,female,1,9
+Shirley Harris,5,36,male,1,11
+Linda Allen,9,64,female,2,20
+Larry Hudson,4,28,male,1,19
+Donald Turner,2,26,male,2,11
+Ronald Moore,8,43,male,1,10
+Paul Lee,1,45,female,1,1
+Robert Hudson,4,47,male,2,13
+Anna Wilson,7,58,female,2,8
+Benjamin Clark,1,31,female,1,13
+Samuel Clark,6,74,female,1,5
+William Ward,8,84,female,1,7
+Donna Murray,10,59,female,2,2
+Patricia Powell,2,45,female,1,3
+Emily Hudson,8,72,female,2,14
+John Robinson,6,75,female,1,17
+Paul Smith,9,28,male,1,5
+Edward Johnson,7,81,male,1,13
+Joseph Coleman,7,72,male,1,12
+Timothy Thomas,1,81,male,2,16
+Helen Scott,9,36,female,2,5
+Daniel Hayes,7,52,female,2,19
+Paul Robinson,8,78,male,1,10
+Charles Ward,9,40,female,2,17
+Anthony Brown,3,28,male,2,1
+Carol Adams,2,62,female,2,18
+Catherine Roberts,6,52,female,1,13
+Larry Green,1,25,male,2,12
+Barbara West,2,27,male,1,20
+John Harris,3,56,female,2,16
+Judith Martin,1,65,male,2,20
+Lisa Ward,4,74,male,2,1
+Betty Harris,3,80,female,2,1
+Mary Coleman,1,46,female,1,10
+Barbara Lane,9,23,female,1,11
+Edward Clark,7,77,male,2,3
+Andrew Davis,4,81,female,2,10
+Cynthia Morris,4,24,female,1,7
+Andrew Jones,10,50,male,2,12
+Elizabeth Davis,10,24,male,1,10
+Larry Hudson,3,33,male,2,14
+David Jones,9,47,male,1,1
+David Miller,3,38,female,1,10
+Betty Harris,1,47,female,1,11
+Cynthia Thompson,4,22,male,2,20
+Karen Hall,3,22,male,2,6
+Dorothy Turner,6,58,male,1,12
+Jeffrey Andrews,8,59,female,2,12
+Dorothy Bailey,6,66,male,1,13
+Richard Bailey,5,63,female,1,9
+Shirley Walker,7,87,female,1,2
+Barbara Smith,7,35,male,2,6
+Mary Harris,4,77,male,1,13
+Margaret Morris,9,42,female,2,11
+Betty Anderson,4,83,male,2,20
+George Sanders,5,32,male,1,16
+William Jones,7,60,male,2,12
+Thomas Allen,4,32,male,2,16
+Edward Johnson,9,40,male,2,17
+Judith Hudson,7,61,female,1,10
+Sandra Jackson,7,62,male,2,17
+Ruth Jackson,7,24,male,2,12
+Donald Brown,3,85,male,2,3
+Linda Anderson,6,58,female,1,11
+Stephen Roberts,4,76,female,1,14
+Stephen Cook,10,23,male,1,11
+Matthew Harris,2,86,male,2,8
+Elizabeth Gordon,6,23,male,2,19
+Larry Garcia,2,28,female,1,5
+Jane Murray,7,86,male,2,1
+Kenneth Hudson,7,28,male,1,18
+Barbara Morris,10,32,female,2,11
+Andrew Andrews,5,53,male,2,14
+William Brown,3,87,male,1,12
+Larry Reed,6,89,female,1,14
+Donna Walker,6,65,male,1,1
+Paul Thompson,9,55,female,2,13
+Samuel Gray,4,43,female,2,2
+Deborah Andrews,9,41,male,1,3
+Jane Scott,4,68,female,2,19
+Anna Lee,3,56,female,2,1
+Donald Martin,2,36,female,2,16
+Samuel Thompson,6,60,female,1,5
+Robert Jackson,2,58,female,2,3
+Paul Hill,9,74,male,1,19
+Barbara Cook,6,36,female,1,18
+George Sanders,6,90,male,2,14
+Timothy Thomas,6,83,male,1,1
+Jessica Foster,1,57,female,2,8
+Jeffrey Lewis,9,34,female,2,7
+Michael Harris,2,27,male,1,9
+Susan Roberts,8,83,female,1,7
+Joseph Gordon,8,47,male,2,6
+Ronald Brown,3,23,female,1,15
+Joseph Robinson,9,33,female,2,9
+Edward Thompson,3,88,male,2,10
+Carol Smith,10,60,male,1,1
+Cynthia Reed,10,86,female,2,6
+Mary Taylor,6,28,female,1,16
+Martha Andrews,3,44,male,1,20
+Anthony Hall,9,75,male,1,13
+Edward Cook,1,44,male,1,1
+Elizabeth Morgan,9,47,female,2,2
+Judith Murray,8,62,female,2,3
+Helen Robinson,2,70,male,1,13
+Nancy Coleman,1,21,female,2,11
+Jennifer Thompson,4,90,male,1,1
+Kenneth Harris,1,60,female,1,11
+Mildred Clark,10,67,male,1,13
+Catherine Turner,10,59,male,1,9
+Betty Simmons,4,43,male,2,2
+Lisa Hudson,10,75,female,2,16
+Margaret Turner,4,88,female,2,16
+Stephen Reed,10,52,female,1,3
+Paul Gray,8,41,female,2,8
+Carol Robinson,3,44,male,2,2
+Susan Johnson,10,49,male,2,11
+Dorothy Simmons,5,44,male,1,15
+Elizabeth Sanders,5,87,female,1,11
+Dorothy Powell,9,60,male,2,14
+Donald Hill,1,54,male,1,14
+Catherine Moore,6,78,male,2,7
+Jane Hudson,5,18,female,2,7
+Michael Collins,8,67,male,1,17
+Charles Harris,9,28,female,1,6
+Laura Morris,8,30,female,1,19
+Richard Jackson,7,85,male,2,5
+Jeffrey Harris,3,76,female,2,20
+Dorothy Johnson,3,56,female,1,14
+Michael Davis,1,84,male,2,1
+Mark West,10,79,female,2,10
+William White,9,31,male,2,20
+John Simmons,9,47,female,2,5
+Jerry Murray,7,84,female,1,3
+Laura Harris,5,84,female,1,11
+Michael Collins,2,47,male,1,14
+Robert Johnson,5,19,female,1,4
+Larry Gordon,4,86,male,1,2
+Matthew Moore,7,76,male,2,6
+Judith Thomas,1,47,female,1,18
+Elizabeth Scott,1,74,male,1,8
+James Wright,7,59,male,1,8
+James Robinson,10,54,female,1,3
+Nicholas Richardson,4,85,female,2,13
+Charles Bailey,8,90,male,1,1
+Andrew Moore,2,56,male,2,1
+Frank Cook,7,38,female,2,17
+Kenneth Richardson,4,37,male,1,8
+Deborah Clark,7,22,male,2,20
+Mark Cook,4,23,male,1,4
+Jerry Lee,4,27,female,2,17
+Carol Jones,2,22,female,1,8
+Ronald Green,5,72,male,2,1
+Anna Harris,1,75,female,1,7
+Matthew Roberts,4,61,male,2,9
+Carol Johnson,2,27,male,1,13
+Joseph Jones,9,80,male,1,14
+Deborah Moore,5,58,female,1,12
+Cynthia Hudson,8,48,female,1,17
+Andrew Andrews,8,49,male,2,2
+Judith Lewis,1,35,male,1,14
+Helen Gray,6,81,male,1,15
+Jeffrey Wilson,4,74,female,1,12
+Ronald Perez,9,24,male,2,14
+Samuel Murray,7,55,female,1,12
+Donald Miller,4,74,male,1,9
+Catherine Murray,2,57,female,1,20
+Paul Perez,5,18,male,2,4
+Laura Andrews,3,69,male,2,2
+Emily Cook,3,70,male,2,19
+Anthony Cook,8,79,female,1,7
+Shirley Anderson,9,76,female,2,8
+Frank Roberts,7,28,male,1,1
+Betty Walker,5,82,male,1,19
+David Martinez,2,33,female,2,18
+Richard Brown,1,54,female,2,4
+Richard Harris,2,30,male,2,6
+Nancy Gordon,6,45,male,2,4
+Judith Taylor,2,39,male,2,12
+Elizabeth Perez,6,64,male,1,10
+Jessica Richardson,2,82,female,1,14
+Richard Ward,10,40,female,2,15
+Donald Turner,3,71,male,1,6
+George Lewis,4,30,male,2,13
+Jeffrey Perez,4,73,female,2,15
+Larry Perez,1,78,female,2,5
+Dorothy White,2,83,male,1,12
+Dorothy Young,1,54,female,1,10
+Mary Allen,3,77,male,1,14
+David Smith,6,74,female,1,3
+Jessica Gordon,10,50,male,1,7
+Larry Perez,4,60,female,1,19
+Sandra Ward,4,51,female,2,1
+Stephen Bailey,1,50,female,1,4
+Edward Robinson,9,61,female,1,3
+Ruth Wilson,5,51,female,2,17
+Mary Foster,2,27,female,2,6
+Richard Robinson,9,23,female,1,3
+Margaret Clark,7,45,female,1,12
+Nancy Morris,1,31,male,1,12
+Jerry Clark,1,32,male,2,9
+Jerry Clark,6,61,female,2,9
+Mildred Ortiz,6,21,female,2,15
+Emily Lewis,8,41,male,1,18
+Edward Richardson,3,42,male,2,12
+Nancy Mitchell,5,86,female,2,1
+Stephen Clark,2,58,male,2,19
+Richard Lewis,4,42,male,1,20
+Patricia Cook,9,70,female,2,9
+Dorothy Gordon,6,42,female,1,6
+Anthony Cook,10,29,male,2,14
+Jeffrey Powell,8,75,female,2,3
+Margaret Andrews,7,32,female,1,5
+Stephen Anderson,8,28,female,1,3
+Patricia Young,8,28,female,2,19
+Mildred Baker,2,78,male,2,7
+Jane Bailey,5,64,male,2,12
+Anthony Martinez,2,24,female,2,20
+Jane Murray,5,41,male,1,15
+Cynthia Bailey,5,53,female,1,19
+Virginia Green,4,64,female,1,2
+Larry Allen,2,61,male,2,14
+Pamela Lee,1,84,male,1,5
+Matthew Green,1,31,male,2,10
+Barbara Martinez,2,38,female,1,1
+Shirley Hall,5,32,female,2,9
+Judith Richardson,6,66,male,2,18
+Karen Roberts,10,54,male,2,14
+Edward Brown,9,49,male,2,20
+Joseph Jackson,1,45,female,2,14
+Donna Wright,3,46,male,2,12
+Karen Baker,2,63,male,2,2
+Helen Clark,4,19,male,1,9
+Charles Turner,7,84,male,1,4
+Jeffrey Collins,9,60,male,1,19
+Nancy Robinson,5,32,female,1,20
+Dorothy Andrews,4,23,female,2,19
+Kenneth Davis,8,68,male,2,8
+Nina Wilson,2,34,male,1,10
+Donald Foster,1,61,male,2,4
+Virginia Johnson,1,50,female,2,11
+Daniel Murray,8,36,male,1,20
+Helen Garcia,5,79,female,1,15
+Thomas Wilson,2,26,female,1,15
+Stephen Wright,10,51,male,1,15
+Daniel Brown,6,51,female,1,7
+Barbara Davis,9,89,male,2,11
+Shirley White,5,38,male,2,1
+Nicholas Perez,9,42,male,1,8
+Richard Mitchell,2,35,female,2,16
+Kenneth Mitchell,2,24,female,1,9
+Robert Davis,10,89,male,2,6
+Carol Perez,8,22,female,1,8
+Nicholas Baker,10,21,female,1,16
+Robert Hall,7,81,male,1,3
+Mary Turner,6,71,male,2,6
+Lisa Turner,2,74,male,1,17
+Donald Walker,1,82,male,2,20
+Edward Roberts,3,68,male,2,12
+Donald Taylor,4,83,female,2,6
+Jerry Johnson,1,18,female,1,7
+David Turner,9,72,male,2,17
+Lisa Jones,10,66,male,1,15
+Jeffrey Ward,10,27,male,1,11
+Jessica Young,7,28,male,1,2
+Susan Perez,4,65,female,1,20
+Donna Lee,2,53,female,1,18
+John Collins,10,38,female,1,3
+Kenneth Miller,10,63,male,2,20
+Nina Jones,1,56,male,1,12
+Margaret Lane,4,71,male,2,11
+Robert Lane,4,89,female,1,3
+Mary Powell,2,23,male,1,9
+Dorothy Hall,7,31,male,1,12
+Kenneth Baker,2,53,male,1,4
+Andrew Anderson,9,71,male,1,18
+Mark Nelson,10,54,male,1,12
+Laura Gordon,4,87,male,2,15
+Virginia Gordon,7,38,male,1,6
+Samuel Johnson,10,83,female,2,2
+Stephen Hall,7,27,male,1,17
+George Allen,4,62,female,1,1
+Donna Hill,6,84,male,1,5
+Charles Perez,7,64,male,2,19
+Joseph Clark,6,77,male,1,8
+Susan Brown,5,38,female,2,8
+Betty Wright,5,71,male,2,4
+Timothy Robinson,6,63,male,2,18
+Thomas Perez,8,77,male,2,7
+Paul Lewis,4,26,female,1,15
+Dorothy Roberts,5,87,female,2,17
+Helen Collins,3,67,male,1,7
+Ruth Thompson,9,24,male,2,6
+Ronald Simmons,7,25,female,1,17
+Frank Harris,10,47,male,1,20
+Edward Andrews,5,49,male,1,17
+David Cook,2,45,female,1,9
+Sandra Davis,1,69,female,2,10
+George Young,8,60,female,1,14
+Matthew Murray,4,67,female,1,8
+Kenneth Perez,6,27,male,2,12
+Deborah Harris,7,57,male,2,11
+Mark Perez,1,35,female,2,2
+William Green,8,63,female,1,7
+Paul Hill,9,48,female,1,18
+Ronald Turner,3,49,male,2,6
+Shirley Ward,5,62,male,2,4
+Catherine Morgan,9,85,female,2,9
+William Brown,9,68,male,2,15
+Ruth Nelson,7,26,female,1,16
+Patricia Anderson,8,38,female,2,10
+Linda Morgan,3,33,male,1,20
+Jeffrey Baker,6,74,female,2,1
+Judith Lee,9,22,male,1,4
+George Turner,3,22,female,1,20
+Samuel Scott,7,76,male,2,17
+Susan Foster,2,31,female,1,13
+Mary Martinez,7,72,female,2,4
+Daniel Turner,6,76,male,2,2
+Joseph Scott,2,25,male,1,18
+John Harris,4,52,female,2,17
+Larry Harris,1,20,male,1,8
+Cynthia Lewis,6,38,male,1,14
+Charles Powell,10,79,female,2,4
+William Lee,6,38,female,2,10
+Emily Wilson,1,31,female,1,10
+Judith Clark,4,43,male,2,12
+Larry Mitchell,8,77,male,1,7
+Anthony Green,2,30,male,2,3
+Laura Young,2,59,male,2,10
+Helen Reed,4,35,male,2,14
+Joseph Roberts,9,39,female,1,14
+Martha Cook,3,39,female,1,12
+Ronald Thomas,2,81,female,2,6
+George Taylor,4,82,male,2,19
+Charles Sanders,7,42,male,2,2
+Jessica Martin,2,81,male,1,5
+Catherine Harris,6,39,female,1,5
+Pamela Gordon,6,87,male,2,4
+Frank West,1,37,male,1,18
+Betty Morris,10,32,male,2,7
+Andrew Foster,4,59,female,2,3
+Anthony Powell,1,42,male,1,14
+Stephen Brown,3,58,female,1,2
+Jerry Roberts,6,79,male,1,10
+Joseph Cook,6,77,male,2,7
+David Jackson,3,65,male,2,12
+Sandra Hall,3,30,male,1,15
+Elizabeth Lane,6,73,male,1,15
+Robert Harris,1,30,male,1,17
+Pamela Taylor,4,86,male,1,3
+Jennifer Hall,6,24,male,1,6
+Charles Hill,3,53,male,1,13
+John Taylor,9,60,female,2,8
+Linda Sanders,2,69,female,1,16
+Donald Powell,2,30,female,2,1
+James Clark,2,49,female,1,10
+Karen Garcia,5,67,female,2,12
+William Gray,5,23,female,1,1
+John Simmons,1,27,female,2,19
+John Morris,9,52,female,1,17
+Dorothy Walker,9,79,female,1,2
+Laura Adams,10,48,male,1,8
+Dorothy Foster,6,22,male,2,11
+George Miller,1,89,male,1,16
+Robert Nelson,2,73,female,1,16
+Shirley Garcia,10,60,female,2,17
+Kenneth Brown,3,61,male,2,7
+Ruth Sanders,3,72,male,2,4
+Mark Scott,8,23,female,2,6
+Anna Mitchell,4,56,male,1,9
+Larry Adams,8,55,male,1,12
+Dorothy Powell,1,30,female,2,10
+Kenneth Robinson,7,47,male,1,11
+Kenneth Richardson,3,49,male,2,3
+Anna Perez,10,76,female,1,18
+Shirley Adams,1,83,male,2,20
+Larry Hudson,8,24,female,2,8
+Martha Taylor,6,40,female,2,1
+Jessica Jones,6,84,male,2,6
+Edward Hayes,5,74,female,1,6
+Edward Johnson,9,79,female,1,10
+Donald Thomas,3,71,female,2,2
+Ronald Thompson,8,68,female,2,18
+Dorothy Gordon,5,44,male,1,13
+Jerry Johnson,5,58,female,2,18
+Margaret Anderson,3,79,female,1,6
+Judith Sanders,8,67,male,2,2
+Lisa Baker,1,87,male,2,11
+Jane Collins,6,26,male,1,4
+Charles Garcia,9,70,female,1,4
+Michael Clark,5,67,male,1,17
+Anna Young,10,18,female,2,17
+William West,1,32,female,1,6
+Linda Powell,1,58,female,2,17
+Timothy Davis,5,38,female,1,14
+Linda Lee,2,39,male,2,1
+Charles Martin,1,48,female,2,10
+Andrew Young,1,41,male,2,20
+Larry Brown,1,73,male,2,12
+Paul Allen,3,90,female,1,17
+Patricia Johnson,4,71,male,2,13
+Dorothy Harris,6,46,male,2,2
+Mildred Sanders,1,20,male,2,20
+Paul Hudson,9,32,female,2,15
+Frank Johnson,7,84,male,1,16
+Richard Coleman,10,85,female,2,6
+David Gordon,3,79,female,1,15
+Ruth Anderson,4,77,male,2,5
+Carol Murray,1,64,male,1,4
+Richard Turner,8,34,male,1,13
+Linda Robinson,7,58,female,2,19
+Robert Lewis,4,70,male,1,7
+Joseph Moore,8,67,male,1,16
+Cynthia Jones,8,58,female,2,8
+Ruth Perez,6,60,male,1,2
+Helen Lee,2,61,male,2,14
+Edward Nelson,1,42,male,2,16
+Mary Roberts,7,76,female,2,5
+Catherine Miller,9,43,male,2,14
+George Turner,3,30,female,1,20
+Robert Richardson,4,79,female,1,4
+Lisa Allen,7,49,male,1,19
+William White,9,60,female,2,10
+Larry Andrews,4,53,male,1,18
+Betty Harris,6,21,male,1,6
+Linda Richardson,5,70,male,2,5
+David Garcia,2,48,male,1,19
+Ruth Garcia,7,51,male,2,3
+Sandra Martinez,10,64,male,2,12
+Cynthia Davis,5,20,female,2,13
+Larry Gordon,8,27,female,1,18
+Charles Garcia,6,72,male,2,11
+Elizabeth Brown,1,86,male,1,10
+Pamela Lewis,5,62,female,2,15
+Michael Richardson,3,33,male,1,14
+Margaret Miller,2,50,male,1,9
+Larry Gray,8,38,female,1,5
+Nina Foster,5,78,female,1,11
+Matthew Harris,5,25,male,2,10
+Jessica Green,10,76,male,2,4
+Donna Brown,2,22,female,2,7
+Benjamin Adams,7,37,female,2,10
+Robert Harris,7,32,male,1,17
+Virginia Allen,5,52,male,2,2
+Laura Lane,5,60,male,1,10
+George Hudson,10,33,female,1,15
+Pamela Hill,1,20,male,2,7
+Barbara Garcia,6,44,female,2,3
+Andrew Davis,7,54,female,1,1
+Dorothy Coleman,7,24,male,2,18
+Richard Johnson,9,60,female,2,14
+Donna White,5,42,male,2,8
+Betty Clark,5,69,female,1,8
+Patricia Lee,6,48,male,1,14
+Kenneth Nelson,8,89,female,1,2
+Helen Morris,7,47,female,1,6
+Karen Martin,10,73,male,2,12
+Charles Wright,10,67,female,2,12
+Ruth Young,3,27,female,2,2
+Lisa Hayes,5,31,female,1,18
+Helen Wright,4,43,male,1,18
+Anthony Jackson,5,81,male,2,16
+Sandra Smith,8,32,male,2,9
+Daniel Taylor,10,33,male,2,10
+Samuel Collins,7,69,female,2,12
+Catherine Robinson,4,78,female,1,7
+Jeffrey Thomas,7,36,male,1,17
+Carol Green,3,33,female,2,3
+John Simmons,4,60,female,1,8
+Larry Harris,10,33,male,1,12
+Kenneth Foster,4,78,male,2,9
+Donald Morgan,6,72,male,2,16
+Thomas Ortiz,2,31,female,1,11
+Richard Jackson,1,74,male,1,6
+Paul Hayes,3,60,male,1,7
+Mildred Coleman,8,72,female,1,19
+Jessica Miller,4,64,male,2,18
+Charles Taylor,2,65,female,2,5
+Paul Harris,1,78,female,2,18
+Jennifer Jones,4,54,female,2,20
+Mildred Richardson,3,88,female,2,20
+Charles Robinson,2,81,female,1,6
+Larry Ortiz,5,74,female,2,16
+Richard Young,6,50,male,2,18
+Ruth Harris,9,84,female,1,13
+Joseph Richardson,3,66,male,2,18
+Stephen Wright,10,59,male,1,2
+Richard Anderson,9,68,female,2,10
+Shirley Lee,1,60,male,1,17
+David Morris,1,31,female,2,2
+Martha Miller,2,72,male,1,17
+Samuel Thomas,1,87,female,1,17
+Edward Lee,4,73,female,2,3
+Pamela Richardson,7,22,male,1,12
+Emily Sanders,1,72,male,1,2
+Jane Adams,10,46,female,1,19
+Ruth Ward,2,44,male,2,10
+Anthony Harris,6,28,female,1,10
+Mary Martin,5,20,female,2,2
+Anthony Roberts,5,33,male,1,12
+Margaret Robinson,6,82,female,1,1
+Edward Richardson,1,40,male,2,12
+Jessica Coleman,9,45,female,2,14
+Larry Martin,10,25,male,2,1
+William Scott,5,19,female,1,5
+Carol Gray,9,43,male,2,7
+Matthew Harris,9,51,male,2,9
+Virginia Brown,7,18,female,1,3
+Charles Lee,6,61,female,1,19
+Kenneth Thomas,5,19,male,1,1
+Stephen Perez,7,80,male,2,5
+Kenneth Miller,2,86,female,1,7
+Jennifer Martinez,9,25,female,1,13
+Lisa Simmons,9,32,female,1,14
+Samuel Perez,5,69,male,1,15
+Daniel West,8,79,male,1,17
+Larry Coleman,6,60,female,1,17
+Richard Nelson,4,32,male,2,3
+Larry Young,9,31,male,1,2
+Elizabeth Lee,1,82,female,1,17
+Kenneth Sanders,8,18,male,1,14
+James Moore,8,27,male,1,2
+Lisa Scott,2,85,female,2,19
+George Wilson,5,66,male,2,12
+Donald Bailey,3,60,female,1,3
+Emily Anderson,9,33,female,1,2
+Donna Collins,5,28,female,1,16
+Karen Cook,8,32,female,2,2
+Edward Allen,5,32,male,2,14
+Daniel Lewis,2,64,female,2,1
+Ruth Adams,5,35,male,2,12
+Donald Hudson,5,25,female,1,15
+Donna Brown,6,64,female,2,9
+Pamela Lewis,4,69,male,1,11
+Karen Garcia,9,40,female,2,17
+Anthony Brown,5,36,male,2,7
+William Robinson,7,79,female,1,7
+Nina Allen,10,31,female,1,1
+Susan Collins,5,78,male,2,8
+Michael Murray,8,73,female,1,19
+Martha Baker,10,26,female,1,19
+Anthony Lane,6,79,male,2,6
+Martha Lewis,5,57,male,1,8
+Cynthia Jackson,3,37,female,1,6
+Jerry Sanders,2,43,male,1,14
+Karen Perez,3,69,male,1,19
+Edward Richardson,3,90,female,2,1
+Emily Anderson,9,66,male,2,7
+Judith Morris,2,50,male,2,4
+Andrew West,9,25,female,1,7
+Laura Lewis,2,64,male,2,9
+Paul Thomas,5,42,male,2,12
+Ronald Hall,4,19,female,1,13
+Sandra Garcia,4,90,female,2,9
+Carol Roberts,7,79,female,1,8
+Larry Moore,5,30,male,1,8
+George Hayes,2,68,male,1,7
+Linda Cook,8,35,male,2,20
+Robert Perez,6,52,male,1,3
+Barbara Ward,2,48,female,2,15
+Shirley Martinez,8,49,female,1,20
+Andrew Hill,10,18,female,2,7
+Susan Lane,9,69,female,2,9
+Edward Gray,9,79,female,1,15
+Shirley Jones,1,23,female,2,2
+John White,1,26,female,1,13
+Carol Adams,7,48,male,2,4
+Donald Lane,3,42,male,2,8
+Timothy Thomas,1,87,female,1,7
+Robert Powell,3,52,female,1,6
+Dorothy Baker,8,57,male,2,11
+Nancy Richardson,5,44,female,2,8
+Donald Gordon,10,47,male,2,4
+Joseph Wilson,4,70,male,2,11
+Pamela Hill,6,90,female,1,13
+Anthony Thomas,5,85,female,1,5
+Elizabeth Thompson,10,77,male,1,14
+Michael White,6,31,male,1,15
+Timothy Hayes,3,52,male,1,9
+David Hayes,2,89,male,2,17
+Deborah Jones,10,35,female,2,8
+Jeffrey Powell,4,19,female,2,13
+Daniel Foster,7,55,male,1,14
+Catherine West,9,73,female,2,4
+Judith Coleman,4,66,female,2,19
+Karen Adams,4,27,male,2,6
+Donna Andrews,3,52,male,2,15
+Virginia Taylor,9,45,female,2,6
+Joseph Jackson,3,19,male,1,1
+Frank Clark,10,57,male,1,5
+Cynthia Collins,9,81,female,1,1
+Dorothy Mitchell,1,85,female,2,7
+Donna Martinez,8,75,female,1,5
+Edward Miller,1,21,female,2,9
+Nancy Ortiz,10,88,male,2,7
+Donald West,10,46,female,2,8
+Helen Lewis,9,85,female,2,14
+Helen Hall,3,47,female,2,20
+Pamela Perez,6,65,male,2,6
+Charles West,4,55,female,1,11
+William Turner,6,50,female,2,11
+James Miller,8,54,female,1,10
+Catherine Gordon,5,60,male,2,12
+Dorothy Moore,1,89,female,2,18
+Ruth Gordon,3,57,male,2,16
+Larry Scott,2,82,female,1,20
+Pamela Harris,7,88,female,1,14
+Donna Foster,5,52,female,1,18
+Pamela Smith,1,43,female,1,10
+Matthew Sanders,8,68,female,2,5
+Jennifer Morgan,5,53,male,2,2
+Daniel Powell,3,73,male,2,5
+Anna Scott,9,37,male,1,1
+Andrew Brown,5,48,female,1,19
+James Reed,10,42,male,1,8
+James Martin,5,83,male,1,8
+Daniel Thompson,2,49,male,1,9
+Jeffrey White,1,42,male,1,18
+Jessica Morris,9,50,female,1,9
+Susan Thompson,9,90,male,1,15
+Jessica Simmons,5,79,female,1,7
+Samuel Lee,10,20,female,1,18
+Cynthia Powell,10,68,male,2,2
+Edward Jackson,5,81,male,2,20
+Donald Baker,10,52,male,1,8
+John Anderson,9,35,male,2,5
+Nancy White,4,88,male,2,16
+Kenneth Morris,3,21,male,1,20
+Daniel Lewis,6,32,female,1,7
+Jessica Jackson,9,26,female,1,16
+Dorothy Ortiz,10,88,male,1,20
+Anthony Morris,3,74,male,2,19
+Edward Martinez,7,66,female,2,15
+Daniel Murray,8,61,female,2,12
+Karen Morgan,9,82,male,2,6
+Daniel Taylor,4,41,female,2,14
+James Cook,2,29,female,2,19
+Richard Baker,10,51,male,2,10
+Donald Lee,7,55,male,1,19
+Deborah Collins,7,53,female,2,4
+Susan Green,10,62,female,2,17
+Sandra Jackson,5,57,female,2,3
+Donna Martinez,8,34,male,2,12
+Anthony Ward,10,64,male,2,12
+Donald Jackson,7,65,male,1,17
+Kenneth Allen,5,43,female,2,15
+David Anderson,7,67,female,1,17
+Joseph Nelson,7,53,male,2,11
+Ruth Simmons,4,27,female,1,11
+Anthony Brown,1,38,female,2,2
+William Scott,10,19,male,1,5
+Larry Ortiz,1,90,male,2,1
+Elizabeth Powell,9,28,male,2,14
+Cynthia Martinez,2,42,male,1,1
+James Martin,2,82,female,2,13
+Sandra Young,6,28,male,2,5
+William Davis,8,73,male,2,1
+Judith Brown,9,86,female,2,10
+Donna Hayes,5,22,male,1,4
+Anthony Gordon,7,32,male,1,13
+Timothy Thomas,8,42,male,1,4
+Edward Taylor,5,33,female,1,8
+William Hill,5,85,female,2,13
+Michael Wright,5,26,female,2,1
+Donald Moore,1,74,female,1,1
+Benjamin Hudson,3,77,female,1,12
+Edward Harris,10,77,female,1,8
+David Collins,1,49,female,2,14
+Catherine Richardson,6,88,female,2,20
+Dorothy Murray,10,59,male,1,14
+Jane Thomas,2,62,male,2,19
+Mark Morgan,9,51,male,1,20
+Pamela Garcia,5,66,male,2,13
+Mary Garcia,2,68,female,2,1
+Matthew Jones,7,85,male,1,13
+Barbara Harris,7,51,female,1,6
+Judith Morgan,5,69,male,2,4
+Anna Baker,8,18,male,2,7
+Dorothy Harris,2,62,male,2,7
+Emily Harris,7,47,male,2,10
+Martha Wright,4,57,female,1,19
+Mary Turner,6,34,male,1,2
+Barbara Young,8,60,male,2,2
+Laura Powell,1,68,female,2,12
+Carol Hill,9,64,male,2,10
+Donna White,2,71,male,1,8
+William Cook,7,31,male,1,19
+Donna Harris,3,70,male,2,1
+Donald Brown,7,78,female,1,5
+Donald Thompson,5,88,female,2,14
+Nina Sanders,3,26,male,2,10
+Dorothy Thomas,6,78,female,2,13
+Matthew White,9,32,male,1,9
+Mary Thomas,4,44,male,2,18
+Stephen Gordon,10,52,male,2,4
+Ruth Johnson,9,42,male,2,16
+Dorothy Thomas,6,83,male,1,15
+Barbara Miller,10,63,male,2,1
+Catherine Morgan,5,26,female,1,19
+Cynthia Gray,7,31,female,2,15
+Dorothy Moore,5,54,male,1,5
+Mark Hayes,10,19,female,1,4
+Shirley Harris,5,31,male,2,12
+Barbara Lane,7,48,male,2,4
+Matthew Adams,6,52,female,2,5
+Nina Collins,2,34,male,2,1
+Dorothy Gray,5,22,male,2,9
+Catherine Miller,7,61,male,1,4
+Daniel Thompson,4,24,female,2,16
+Dorothy Bailey,2,69,female,1,2
+Matthew Gray,1,20,female,1,1
+Laura Richardson,9,26,female,2,14
+Ruth Smith,8,48,female,1,16
+Elizabeth Martin,10,58,female,1,9
+Kenneth Walker,10,40,male,1,8
+Samuel West,6,52,male,1,6
+Dorothy Young,5,67,male,2,10
+Frank Garcia,10,51,female,2,7
+Susan Simmons,8,62,female,1,8
+Anna Harris,4,39,female,1,18
+Susan Lane,5,50,female,2,18
+Daniel Young,8,68,male,2,18
+George Garcia,6,85,female,1,11
+Larry Ward,10,36,male,2,9
+Samuel Hill,3,63,male,1,8
+Dorothy Hudson,9,52,male,1,18
+Anthony Davis,2,35,male,1,2
+Daniel Jones,5,27,male,2,2
+Sandra Wilson,2,45,female,2,18
+Sandra Ward,8,30,male,2,3
+Margaret Perez,4,59,male,1,18
+Charles Thomas,7,85,male,1,13
+Carol Robinson,2,70,male,2,4
+Margaret Collins,5,87,female,2,10
+Martha Collins,9,42,male,1,20
+William Garcia,9,61,female,2,6
+Martha Cook,9,90,male,2,14
+Joseph Walker,7,22,female,2,10
+Benjamin Thompson,1,60,female,2,13
+Nicholas Taylor,2,21,female,2,1
+Deborah Coleman,3,21,female,2,17
+Kenneth Miller,9,70,male,2,13
+Kenneth West,9,55,male,1,13
+Jennifer Walker,5,30,female,2,12
+Dorothy Robinson,8,48,female,2,5
+Mildred Mitchell,4,63,female,1,9
+Nancy Hill,3,39,male,2,2
+John Roberts,6,40,female,1,1
+Mildred Allen,2,82,male,2,10
+Larry Sanders,6,64,female,2,1
+Kenneth Brown,3,59,male,1,18
+Donald Wilson,6,80,male,2,10
+Samuel Martinez,6,72,female,2,4
+Matthew West,2,52,female,1,9
+Nicholas Gordon,5,73,male,1,14
+Sandra Powell,4,71,female,2,20
+Jessica Gray,8,79,female,1,4
+Nina Martinez,1,74,male,2,10
+William Green,7,26,female,2,5
+Nancy Perez,10,80,male,2,6
+Patricia Adams,7,70,female,2,17
+Kenneth Hill,1,61,female,1,1
+Cynthia Reed,8,24,male,2,8
+Mark Murray,2,74,male,2,18
+Anthony Martinez,3,80,female,2,17
+Stephen Moore,1,20,male,2,19
+John Baker,5,90,female,2,2
+Larry Young,2,63,male,1,19
+Paul Martin,7,32,female,1,8
+Kenneth Young,8,77,female,1,11
+Susan Andrews,1,85,male,1,9
+Nina Thompson,3,41,female,2,11
+Judith Moore,4,41,male,1,4
+Donna Adams,4,53,female,1,9
+Daniel Lane,3,79,male,1,16
+Sandra Hall,10,29,male,1,3
+Mary Smith,10,43,female,2,15
+Jane Lane,3,50,male,1,5
+Jerry Coleman,6,80,male,1,7
+Thomas Jones,7,67,male,2,17
+Mark Young,2,67,male,1,10
+Helen Anderson,5,58,female,2,1
+Jessica White,7,48,male,1,19
+Nicholas Harris,4,56,female,2,17
+John Lewis,6,79,male,1,16
+Patricia Nelson,1,60,male,2,9
+Karen Nelson,4,31,female,2,14
+Pamela Murray,6,36,male,2,7
+Lisa Morgan,3,37,female,1,10
+Charles Smith,8,88,female,2,6
+Jennifer White,10,46,male,1,13
+Kenneth Morgan,8,54,male,1,14
+David Baker,9,57,male,2,20
+Samuel Roberts,10,85,male,2,1
+Robert Sanders,7,57,male,2,13
+Kenneth Scott,8,26,male,2,7
+Michael Sanders,1,30,female,2,9
+Betty Reed,10,65,female,1,15
+Matthew Nelson,3,60,male,1,8
+John Reed,1,88,female,1,15
+Mildred Reed,10,56,male,2,11
+William Richardson,9,85,male,2,10
+Nancy Richardson,6,31,male,2,19
+Carol Coleman,4,30,male,2,7
+Nina Sanders,1,41,male,1,12
+Emily Perez,6,73,female,2,17
+Ronald Perez,7,28,male,2,13
+Susan Garcia,4,64,male,1,20
+Jerry Scott,7,36,male,2,8
+Frank Hayes,10,68,male,2,9
+Sandra Garcia,5,47,female,2,16
+Andrew Cook,8,49,female,1,8
+Susan Morris,8,50,female,1,5
+Stephen Wilson,9,61,female,1,12
+Mildred Murray,10,72,male,1,2
+Mark Clark,9,37,male,2,8
+Sandra Robinson,2,65,male,1,3
+Dorothy Martinez,10,60,male,2,8
+Linda Miller,2,87,female,1,15
+Elizabeth Sanders,4,36,male,1,13
+Charles West,10,41,male,2,17
+Edward Ward,3,31,female,1,8
+Joseph White,1,21,female,2,5
+Elizabeth Murray,5,54,female,1,2
+Pamela Andrews,5,31,female,2,19
+Robert Perez,7,21,female,2,12
+Charles Lee,9,19,male,1,4
+Anthony Jackson,7,67,female,2,7
+Michael Walker,1,81,male,1,17
+Cynthia Mitchell,10,58,male,2,17
+Elizabeth Miller,7,34,female,2,20
+Nicholas Bailey,8,79,male,2,11
+Helen Scott,8,51,female,2,4
+Shirley Adams,9,82,male,2,12
+Matthew Thomas,3,18,male,1,12
+Frank Gray,5,88,female,2,5
+John Martinez,4,82,female,1,18
+Joseph Hall,3,20,female,2,10
+Daniel Harris,1,77,female,2,17
+Emily Gray,4,59,male,1,12
+Thomas Allen,8,88,female,2,12
+Virginia Nelson,7,52,male,2,1
+Edward Thompson,7,45,male,2,3
+Catherine Hall,10,24,female,2,5
+Linda Johnson,5,74,male,2,3
+Judith Andrews,7,60,female,2,14
+Larry Walker,6,76,female,1,6
+Elizabeth Scott,6,90,male,2,16
+Andrew Gray,5,49,male,1,3
+Catherine Ward,6,27,male,2,10
+Michael Davis,4,41,male,1,3
+Edward Gray,3,51,male,1,13
+Laura Taylor,3,63,male,2,1
+Barbara Murray,8,84,male,2,13
+David Hayes,7,71,female,2,9
+Richard Powell,2,61,male,2,10
+David Hayes,1,53,male,1,16
+Sandra Hayes,10,32,male,2,3
+Michael Thomas,1,80,female,2,9
+James Young,9,82,male,1,20
+Carol Young,10,83,female,2,18
+Andrew Wilson,5,61,female,2,14
+Paul Garcia,8,86,female,1,16
+Mary Morgan,1,37,female,2,19
+William Simmons,1,52,male,2,18
+Patricia Morgan,2,73,female,2,11
+William Harris,4,74,male,2,19
+Andrew Lane,1,21,female,2,3
+Patricia Smith,9,35,male,2,8
+Emily Wilson,4,86,male,2,13
+Mildred Lee,6,77,female,1,9
+Mary Mitchell,8,63,female,2,18
+Barbara Allen,7,46,male,2,3
+Edward Collins,8,52,male,1,4
+Dorothy Thompson,7,73,female,2,19
+Nancy Turner,10,18,female,1,6
+James Cook,3,26,male,2,1
+Nina Lane,1,66,female,1,18
+Cynthia Davis,1,82,male,2,6
+Karen Mitchell,6,51,female,2,16
+Deborah Johnson,8,61,female,2,9
+Carol Thompson,1,34,male,2,16
+Dorothy Lee,2,43,female,1,5
+Mark Collins,6,62,male,1,4
+Andrew West,4,22,male,2,1
+Edward Murray,5,60,male,2,15
+Jerry Gordon,2,80,male,2,12
+Jessica Harris,10,60,male,1,11
+Samuel Johnson,1,26,male,2,15
+Mary Garcia,6,62,female,1,11
+Anthony Roberts,8,88,male,2,12
+Shirley Coleman,9,70,female,2,9
+Linda Anderson,9,22,male,2,5
+Kenneth Johnson,3,81,female,2,4
+Daniel Adams,1,49,female,2,6
+Barbara Wilson,4,71,female,1,15
+Timothy Green,2,21,female,2,14
+James Hill,1,72,female,1,14
+Shirley Green,3,39,female,2,14
+John Garcia,9,65,female,2,20
+Anthony Morgan,3,70,female,2,7
+Laura Richardson,1,86,female,1,10
+Daniel Cook,8,86,female,1,3
+Donald Powell,1,24,female,2,5
+Jerry Cook,4,37,female,2,18
+Lisa Lee,5,81,male,2,2
+Linda Coleman,6,65,female,1,6
+Deborah Nelson,5,86,male,1,16
+Elizabeth Scott,10,68,female,2,17
+Daniel Thompson,8,68,male,1,14
+Ronald Wilson,7,78,female,1,1
+Stephen Miller,1,54,male,1,17
+Karen Thompson,10,37,male,2,1
+Anna Martin,6,84,female,2,12
+James Garcia,9,63,male,2,1
+Margaret Young,1,54,female,1,11
+Nancy Hayes,2,47,female,1,20
+Timothy Jones,9,47,male,1,18
+Michael Nelson,5,39,male,2,10
+Shirley Gray,4,26,male,2,13
+Benjamin Martin,8,89,female,1,3
+Judith Cook,2,65,male,1,14
+Samuel Sanders,1,28,male,1,16
+Larry Anderson,7,85,male,2,19
+Jeffrey Turner,6,84,female,1,15
+Carol Clark,5,84,male,1,5
+Daniel Cook,6,79,male,1,7
+William Hall,3,85,male,2,1
+Donald Turner,2,24,female,2,12
+Shirley Turner,10,28,female,1,17
+Donna Perez,8,89,female,2,17
+Deborah Garcia,2,79,male,1,9
+Martha Foster,4,54,male,2,7
+Helen Wilson,10,18,male,1,5
+Cynthia Jones,4,50,female,2,10
+Judith Nelson,8,65,male,1,9
+Stephen Morgan,8,68,female,1,2
+Jessica Ortiz,6,64,male,2,19
+Stephen Adams,7,57,male,1,11
+Pamela Young,6,62,male,1,1
+Cynthia Collins,9,73,male,2,2
+Catherine Ward,7,25,female,1,17
+Daniel Allen,6,47,female,2,3
+Mildred Johnson,8,31,female,1,3
+Frank Turner,2,18,male,1,17
+Jessica Ortiz,1,43,female,2,6
+Mark Gray,2,83,male,1,3
+Timothy Martin,3,65,female,2,14
+Paul Wilson,8,70,male,2,15
+Nicholas Harris,9,62,female,2,12
+Emily Thompson,7,42,female,2,15
+Larry Hill,4,50,female,1,4
+Anna Perez,8,43,male,2,5
+Larry Thomas,9,90,male,2,2
+Sandra Gray,6,55,female,2,19
+Susan West,5,69,female,1,11
+John Scott,6,81,female,2,2
+Anna Miller,2,49,male,1,15
+Martha White,7,90,male,2,6
+Kenneth Morris,9,23,male,2,13
+Daniel Collins,1,49,male,2,10
+Laura Nelson,7,38,female,1,12
+Catherine Murray,1,51,male,1,2
+Matthew Johnson,8,90,female,1,5
+Karen Jackson,2,26,female,1,16
+Donald Roberts,5,60,female,1,18
+Martha Martin,2,58,female,1,9
+Larry Clark,10,69,female,2,6
+Frank Sanders,3,25,female,1,15
+Elizabeth Reed,8,56,female,2,14
+Richard Green,9,52,female,2,14
+Virginia Lewis,10,54,male,2,5
+Timothy Thomas,7,21,female,1,9
+Jennifer Coleman,7,40,female,2,3
+Carol Hayes,3,80,male,1,8
+Edward Thomas,9,35,male,2,12
+Thomas Lane,2,44,male,1,7
+Linda Young,6,54,female,1,12
+Thomas Johnson,7,41,male,1,3
+Pamela Reed,3,53,female,2,6
+Paul Perez,1,40,male,1,13
+Jeffrey Nelson,5,21,male,1,18
+Catherine Foster,10,27,female,1,16
+Margaret Ortiz,5,28,female,1,1
+Kenneth Johnson,3,90,male,2,19
+Mary Scott,8,54,male,1,4
+Anna Johnson,4,86,male,2,7
+Shirley Adams,4,67,female,1,11
+Elizabeth Lee,8,40,female,2,7
+Sandra Green,7,19,male,2,1
+Judith Richardson,2,70,female,2,11
+Dorothy Martin,8,49,male,1,19
+Susan Miller,5,74,male,1,15
+Frank Roberts,1,80,male,1,10
+Anthony Martin,2,57,male,1,11
+Nicholas Harris,6,40,female,1,5
+Daniel Morgan,4,30,male,2,17
+Daniel Bailey,3,51,male,1,19
+Virginia Hall,6,43,female,1,19
+Stephen Smith,6,65,male,1,8
+Donald White,7,22,male,1,3
+Anna Brown,9,59,female,1,4
+Paul Davis,3,87,male,1,16
+Jessica Scott,6,77,male,2,5
+Mary Johnson,8,69,male,2,7
+George Harris,5,60,male,2,2
+Nancy Bailey,4,44,female,2,6
+Andrew Perez,7,45,female,1,8
+Nancy Coleman,1,63,female,2,20
+Samuel Harris,10,90,female,2,20
+Jerry Sanders,2,53,female,2,17
+Dorothy Baker,9,23,male,1,16
+Timothy West,6,56,female,2,11
+Karen Harris,6,37,male,1,4
+Ronald Coleman,7,51,male,2,9
+Sandra Cook,2,73,male,2,14
+Ruth Perez,2,19,female,1,20
+Linda Allen,3,18,male,1,13
+Samuel Bailey,10,70,male,2,6
+Catherine Garcia,3,50,male,1,13
+Kenneth Lewis,5,73,female,1,19
+Timothy Harris,4,37,female,2,13
+Laura Hayes,1,65,female,1,4
+Elizabeth Murray,1,37,female,1,6
+Patricia Johnson,10,58,male,1,14
+Shirley Murray,1,33,female,2,19
+William Collins,5,85,male,1,11
+Donald Coleman,4,81,male,1,17
+Frank Garcia,3,67,female,2,11
+Nancy Turner,4,18,female,1,1
+Joseph Hudson,9,62,female,1,15
+Daniel Martin,7,57,male,1,6
+Anthony Lewis,3,47,female,1,4
+Michael Clark,1,30,female,2,17
+Judith Jones,1,82,male,1,17
+John Hudson,5,61,male,1,4
+Deborah Hayes,9,41,male,2,6
+Andrew Lee,1,51,male,1,3
+Benjamin Thompson,1,58,female,2,13
+Patricia Baker,10,85,male,1,20
+Judith Lane,9,38,female,2,10
+William Cook,2,71,male,1,18
+Nancy Foster,7,20,male,2,6
+Nancy Lewis,6,42,female,2,2
+Edward Morris,2,90,female,1,5
+Dorothy Gray,5,75,female,2,11
+Linda Nelson,7,89,female,1,10
+Kenneth Clark,1,57,male,2,16
+Frank Lane,5,72,male,2,7
+Joseph Lee,8,76,male,2,1
+Larry Clark,9,29,female,2,11
+Dorothy Harris,1,44,male,1,20
+Anthony Hall,4,24,female,2,14
+Andrew Lee,8,25,female,1,18
+Paul Jones,1,27,female,1,4
+Joseph Lewis,3,21,male,2,12
+Dorothy Robinson,8,52,female,1,9
+Kenneth White,4,27,female,1,4
+Dorothy Lewis,1,88,female,1,15
+Pamela Andrews,10,69,male,2,6
+Jessica Taylor,3,57,female,2,4
+John Anderson,1,44,female,1,7
+Samuel Green,3,20,female,1,10
+Laura Simmons,6,83,female,1,15
+Donald Green,4,39,male,1,18
+Emily Jackson,10,71,male,1,18
+Judith Reed,9,22,male,2,8
+Richard Anderson,8,84,male,1,11
+Ruth Turner,3,48,female,1,5
+Dorothy Allen,8,66,female,1,13
+Mildred Jones,3,20,female,2,4
+Nicholas Garcia,6,42,female,2,4
+Larry Garcia,5,72,male,2,18
+Jerry Coleman,7,65,female,1,20
+Jessica Harris,5,26,male,1,2
+Martha Cook,1,84,male,1,3
+Larry Walker,1,77,female,1,3
+Karen Robinson,3,90,male,2,18
+Jerry Wright,7,68,male,2,2
+Paul Brown,5,87,male,2,16
+Matthew Foster,7,36,female,1,16
+Sandra Baker,9,22,male,1,13
+John Perez,1,42,male,1,8
+Donna Richardson,4,86,female,2,18
+Emily Young,9,75,female,1,3
+Helen Hudson,3,46,female,2,8
+Dorothy Lane,4,53,female,2,10
+Shirley Ortiz,3,27,female,1,13
+Frank Thompson,6,76,male,1,8
+Andrew Lewis,5,51,female,1,16
+Sandra Thompson,1,39,female,1,9
+Anthony Thomas,6,49,female,1,6
+Donna Smith,1,77,female,1,13
+James Reed,5,84,female,1,12
+Ronald Baker,7,39,male,1,10
+Larry Hall,1,76,female,2,8
+Benjamin Moore,9,60,female,1,18
+Jessica Johnson,6,82,male,1,2
+Nina Ward,7,74,female,2,8
+William Gordon,8,49,female,1,9
+Linda Walker,10,28,female,1,20
+Helen Foster,3,47,female,2,15
+Mildred Foster,7,18,male,1,1
+Jeffrey Davis,5,22,female,2,14
+Richard Hall,8,84,male,2,14
+Nancy West,1,30,male,2,18
+Margaret Lee,6,49,male,2,6
+Samuel Andrews,2,45,female,2,14
+Shirley Gordon,8,30,male,2,7
+Daniel Jones,3,25,male,1,5
+Martha Davis,8,24,male,1,7
+Jane Young,6,53,female,1,20
+Daniel Lane,1,88,female,1,14
+Nina Ward,1,87,male,1,16
+Nina Jones,1,87,male,1,18
+Anna Jackson,9,47,female,1,18
+Barbara Garcia,3,34,female,1,1
+Stephen Sanders,1,71,male,1,9
+Nina Ortiz,9,50,male,2,16
+Benjamin Morris,2,65,female,2,11
+Donald Powell,6,45,female,2,7
+Ruth Mitchell,6,35,male,1,18
+James Jones,2,58,male,2,3
+Mary Harris,1,84,female,2,12
+Stephen Robinson,6,20,male,2,8
+Donna Miller,2,64,female,1,7
+Pamela Collins,4,56,female,1,9
+Daniel Brown,8,26,female,1,19
+Charles White,4,26,female,1,14
+Jessica Johnson,6,33,female,1,18
+Jane Cook,5,90,male,1,4
+Elizabeth Scott,1,77,female,2,16
+George West,10,43,male,2,6
+Larry Anderson,3,52,male,2,13
+Samuel Cook,6,72,male,2,15
+Benjamin Bailey,8,31,male,2,5
+Paul Lee,5,69,male,2,19
+Anthony Ortiz,6,82,male,1,12
+Samuel Collins,9,25,male,1,14
+William Moore,3,33,male,1,12
+Robert Baker,9,78,female,1,1
+Lisa Martinez,2,80,male,1,7
+Jennifer Murray,7,45,female,2,6
+Carol Brown,7,88,male,2,15
+Helen Jackson,9,90,male,2,10
+Mary Turner,7,71,female,1,4
+Mark Hall,6,34,female,1,13
+Larry Andrews,6,85,female,2,11
+Donna Ortiz,6,31,female,1,18
+Emily Young,2,65,female,2,16
+Donna Sanders,8,19,male,2,5
+Catherine Morgan,9,83,male,2,17
+David Ortiz,4,46,male,1,13
+Donna Green,10,76,female,2,17
+Emily Lee,8,82,male,2,4
+Donald Ward,4,47,male,2,17
+Catherine Clark,5,39,male,1,9
+Andrew Andrews,3,89,female,2,13
+Lisa Garcia,1,73,male,1,10
+Edward Walker,10,24,female,1,5
+Frank Collins,3,39,female,2,6
+Daniel Anderson,1,69,female,2,9
+George Smith,1,60,female,2,13
+Laura Morris,7,67,male,2,16
+George Scott,3,78,male,2,4
+Carol Nelson,10,50,male,1,15
+Laura Gray,6,40,male,1,11
+Stephen Morris,6,56,male,1,11
+Frank Hill,2,67,female,2,14
+Jerry Anderson,3,79,female,2,14
+George Hill,4,26,female,1,15
+Shirley Morgan,6,27,male,2,17
+Judith Garcia,10,27,male,2,20
+Sandra Smith,4,37,male,1,14
+Donna Nelson,3,45,female,1,9
+Andrew Jones,9,46,female,1,9
+Sandra Roberts,4,45,female,1,12
+Martha Taylor,4,51,male,2,14
+William Sanders,9,78,female,2,17
+Ronald West,3,19,female,2,11
+Thomas Taylor,4,20,male,1,18
+Catherine Simmons,9,76,male,2,17
+David Smith,7,51,male,1,18
+Jeffrey Turner,1,81,male,1,18
+Margaret Davis,8,77,male,1,2
+Nancy Taylor,7,35,male,1,20
+Margaret Hayes,6,61,female,2,20
+Emily Walker,2,80,female,2,7
+Betty Taylor,3,51,female,2,13
+Deborah Morgan,1,48,male,1,20
+Sandra Scott,7,65,male,2,1
+Barbara Ward,2,88,male,2,19
+Laura Murray,3,57,female,2,11
+Kenneth Hudson,8,58,male,2,13
+Deborah Lee,9,34,female,1,2
+Donald Clark,8,36,male,1,11
+Helen Martin,3,25,male,2,1
+Margaret Reed,9,73,female,1,12
+Betty Murray,8,90,female,1,10
+Shirley Davis,5,57,male,1,19
+Carol Johnson,3,58,female,2,19
+David Thomas,7,30,female,1,14
+Virginia Andrews,4,65,male,2,12
+Charles Reed,5,20,male,2,2
+Jennifer Scott,2,76,female,1,15
+Deborah Wilson,2,21,female,2,13
+Jennifer Gray,1,59,male,2,14
+Emily Ward,4,32,male,1,17
+Margaret Walker,6,29,female,1,8
+Lisa Martin,2,69,female,2,4
+John Taylor,9,23,male,2,13
+Judith Coleman,5,60,female,2,3
+Lisa Taylor,6,48,male,2,20
+Paul Gordon,3,72,female,1,19
+Matthew Sanders,8,64,male,1,15
+Jennifer Mitchell,9,49,female,1,14
+Dorothy Scott,4,75,female,2,11
+Frank Ward,6,79,male,1,5
+Donald Young,9,60,female,2,18
+Matthew Bailey,10,60,male,1,4
+Nina Gordon,9,25,female,2,2
+Michael Robinson,6,54,male,2,10
+Daniel Lewis,1,34,female,2,11
+Edward Lee,3,18,male,2,9
+George Allen,7,36,male,1,12
+Charles Hayes,4,70,female,1,1
+Kenneth Davis,9,38,male,2,14
+Samuel Perez,4,70,female,1,20
+Benjamin Nelson,10,29,female,1,15
+Nancy Johnson,7,18,female,2,6
+Dorothy Foster,8,29,male,2,1
+Larry Mitchell,2,51,female,2,11
+Sandra Turner,4,75,female,2,3
+Richard Davis,8,33,female,2,4
+Stephen Collins,1,80,female,1,6
+Jeffrey Morgan,3,50,female,1,7
+Donald Allen,9,42,female,1,14
+George Baker,7,25,male,2,12
+Cynthia Turner,5,74,female,1,9
+Kenneth Ward,4,89,male,2,3
+Virginia Walker,8,49,male,1,19
+Robert Lane,2,85,male,1,2
+Richard Ward,3,84,male,2,15
+Robert Thomas,9,26,female,1,16
+Timothy Roberts,2,65,male,1,2
+Margaret Miller,10,65,male,2,19
+Mary Jackson,7,58,male,2,20
+George Powell,1,51,male,1,7
+Dorothy Nelson,3,47,male,2,4
+Cynthia Anderson,8,21,female,1,10
+Paul Thompson,9,83,female,2,19
+Laura Thompson,2,28,male,2,4
+Stephen Harris,3,56,male,2,1
+Thomas Nelson,9,75,male,2,15
+Elizabeth Perez,3,81,female,2,3
+Larry Morris,2,62,female,1,19
+Ruth Wright,5,45,female,1,10
+Joseph Clark,5,80,female,1,3
+Jennifer Morris,3,41,female,2,18
+Ronald Baker,9,30,male,2,7
+Martha Cook,5,79,male,2,10
+Jessica Lane,2,18,male,2,18
+James Moore,5,70,male,1,20
+Martha Ortiz,6,53,female,2,9
+Thomas Murray,1,24,female,2,13
+Jane Hayes,9,20,male,1,12
+Barbara Gray,7,65,male,2,7
+Jerry Morris,1,61,female,1,18
+Daniel Jones,10,30,male,1,18
+Jerry White,2,68,female,2,1
+George Thompson,1,89,female,2,7
+Thomas Jackson,2,72,male,2,7
+Nancy Simmons,5,21,male,1,7
+Edward Reed,1,79,female,2,10
+Thomas Lewis,3,43,male,2,14
+Richard Martin,1,58,male,2,19
+Emily Miller,3,43,male,2,9
+Patricia Mitchell,2,56,male,2,8
+Virginia Reed,6,36,male,1,9
+Larry Ward,5,74,male,1,10
+Barbara Gray,1,62,male,2,1
+Richard Turner,2,30,female,2,8
+Stephen Garcia,2,20,female,1,5
+Cynthia Lane,5,63,male,1,7
+Susan Hill,2,59,male,1,10
+James Johnson,9,24,male,1,11
+Ruth Roberts,1,41,male,2,1
+Timothy Wright,6,77,female,2,4
+Donald Gray,8,58,female,1,9
+Karen Richardson,1,25,male,2,7
+Lisa Murray,7,69,female,2,10
+Ronald Walker,4,36,male,1,19
+Elizabeth Bailey,2,40,female,1,1
+Mark Green,3,21,male,1,3
+Kenneth Bailey,3,85,male,2,2
+Jerry Brown,7,31,female,2,15
+Jessica Bailey,1,83,female,1,19
+Dorothy Richardson,5,51,female,1,6
+John Cook,3,85,male,2,4
+Elizabeth Thomas,1,78,female,1,19
+Jane Perez,5,46,male,1,17
+Daniel Ortiz,6,72,female,2,2
+Catherine Foster,8,80,female,1,9
+Ronald Walker,8,62,female,2,11
+Thomas Lane,9,46,female,2,17
+Kenneth Thompson,7,45,male,2,8
+Jessica Brown,9,58,male,1,4
+William Allen,7,43,female,1,4
+Catherine Mitchell,3,18,male,1,6
+William Young,3,52,male,2,15
+Deborah Ward,8,82,female,2,10
+Martha Moore,5,87,female,2,15
+Richard Hill,4,51,male,2,19
+Nina Sanders,5,73,female,1,16
+Daniel Lee,9,52,female,2,20
+Timothy Wright,4,89,male,2,15
+Donald Johnson,2,57,male,2,17
+Anthony Sanders,7,67,male,1,5
+Larry Scott,7,23,male,1,13
+Michael Allen,10,71,male,1,18
+George Hudson,7,22,male,2,8
+Frank Ward,7,22,male,1,4
+Pamela Davis,7,73,male,2,15
+Betty Nelson,3,51,male,1,16
+Jeffrey Green,5,84,female,2,7
+Kenneth Hayes,8,90,female,1,7
+Michael Morris,9,87,female,1,6
+Linda Nelson,7,74,female,1,13
+Mildred Miller,1,19,female,1,1
+Linda Garcia,1,47,female,1,8
+Catherine Mitchell,4,69,female,2,12
+Carol Clark,3,77,female,2,8
+Susan Adams,1,36,male,1,16
+Linda Allen,10,74,female,2,14
+Andrew Wilson,7,38,male,1,14
+Larry Richardson,9,84,female,1,8
+Deborah Brown,4,81,female,1,14
+Kenneth Thomas,8,66,male,1,9
+Samuel Hayes,7,52,female,1,17
+Jessica Garcia,2,27,male,2,11
+Jeffrey Scott,9,69,female,2,14
+Donald Turner,3,50,female,2,12
+Pamela Powell,8,31,female,1,2
+Mildred Mitchell,2,84,male,2,18
+Catherine Walker,5,57,male,1,2
+Virginia Gordon,8,72,male,2,4
+Robert Roberts,2,81,male,2,11
+Jennifer Brown,8,20,male,1,11
+Larry Foster,1,73,male,1,20
+Edward Perez,1,76,female,2,7
+Mark Jones,9,58,female,1,19
+George Miller,3,62,female,1,5
+David Lewis,4,22,female,1,9
+Donald Hill,4,69,male,2,7
+William Moore,5,19,female,1,7
+Virginia Turner,2,22,male,1,4
+Nancy Allen,1,36,male,1,13
+James Thomas,7,59,female,1,13
+Laura Davis,10,73,female,2,6
+Benjamin Gordon,10,68,female,2,13
+Kenneth Reed,1,85,male,2,6
+Betty Hayes,1,82,male,2,7
+Samuel Hall,6,77,female,2,19
+Larry Perez,1,18,female,2,20
+Pamela Mitchell,10,33,female,2,7
+Linda Morris,9,80,male,2,4
+Mary Clark,7,69,female,2,15
+Patricia Taylor,2,84,male,2,8
+Robert Baker,8,51,male,1,20
+Edward Nelson,3,68,male,2,8
+Donald Robinson,5,27,female,2,6
+Larry Robinson,10,59,female,1,2
+Charles Harris,8,75,female,2,13
+Barbara Hudson,3,89,male,1,18
+Shirley Foster,2,89,female,1,2
+William Richardson,7,54,female,2,7
+Michael Miller,9,66,female,1,1
+Larry Baker,10,28,female,2,5
+Linda Walker,5,55,female,2,16
+Emily Jackson,8,38,male,2,2
+Kenneth Martinez,10,49,female,1,20
+James Reed,4,25,male,2,12
+William Clark,10,80,female,2,20
+Anthony Brown,5,64,female,1,17
+Matthew Walker,6,74,male,2,10
+John Martinez,9,59,male,1,17
+Nicholas Simmons,2,23,female,2,15
+Richard Clark,5,77,male,1,11
+Ruth Jackson,6,71,female,1,20
+Patricia Jackson,1,49,female,1,3
+Mary Scott,7,64,female,1,16
+Jerry Walker,10,33,male,1,16
+Barbara Garcia,8,52,male,1,13
+James Thomas,1,30,female,2,12
+Elizabeth Anderson,10,50,female,2,17
+Richard Scott,1,87,male,1,19
+Larry Cook,4,83,female,2,4
+Deborah Thomas,6,48,female,1,16
+Kenneth Walker,3,55,female,2,8
+Nancy Murray,4,81,female,2,9
+Anthony Young,7,73,male,1,19
+Timothy Nelson,2,83,male,2,15
+Larry Hudson,4,41,male,1,16
+Ronald Powell,6,78,female,1,15
+Matthew Adams,7,72,male,1,16
+Richard Richardson,1,50,male,1,18
+Donald Murray,9,39,female,1,2
+Paul Thomas,4,71,male,1,2
+Larry Coleman,7,71,male,1,19
+Mildred Gray,1,62,male,2,10
+Jane Hayes,10,48,female,1,11
+Charles Coleman,7,53,female,2,15
+Dorothy Johnson,8,19,female,2,6
+Daniel Davis,8,50,female,1,1
+Edward Lee,9,33,female,1,16
+Carol Hudson,8,54,male,1,18
+Jessica Foster,7,21,male,1,7
+Robert West,4,68,male,1,6
+Ruth Scott,4,54,male,1,11
+Martha Bailey,6,24,male,2,14
+Jane Morris,1,30,female,1,3
+Catherine Johnson,9,54,female,2,14
+Donald Thomas,7,28,female,2,8
+Matthew Turner,8,25,female,2,11
+Benjamin Johnson,6,28,female,1,5
+Stephen Hudson,6,69,female,1,20
+Donald Green,8,30,female,1,6
+George Murray,5,74,male,1,16
+Donald Davis,8,48,female,1,10
+Cynthia Mitchell,2,85,male,2,6
+Robert Cook,8,22,male,1,8
+Mark Martinez,10,62,female,1,10
+Helen Robinson,1,46,female,1,1
+Edward Baker,3,50,female,2,10
+Thomas Reed,10,27,female,2,17
+Michael Miller,10,43,female,1,7
+Joseph Baker,7,80,male,2,12
+Frank Miller,2,41,male,1,9
+Sandra Andrews,10,49,female,1,2
+Larry Mitchell,9,22,female,2,19
+Martha Baker,9,88,male,2,15
+Nancy Thomas,10,53,female,1,7
+Anthony Brown,9,67,female,2,7
+Thomas Harris,9,25,female,2,15
+David Scott,1,87,male,2,9
+Cynthia West,2,57,male,1,16
+Mark Collins,2,86,male,1,3
+Deborah Nelson,2,65,male,1,16
+Ronald Davis,5,67,female,1,14
+Michael Richardson,10,19,male,2,2
+Betty Perez,9,38,female,2,14
+Jane Gray,3,89,male,1,15
+Stephen Allen,6,87,female,1,5
+Betty Ward,3,90,male,1,3
+Linda Brown,6,70,male,2,9
+Nina Baker,7,48,female,1,2
+Edward Nelson,1,69,female,2,5
+Michael Cook,6,27,female,1,4
+Betty West,6,20,female,2,18
+Frank Scott,5,61,female,2,12
+Mary Morris,6,67,female,1,5
+Paul Brown,2,47,male,2,15
+Stephen Clark,9,84,female,1,7
+Donna White,3,67,male,1,18
+Shirley Baker,8,75,male,2,2
+Elizabeth Brown,6,50,female,2,9
+James Miller,7,79,female,1,9
+Shirley Smith,8,21,male,2,16
+Sandra Turner,1,37,female,1,1
+Mildred Harris,10,85,male,2,19
+Anthony Lee,10,52,male,2,4
+Nancy Lee,2,42,male,2,11
+Virginia Simmons,7,34,female,2,5
+Sandra Lee,10,75,male,2,16
+Jeffrey Johnson,3,54,male,1,11
+Cynthia Anderson,10,42,male,1,20
+Edward Reed,9,82,male,1,10
+Nancy Clark,6,25,female,1,1
+Jennifer Davis,10,41,female,1,9
+John Foster,7,34,female,1,13
+Judith Anderson,2,34,male,2,1
+Sandra Lane,4,53,male,2,9

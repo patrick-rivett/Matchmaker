@@ -77,6 +77,11 @@ class Profile
     }
     back.show();
   }
+  
+  void resetSearch()
+  {
+    searched = true;
+  }
 
   float returnInt()
   {
