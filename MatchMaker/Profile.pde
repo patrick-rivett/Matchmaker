@@ -38,14 +38,14 @@ class Profile
       text("Preference: " + preference, 250, 520);
       text("Past relationships: " + inform[5], 250, 550);
       text("MATCHES:", 600, 400);
-      text(match.inform[0], 600, 450);
-      text(second.inform[0], 600, 480);
-      text(third.inform[0], 600, 510);
+      text(match.inform[0] + " (" + match.inform[3] + ")", 600, 450);      
+      text(second.inform[0]+ " (" + second.inform[3] + ")", 600, 480);
+      text(third.inform[0]+ " (" + second.inform[3] + ")", 600, 510);
       //Picture of person====================================================
       
       noFill();
       stroke(0);
-      rect(150, 130, 200, 200);
+      rect(150, 130, 200, 200, 5);
       fill(150);
       ellipse(250, 215, 80, 80);
       line(250, 255, 250, 330);
@@ -58,7 +58,7 @@ class Profile
       
       //picture of match -------------------------------------------------------------
       noFill();
-      rect(450, 130, 200, 200);
+      rect(450, 130, 200, 200, 5);
       fill(150);
       ellipse(550, 215, 80, 80);
       line(550, 255, 550, 330);
