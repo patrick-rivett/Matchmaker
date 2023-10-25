@@ -472,7 +472,6 @@ Quantum Quasar, 8, 29,male,1, 3
 NeoNexis X-1, 7, 26,female,2, 4
 DataWave Dynamo, 8, 30,male,1, 4
 MegaMinds Matrix, 7, 25,female,2, 2
-ByteBurst Pro, 9, 30,male,1, 5
 CyberPulse X-500, 8, 32,male,1, 6
 LogicCraft 3000, 7, 22,female,2, 1
 Quantum Nexus, 9, 31,male,1, 5
