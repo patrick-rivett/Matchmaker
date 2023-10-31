@@ -473,7 +473,6 @@ NeoNexis X-1, 7, 26,female,2, 4
 DataWave Dynamo, 8, 30,male,1, 4
 MegaMinds Matrix, 7, 25,female,2, 2
 CyberPulse X-500, 8, 32,male,1, 6
-LogicCraft 3000, 7, 22,female,2, 1
 Quantum Nexus, 9, 31,male,1, 5
 DataStream Dynamo, 8, 28,male,2, 3
 TechnoByte Titan, 7, 27,female,1, 3
@@ -5005,3 +5004,4 @@ Jennifer Davis,10,41,female,1,9
 John Foster,7,34,female,1,13
 Judith Anderson,2,34,male,2,1
 Sandra Lane,4,53,male,2,9
+patrick rivett, 8, 17, male,2,1
