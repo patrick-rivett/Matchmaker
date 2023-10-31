@@ -11,7 +11,7 @@ class ProfileList
   {
     curr = first;
   }
-  
+
   void moveCurr()
   {
     curr = curr.next;
@@ -65,8 +65,8 @@ class ProfileList
     Profile selectedProfile = getProfile();
     if (selectedProfile != null)
     {
-      Profile s = matched(curr, first);
-      selectedProfile.display(s);
+      //Profile s = matched(curr, first);
+      selectedProfile.display();
       delete.show();
       create.hide();
     }
@@ -111,21 +111,21 @@ class ProfileList
       curr = curr.next;
     }
   }
-  
+
   void resetSearch()
   {
     resetCurr();
-    while(curr != null)
+    while (curr != null)
     {
       curr.resetSearch();
       curr = curr.next;
     }
   }
-  
+
   void destroy()
   {
     curr = first;
-    while(curr != null)
+    while (curr != null)
     {
       delete(curr.tempid);
       curr = curr.next;
@@ -134,17 +134,27 @@ class ProfileList
 
   //+++++++++++++++++++++++++++++++++++++++++++++++++++ MATCHING ALGO ++++++++++++++++++++++
 
-  Profile matched(Profile c, Profile first_)
+  void match()
+  {
+    resetCurr();
+    while (curr!=null)
+    {
+      matched(curr, first);
+      curr = curr.next;
+    }
+  }
+
+  void matched(Profile c, Profile first_)
   {
     Profile pA = c;
     Profile pB = first_;
     Profile second = first_.next;
 
-    Profile saved = null;
+    //Profile saved = null;
     float sD = 1000;
     float sD2 = 1000;
     float sD3 = 1000;
-    
+
     int pref = pA.returnPref();
     int gen = pA.returnGender();
 
@@ -164,26 +174,48 @@ class ProfileList
         }
       }
 
-      b = new PVector(pB.returnInt(), pB.returnAge(),pB.returnExp());
+      b = new PVector(pB.returnInt(), pB.returnAge(), pB.returnExp());
       int tempPref = pB.returnPref();
       int tempGen = pB.returnGender();
       float d = a.dist(b);
 
-      if (first && !pB.matched && pref == tempGen && gen == tempPref)
+      if (first && pref == tempGen && gen == tempPref && d < sD3)
       {
-        saved = pB; //because its the first one it is saved as the closest right away
+        pA.first = pB; //because its the first one it is saved as the closest right away
         sD = d; //save the distance that it was from pA (inputted profile)
-        pA.first = pB; //make inputted profiles first saved match within profile pB
         first = false; //first becomes false, so now we can use this to identify whether we are on first profile or not
-      } else if (!first && !pB.matched && pref == tempGen && gen == tempPref) // if we are NOT on the first profiile and pB is not matched to anything...
+      } else if (!first && pref == tempGen && gen == tempPref && d < sD3) // if we are NOT on the first profiile and pB is not matched to anything...
       {
         if (pB == second) // if pB is the second profile in the list
         {
-          pA.second = pB; //it is assumed second best matched right away
-          sD2 = d;
-          println(1);
+          if (d< sD)
+          {
+            pA.third = pA.second;
+            sD3 = sD2;
+
+            pA.second = pA.first;
+            sD2 = sD;
+
+            pA.first = pB;
+            sD = d;
+          } else
+          {
+            pA.second = pB; //it is assumed second best matched right away
+            sD2 = d;
+          }
         } else if (pB == second.next)
         {
+          if (d< sD)
+          {
+            pA.third = pA.second;
+            sD3 = sD2;
+
+            pA.second = pA.first;
+            sD2 = sD;
+
+            pA.first = pB;
+            sD = d;
+          }
           if (d < sD2)
           {
             sD3 = sD2;
@@ -195,34 +227,33 @@ class ProfileList
           } else
           {
             pA.third = pB;
-            sD3 = d;            
+            sD3 = d;
           }
-        }else
-         if (d < sD)
-        {
-          sD3 = sD2;
-          pA.third = pA.second;
-          sD2 = sD;
-          pA.second = saved;
-          sD = d;
-          saved = pB;
-        } else if (d < sD2) 
-        {
-          sD3 = sD2;
-          pA.third = pA.second;
-          sD2 = d;
-          pA.second = pB;
         }
-        else if (d < sD3) 
-        {
-          sD3 = d;
-          pA.third = pB;
-        }
-      }
+        //------------------------------------------------------------------------------------
+        else
+            if (d < sD)
+            {
+              sD3 = sD2;
+              pA.third = pA.second;
+              sD2 = sD;
+              pA.second = pA.first;
+              sD = d;
+              pA.first = pB;
+            } else if (d < sD2)
+            {
+              sD3 = sD2;
+              pA.third = pA.second;
+              sD2 = d;
+              pA.second = pB;
+            } else if (d < sD3)
+            {
+              sD3 = d;
+              pA.third = pB;
+            }
+          }
       pB = pB.next;
     }
-    
-    return saved;
   }
   //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
   Profile getCurr()

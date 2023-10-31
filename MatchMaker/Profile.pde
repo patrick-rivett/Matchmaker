@@ -20,7 +20,7 @@ class Profile
     next = d;
   }
 
-  void display(Profile match)
+  void display()
   {
     textSize(25);
     fill(0);
@@ -38,9 +38,9 @@ class Profile
       text("Preference: " + preference, 250, 520);
       text("Past relationships: " + inform[5], 250, 550);
       text("MATCHES:", 600, 400);
-      text(match.inform[0] + " (" + match.inform[3] + ")", 600, 450);      
+      text(first.inform[0] + " (" + first.inform[3] + ")", 600, 450);      
       text(second.inform[0]+ " (" + second.inform[3] + ")", 600, 480);
-      text(third.inform[0]+ " (" + second.inform[3] + ")", 600, 510);
+      text(third.inform[0]+ " (" + third.inform[3] + ")", 600, 510);
       //Picture of person====================================================
       
       noFill();

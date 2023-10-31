@@ -10,6 +10,7 @@ Button back;
 Button create;
 Button delete;
 Button next;
+Button match;
 
 Textfield search;
 Textfield name;
@@ -39,6 +40,7 @@ void setup()
   create = createButton("Create", 715, 15, 70, 30);
   delete = createButton("Delete", 15, 15, 70, 30);
   next = createButton("Next", 360, 392, 70, 30);
+  match = createButton("Match", 15, 545, 70, 30);
 
 
   search = createTextfield("Search", 25, 25, 200, 25);
@@ -255,6 +257,11 @@ void controlEvent(ControlEvent e) { //check if button has been pressed
     createFile();
     readFile();
     next.hide();
+  }
+  
+  if (buttonName.equals("Match"))
+  {
+    pList.match();
   }
 
   if (e.isAssignableFrom(Textfield.class)) {

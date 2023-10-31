@@ -5005,3 +5005,5 @@ Jennifer Davis,10,41,female,1,9
 John Foster,7,34,female,1,13
 Judith Anderson,2,34,male,2,1
 Sandra Lane,4,53,male,2,9
+Yousuf Khan, 7, 17,male,2,0
+Jerry, 8, 22, Male,2,10
