@@ -4,9 +4,9 @@ class Profile
   String[] inform;
   int tempid;
   boolean searched = true;
-  Profile first;
-  Profile second;
-  Profile third;
+  Profile first = null;
+  Profile second = null;
+  Profile third = null;
   boolean matched = false;
 
   Profile(String[] info, int tempid_)
