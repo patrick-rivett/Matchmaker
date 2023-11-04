@@ -3,6 +3,9 @@ class ProfileList
   Profile first = null;
   Profile curr = null;
 
+  float dists[] = new float[0];
+  Profile tempPList[] = new Profile[0];
+
   ProfileList()
   {
   }
@@ -139,29 +142,33 @@ class ProfileList
     resetCurr();
     while (curr!=null)
     {
-      matched(curr, first);
+      matched(curr);
       curr = curr.next;
     }
   }
 
-  void matched(Profile c, Profile first_)
+  void matched(Profile c)
   {
     Profile pA = c;
-    Profile pB = first_;
-
-    float sD = 1000;
-    float sD2 = 1000;
-    float sD3 = 1000;
+    Profile pB = first;
 
     int pref = pA.returnPref();
     int gen = pA.returnGender();
 
-    PVector a = new PVector(pA.returnInt(), pA.returnAge(), pA.returnExp());
-    PVector b;
+    PVector distA = new PVector(pA.returnInt(), pA.returnAge(), pA.returnExp());
+    PVector distB;
+
 
     while (pB != null)
     {
-      b = new PVector(pB.returnInt(), pB.returnAge(), pB.returnExp());
+      if (pB == pA)
+      {
+        pB = pB.next;
+        if (pB == null)
+        {
+          break;
+        }
+      }
 
       int tempPref = pB.returnPref();
       int tempGen = pB.returnGender();
@@ -170,40 +177,65 @@ class ProfileList
 
       if (pref == tempGen && gen == tempPref && pB != pA)
       {
-        
-        d = a.dist(b);
-        
-        if (d < sD3)
-        {
-          if (d < sD2)
-          {
-            if (d < sD)
-            {
-              sD3 = sD2;
-              sD2 = sD;
-              sD = d;
+        distB = new PVector(pB.returnInt(), pB.returnAge(), pB.returnExp());
+        d = distA.dist(distB);
 
-              pA.third = pA.second;
-              pA.second = pA.first;
-              pA.first = pB;
-            } else
-            {
-              sD3 = sD2;
-              sD2 = d;
-
-              pA.third = pA.second;
-              pA.second = pB;
-            }
-          } else
-          {
-            sD3 = d;
-            pA.third = pB;
-          }
-        }
+        dists = append(dists, d);
+        tempPList = (Profile[])append(tempPList, pB);
       }
       pB = pB.next;
     }
+    sort(0, dists.length-1);
+    
+    pA.first = tempPList[0];
+    pA.second = tempPList[1];
+    pA.third = tempPList[2];
+    
+    resetArray();
   }
+
+  void sort(int low, int high)
+  {
+    int i = low;
+    int j = high;
+    float pivot = dists[low+(high-low)/2]; // find the pivot (middle number)
+    // Divide in 2
+    while (i <= j) {
+
+      while (dists[i] < pivot) { //while current nember is less than piviot move on( if num is greater than piviot stop)
+        i++;
+      }
+      while (dists[j] > pivot) { //while current number is greater than piviot move on ( if num is less than piviot stop)
+        j--;
+      }
+      if (i <= j) { // if i and j have not crossed
+        swap(i, j); // swich them
+        i++;// move i
+        j--;//move j
+      }
+    }
+    if (low < j) //recurse until done
+      sort(low, j);
+    if (i < high)
+      sort(i, high);
+  }
+  
+  void swap(int a, int b)
+{
+  float temp = dists[a]; // set temp value to a
+  dists[a] = dists[b]; // set a to b
+  dists[b] = temp; // set b to temp
+  
+  Profile temp2 = tempPList[a];
+  tempPList[a] = tempPList[b];
+  tempPList[b] = temp2;
+}
+
+void resetArray()
+{
+  dists = new float[0];
+  tempPList = new Profile[0];
+}
 
   //+++++++++++++++++++++++++++++++++++++++++ END OF MATCHING ALGO ++++++++++++++++++++++++
   Profile getCurr()

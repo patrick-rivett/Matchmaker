@@ -509,7 +509,6 @@ InfoByte Matrix, 8, 28,male,1, 4
 CyberWave X-2000, 7, 26,female,2, 2
 TechnoNexis Nexus, 9, 30,male,1, 5
 ByteWave Pro, 8, 31,male,2, 4
-NeuralCraft 2000, 9, 29,male,2, 4
 Sophie de Jong, 7, 28,female,2, 3
 Lucas van der Berg, 8, 32,male,1, 6
 Anna Bakker, 7, 24,female,2, 4
@@ -5006,4 +5005,3 @@ John Foster,7,34,female,1,13
 Judith Anderson,2,34,male,2,1
 Sandra Lane,4,53,male,2,9
 Yousuf Khan, 7, 17,male,2,0
-Jerry, 8, 22, Male,2,10
